@@ -1,0 +1,2082 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 99%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.location {
+    /*margin-top: 5%;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    /*border: dashed;*/
+}
+
+.mapContainer {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    /*margin-right: auto;*/
+    border: solid 1px #97aded;
+    border-bottom: #97aded;
+    -webkit-box-shadow: 0px 1px 1px #97aded;
+    -moz-box-shadow: 0px 1px 1px #97aded;
+    box-shadow: 0px 1px 1px #97aded;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.myMargin {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.txtRight {
+    margin-left: 1%;
+    float: right;
+}
+
+@media screen and (max-width: 1921px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 1680px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 25%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media all and (max-width: 1280px) and (max-height: 720px) {
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        height: 110px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 1200px) and (max-height: 720px) {
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 35%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 1024px) and (max-height: 720px) {
+
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 1000px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 993px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 42%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footerLocation {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 967px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1.5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 42%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 950px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1.5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 45%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 852px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1.5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 46%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 55%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media all and (max-width: 800px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: -1.5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 48%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media all and (max-width: 768px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 48%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 736px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 667px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 640px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 604px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 604px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.5em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 600px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 12%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.2em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 534px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.75em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 160px;
+        width: 65%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 2%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.65em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.2em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media all and (max-width: 415px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.65em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 160px;
+        width: 65%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.20em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 2%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 120px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.50em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.1em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -10%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 384px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.50em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 160px;
+        width: 65%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.10em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 2%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 140px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.35em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -5%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 375px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.40em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 160px;
+        width: 65%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.10em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 2%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.25em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 250px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: -5%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media all and (max-width: 320px) and (max-height: 720px) {
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        margin-top: .5%;
+        margin-bottom: 0%;
+        height: 100px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+
+    .contactUsHdiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 6%;
+        font-size: 1.20em;
+        /*border: solid;*/
+    }
+
+    .mapContainer {
+        height: 180px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -8%;
+        /*margin-right: auto;*/
+        border: solid 1px #97aded;
+        border-bottom: #97aded;
+        -webkit-box-shadow: 0px 1px 1px #97aded;
+        -moz-box-shadow: 0px 1px 1px #97aded;
+        box-shadow: 0px 1px 1px #97aded;
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 30px;
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 14%;
+        width: 20%;
+        margin-left: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: -22%;
+        margin-bottom: 1%;
+        margin-left: -30%;
+        height: 117px;
+        width: 160%;
+        /*border: dashed;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 10%;
+        width: 20%;
+        margin-left: 0%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: -25%;
+        margin-bottom: 1%;
+        margin-left: -30%;
+        height: 117px;
+        width: 160%;
+        /*border: dashed;*/
+    }
+
+    .footer2 {
+        position: absolute;
+        bottom: 10%;
+        width: 20%;
+        margin-left: 0%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 240px) {
+
+}
+
+@media screen and (max-width: 176px) {
+}

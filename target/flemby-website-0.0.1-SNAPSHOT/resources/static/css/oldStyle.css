@@ -1,0 +1,6920 @@
+
+body {
+    overflow: auto;
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.indexImg {
+    width: 240px;
+    height: 198px;
+}
+
+.borderTopIndex {
+    margin-top: 3%;
+    /*border: dashed;*/
+    width: 93%;
+}
+
+
+
+div.wrap-div-topSpacer {
+    width: 0px;
+    height: 60px;
+    float: left;
+}
+
+div.wrap-div {
+    float: left;
+    clear: both;
+    margin: 10px 0px 20px 0;
+    height: 190px;
+    width: 300px;
+    text-align: center;
+    /*background: #0088cc;*/
+    color: #FFF;
+    z-index: 10;
+    /*border: dashed;*/
+}
+
+
+.myContainerIndex {
+    width: 100%;
+    z-index: -2;
+}
+
+.myHeaderIndex {
+    width: 95%;
+    z-index: -2;
+    /*margin-bottom: 15%;*/
+    /*border: dashed;*/
+}
+
+.myMargin {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.txtRight {
+    margin-left: 1%;
+    float: right;
+}
+
+.mydiv {
+    z-index: 1;
+}
+
+.mySideBar {
+    width: 13%;
+    margin-left: 2%;
+    margin-top: 25px;
+    /*border-right: 1px solid #f1f1f1;*/
+    z-index: 1;
+}
+
+.mySideBarIndex {
+    width: 10%;
+    margin-left: 0%;
+    margin-top: 10%;
+    font-size: 1em;
+    /*border-right: 1px solid #f1f1f1;*/
+    z-index: 1;
+}
+
+.mySideBarEvents {
+    width: 12%;
+    margin-left: 3%;
+    margin-top: 100px;
+    /*border-right: 1px solid #f1f1f1;*/
+    z-index: 1;
+}
+
+.paddingIndexEvents {
+    /*margin-left: -15px;*/
+    /*border: dashed;*/
+}
+
+.p1 {
+    text-align: justify;
+    font-size: 1em;
+    /*margin-right: 10px;*/
+    margin-bottom: 50px;
+    /*margin-left: -10%;*/
+    width: 100%;
+    z-index: 2;
+    /*border: solid;*/
+}
+
+.p2 {
+    text-align: justify;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    /*margin-left: -10%;*/
+    width: 98%;
+    z-index: 2;
+    line-height: 30px;
+    /*border: solid;*/
+}
+
+.p3 {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*text-align: center;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 95%;*/
+    font-size: 1.15em;
+    text-align: justify;
+
+}
+
+.pContactUs {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    /*margin-left: -10%;*/
+    /*width: 98%;*/
+    z-index: 2;
+    /*border: solid;*/
+}
+
+.pSideBarIndex {
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 1em;
+    margin-right: 20px;
+    /*border: solid;*/
+}
+
+.paddingIndex {
+    /*padding: 5px;*/
+    margin-left: 18%;
+    margin-bottom: 30px;
+}
+
+.pTable {
+    font-size: 1em;
+}
+
+.pTableWidth {
+    text-align: left;
+}
+
+div.container2 {
+    width: 112%;
+    margin-left: -7%;
+    margin-right: auto;
+    margin-top: 12.5%;
+}
+
+.paddingEvents {
+    /*padding-left: 0px;*/
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+
+.paddingIndexNew {
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+
+.contactUsHdiv {
+    /*padding-left: 0px;*/
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 30px;
+
+}
+
+.p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#slider {
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    z-index: -1;
+    /*margin-bottom: 40px;*/
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 11;
+}
+
+#slider .slides {
+    display: block;
+    width: 4000px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    z-index: 11;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 240px;
+    height: 200px;
+    z-index: 11;
+}
+
+#sliderEvents {
+    width: 240px;
+    height: 170px;
+    overflow: hidden;
+    z-index: -1;
+    margin-top: -1%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: -20px;*/
+    z-index: 11;
+}
+
+#sliderEvents .slidesEvents {
+    display: block;
+    width: 4000px;
+    height: 170px;
+    margin: 0;
+    padding: 0;
+    z-index: 11;
+}
+
+#sliderEvents .slideEvents {
+    float: left;
+    list-style-type: none;
+    width: 240px;
+    height: 170px;
+    z-index: 11;
+}
+
+.textIndex {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upcomingEventButton {
+    margin-bottom: 100px;
+    margin-left: 2%;
+}
+
+/* section {height:80%;  display:block; overflow:auto;} */
+/* section .push {height:4000px;} */
+.navbar-customDay {
+
+    background-color: #bad9f5;
+    border-color: #bad9f5;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #79aac1;
+    -webkit-box-shadow: 0px 1px 1px #79aac1;
+    -moz-box-shadow: 0px 1px 1px #79aac1;
+    box-shadow: 0px 1px 1px #79aac1;
+
+}
+
+.navbar-customNight {
+    /* 	color: #FFFFFF; */
+    background-color: #898bcc;
+    border-color: #899ddd;
+    color: #FFFFFF;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #899ddd;
+    -webkit-box-shadow: 0px 2px 2px #899ddd;
+    -moz-box-shadow: 0px 2px 2px #899ddd;
+    box-shadow: 0px 1px 1px #899ddd;
+}
+
+.navbar-customDayClassicEvents {
+
+    background-color: #93c4f1;
+    border-color: #bad9f5;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #79aac1;
+    -webkit-box-shadow: 0px 1px 1px #79aac1;
+    -moz-box-shadow: 0px 1px 1px #79aac1;
+    box-shadow: 0px 1px 1px #79aac1;
+
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #898bcc; /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+
+}
+
+.navColour {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #5d5d5d;
+
+}
+
+.navbar-header .navbar-brand {
+    color: #FFFFFF;
+}
+
+.myNavBrand {
+    margin-top: 1.5%;
+    font-size: 1.5em;
+}
+
+.navbar {
+    text-align: center;
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #84bced;
+}
+
+.menu {
+    text-align: center;
+    width: 800px;
+    min-width: 150px;
+    height: 20px;
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 2px;
+}
+
+#clouds, #sky, #night, #stars, #nightsky, #nightsky2, #cloudsNight {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#sky {
+    background: #A1BBFB url(/static/images/sky.png) repeat-x top left;
+    z-index: -10;
+}
+
+#nightsky {
+    background: #A1BBFB url(/static/images/nightsky.png) repeat-x top left;
+    z-index: -9;
+    height: 100%;
+}
+
+#nightsky2 {
+    background: #A1BBFB url(/static/images/nightsky.png) repeat-x bottom left;
+    z-index: -9;
+    height: 100%;
+}
+
+#sun_yellow {
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+    width: 100px;
+    height: 100px;
+    background: transparent url(/static/images/smilySun.png) no-repeat center center;
+    z-index: -3;
+}
+
+#sun_red {
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+    width: 100px;
+    height: 100px;
+    background: transparent url(/static/images/smilySun.png) no-repeat center center;
+    /*z-index: 1;*/
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -3;
+}
+
+#ground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background: transparent url(/static/images/groundDay.png) repeat-x bottom center;
+    z-index: -2;
+}
+
+#groundNight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background: transparent url(/static/images/groundNight.png) repeat-x bottom center;
+    z-index: -2;
+}
+
+#night {
+    background-color: #25383C;
+    z-index: 4;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -1;
+}
+
+#stars {
+    bottom: 200px;
+    background: transparent url(/static/images/stars.png) repeat bottom center;
+    z-index: 5;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -1;
+}
+
+#sstar {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 126px;
+    height: 80px;
+    background: transparent url(/static/images/shootingstar.png) no-repeat 80px -200px;
+    z-index: 5;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#moon {
+    position: absolute;
+    left: 85%;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+    background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+    z-index: 6;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -4;
+}
+
+.contactUsHdiv {
+    /*padding-left: 0px;*/
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+
+#folio ul li {
+    margin: 5px 0px 20px 0;
+    vertical-align: top;
+    font-size: 1.1em;
+    /*border: solid;*/
+}
+
+.container2 {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 160px;
+    /*border-right: solid 1px #FFFFFF;*/
+    height: auto;
+    z-index: 3;
+    /* 	border: solid 1px #000; */
+}
+
+.containerSidebar {
+    margin-top: 70px;
+    width: 170px;
+    border-right: solid 1px #959191;
+    height: auto;
+    /* 	border: solid 1px #000; */
+}
+
+.containerSidebar2 {
+    margin-top: 70px;
+    width: 170px;
+    border-right: solid 1px #ffffff;
+    height: auto;
+    /* 	border: solid 1px #000; */
+}
+
+.previousEventsImage {
+    margin-top: 15px;
+    width: 200px;
+    height: 136px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* 	padding-bottom: 30px; */
+    /* 	border-left: solid 1px #cccccc; */
+    /*border: dashed;*/
+
+}
+
+.previousEventsImage2 {
+    width: 200px;
+    height: 136px;
+
+}
+
+.previousEvents {
+    margin-top: 25px;
+    width: 90%;
+    /* 	border: solid 1px #000; */
+}
+
+.holidays {
+    margin-top: 25px;
+    /* 	width: 160px; */
+    /* 	border: solid 1px #000; */
+}
+
+.eventsURL {
+    height: 420px;
+}
+
+.previousEventsURL {
+    /*margin-bottom: 100px;*/
+    height: auto;
+    width: 100%;
+    z-index: 15;
+}
+
+.previousEventsContainer {
+    width: 100%;
+    height: auto;
+    border: dashed;
+}
+
+.allPreviousEvents {
+    margin-top: 80px;
+    /*margin-bottom: 80px;*/
+    height: 360px;
+    z-index: 20;
+}
+
+.darkBG {
+    background: #000000;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+a.class2:link {
+    color: #3B3131;
+}
+
+/*  visited link  */
+a.class2:visited {
+    color: #3B3131;
+}
+
+/*  mouse over link  */
+a.class2:hover {
+    color: #3B3131;
+}
+
+/*  selected link  */
+a.class3:active {
+    color: #0000a0;
+    text-decoration: underline;
+}
+
+a.class3:link {
+    color: #0000a0;
+}
+
+/*  visited link  */
+a.class3:visited {
+    color: #0000a0;
+}
+
+/*  mouse over link  */
+a.class3:hover {
+    color: #0000a0;
+}
+
+/*  selected link  */
+a.class3:active {
+    color: #0000a0;
+    text-decoration: underline;
+}
+
+.bodyColour {
+    background-color: #ffffff;
+}
+
+.greaterOrder {
+    z-index: 9999;
+}
+
+.padding {
+    padding: 0px 40px 0px 10px;
+}
+
+.paddingTop {
+    padding: 10px 0px 0px 0px;
+}
+
+.darkestBG {
+    background: #333;
+}
+
+/*.masthead {*/
+/*height: //height of bg;*/
+/*/!*background-image: url("/resources/images/schoolHeader.gif");*!/*/
+/*background-repeat: no-repeat;*/
+/*}*/
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    /*     z-index: 1000; */
+    /*     position: fixed; */
+    /*     left: 250px; */
+    /*     width: 0; */
+    height: 100%;
+    /*     margin-left: -250px; */
+    /*     overflow-y: auto; */
+    background: #fff;
+    border-right: 1px solid #c0c0c0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Sidebar Styles */
+.sidebar-nav2 {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media screen and (max-width: 1921px) {
+
+    #clouds {
+        background: transparent url(/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 86px;
+    }
+
+    #cloudsNight {
+        background: transparent url(/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 125px;
+    }
+
+    .calendarHeading {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 49%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 600px;
+        height: 270px;
+    }
+
+    .loginMarginTop {
+        margin-top: 20%;
+    }
+
+    .myContainer {
+        width: 95%;
+        margin-left: 8%;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: 18%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 105%;
+        margin-left: 25%;
+        z-index: -2;
+        margin-left: -12%;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 18%;
+        margin-left: -3%;
+        margin-top: 1%;
+        border-right: 1px solid rgba(255, 255, 255, .5);
+        font-size: 1em;
+        /*margin-left: 10%;*/
+    }
+
+    .myHeaderIndex {
+        width: 95%;
+        z-index: -2;
+        margin-left: -12%;
+    }
+
+    #folio ul li {
+        margin: 45px 0px 20px 0;
+        vertical-align: top;
+        font-size: 1.55em;
+        /*border: solid;*/
+    }
+
+    .headerH {
+        font-size: 2.2em;
+        margin-bottom: 12%;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 30px;
+    }
+
+    #folio ul li {
+        margin: 45px 0px 20px 0;
+        vertical-align: top;
+        font-size: 1.55em;
+        /*border: solid;*/
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 3.5em;
+        /*margin-right: 20px;*/
+        /*border: solid;*/
+    }
+
+}
+
+/*@media screen and (max-width: 1681px) and (max-height: 1050px) {*/
+
+/*.headerH {*/
+/*font-size: 1.8em;*/
+/*margin-bottom: 12%;*/
+/*}*/
+
+/*.myContainerIndex {*/
+/*width: 120%;*/
+/*z-index: -2;*/
+/*margin-left: -9%;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*.mySideBarIndex {*/
+/*width: 15.5%;*/
+/*margin-top: .5%;*/
+/*margin-bottom: -50px;*/
+/*margin-left: 1%;*/
+/*border-right: double .5px #FFFFFF;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*.paddingIndex {*/
+/*/!*padding-left: 0px;*!/*/
+/*margin-top: 5%;*/
+/*margin-left: 25.5%;*/
+/*margin-bottom: 20px;*/
+/*}*/
+
+/*#folio ul li {*/
+/*margin: 25px 0px 20px 0;*/
+/*vertical-align: top;*/
+/*font-size: 3.5em;*/
+/*/!*border: solid;*!/*/
+/*}*/
+
+/*.p2 {*/
+/*text-align: justify;*/
+/*margin-right: 10px;*/
+/*font-size: 2.0em;*/
+/*margin-right: 20px;*/
+/*line-height: 50px;*/
+/*/!*border: solid;*!/*/
+/*}*/
+
+/*#footer {*/
+/*position: absolute;*/
+/*bottom: -15%;*/
+/*width: 100%;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*#clouds {*/
+/*background: transparent url(/resources/images/clouds.png) repeat-x top left;*/
+/*z-index: -1;*/
+/*margin-top: 100px;*/
+/*}*/
+
+/*#cloudsNight {*/
+/*background: transparent url(/resources/images/clouds.png) repeat-x top right;*/
+/*z-index: -1;*/
+/*margin-top: 100px;*/
+/*}*/
+
+/*.plane {*/
+/*/!*margin-top: 0%;*!/*/
+/*margin-bottom: -10%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*max-width: 390px;*/
+/*height: 45px;*/
+/*position: relative;*/
+/*z-index: -4;*/
+/*}*/
+
+/*.eventsContainer {*/
+/*width: 80%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*margin-bottom: 20px;*/
+/*}*/
+
+/*.eventButtonLeft {*/
+/*text-align: left;*/
+/*width: 120%;*/
+/*margin-left: 0%;*/
+/*}*/
+
+/*.eventButton {*/
+/*text-align: right;*/
+/*width: 100%;*/
+/*margin-right: 0%;*/
+/*}*/
+
+/*.eventButtonLeftURL {*/
+/*text-align: left;*/
+/*width: 120%;*/
+/*margin-left: -6%;*/
+/*}*/
+
+/*.eventButtonURL {*/
+/*text-align: right;*/
+/*width: 100%;*/
+/*margin-right: -6%;*/
+/*}*/
+
+/*.eventButtonLeftIndex {*/
+/*text-align: right;*/
+/*width: 110%;*/
+/*margin-right: -3%;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*.calendarHeading {*/
+/*width: 100%;*/
+/*text-align: center;*/
+/*margin-top: 50px;*/
+/*margin-bottom: 10px;*/
+/*margin-left: -3%;*/
+/*margin-right: auto;*/
+/*}*/
+
+/*.c-grid {*/
+/*float: left;*/
+/*width: 50%;*/
+/*}*/
+
+/*.c-event-grid {*/
+/*margin-left: 1px;*/
+/*height: inherit;*/
+/*width: 49%;*/
+/*float: left;*/
+/*box-shadow: 2px 2px 5px #888888;*/
+/*}*/
+
+/*.calendar {*/
+/*cursor: default;*/
+/*width: 600px;*/
+/*height: 270px;*/
+/*margin-left: 5%;*/
+/*}*/
+
+/*.eventsMainContainer {*/
+/*width: 89%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*margin-top: 3%;*/
+/*overflow-x: hidden;*/
+/*}*/
+
+/*.loginMarginTop {*/
+/*margin-top: 10%;*/
+/*}*/
+
+/*.myContainer {*/
+/*width: 70%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*.myHeaderIndex {*/
+/*width: 107%;*/
+/*z-index: -2;*/
+/*margin-left: -9%;*/
+/*}*/
+
+/*.paddingIndex {*/
+/*/!*padding-left: 0px;*!/*/
+/*margin-top: 5%;*/
+/*margin-left: 25.5%;*/
+/*margin-bottom: 20px;*/
+/*}*/
+
+/*.mySideBar {*/
+/*width: 14%;*/
+/*margin-left: 6%;*/
+/*border-right: double 1px #ffffcc;*/
+/*/!*border: 1px solid rgba(255,255,255,.5);*!/*/
+/*/!*margin-left: 10%;*!/*/
+/*}*/
+
+/*div.wrap-div-topSpacer {*/
+/*width: 0px;*/
+/*height: 60px;*/
+/*float: left;*/
+/*}*/
+
+/*div.wrap-div {*/
+/*float: left;*/
+/*clear: both;*/
+/*margin: 10px 5px 10px 0;*/
+/*height: 190px;*/
+/*width: 300px;*/
+/*text-align: center;*/
+/*/!*background: #0088cc;*!/*/
+/*color: #FFF;*/
+/*z-index: 10;*/
+/*/!*border: solid;*!/*/
+
+/*}*/
+
+/*.contactUs {*/
+/*margin-top: 6%;*/
+/*width: 65%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*font-size: 1em;*/
+/*}*/
+
+/*.contactUsH2 {*/
+/*text-align: center;*/
+/*margin-top: 1%;*/
+/*margin-bottom: 6%;*/
+/*}*/
+
+/*.contactUsH {*/
+/*text-align: center;*/
+/*margin-bottom: 6%;*/
+/*}*/
+
+/*.holidayContainer {*/
+/*margin-top: 5%;*/
+/*margin-bottom: 10%;*/
+/*width: 75%;*/
+/*margin-left: 14%;*/
+/*margin-right: auto;*/
+/*text-align: center;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*.holidayContainer {*/
+/*margin-top: 5%;*/
+/*margin-bottom: 5%;*/
+/*width: 75%;*/
+/*margin-left: 14%;*/
+/*margin-right: auto;*/
+/*/!*border: dashed;*!/*/
+/*}*/
+
+/*}*/
+
+@media screen and (max-width: 1681px) {
+
+    .headerH {
+        font-size: 1.8em;
+        margin-bottom: 12%;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: -15%;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    #clouds {
+        background: transparent url(/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+
+    .eventsContainer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: 0%;
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -6%;
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -6%;
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 110%;
+        margin-right: -3%;
+        /*border: dashed;*/
+    }
+
+    .calendarHeading {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: -3%;
+        margin-right: auto;
+    }
+
+    .c-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 49%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 600px;
+        height: 270px;
+        margin-left: 5%;
+    }
+
+    .eventsMainContainer {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        overflow-x: hidden;
+    }
+
+    .loginMarginTop {
+        margin-top: 10%;
+    }
+
+    .myContainer {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 110%;
+        z-index: -2;
+        margin-left: -11%;
+
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -3%;
+        z-index: -2;
+        margin-left: -11%;
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 13.5%;
+        margin-top: .5%;
+        margin-bottom: -50px;
+        margin-left: 3%;
+        font-size: 1em;
+        border-right: double .5px #FFFFFF;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 25.5%;
+        margin-bottom: 20px;
+    }
+
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .mySideBar {
+        width: 14%;
+        margin-left: 6%;
+        border-right: double 1px #ffffcc;
+        /*border: 1px solid rgba(255,255,255,.5);*/
+        /*margin-left: 10%;*/
+    }
+
+    .contactUs {
+        margin-top: 6%;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 75%;
+        margin-left: 14%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 75%;
+        margin-left: 14%;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -10;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -10;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+    #footer {
+        position: absolute;
+        bottom: -15%;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -5%;
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -5%;
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 100%;
+        margin-left: -22%;
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 110%;
+        margin-right: -5%;
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -22%;
+    }
+
+    .calendarHeading {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 49%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 600px;
+        height: 270px;
+        margin-left: 0%;
+    }
+
+    .eventsMainContainer {
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 10%;
+        margin-left: 22.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 30px;
+        /*border: solid;*/
+    }
+
+    .myContainerIndex {
+        width: 105%;
+        margin-left: -9%;
+        z-index: 10;
+        z-index: -2;
+    }
+
+    .mySideBarIndex {
+        width: 15%;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 45px 0px 20px 0;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 15px;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #clouds {
+        background: transparent url(/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: 6%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 7%;
+        /*border: dashed;*/
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 75%;
+        margin-left: 22%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1367px) {
+
+    .eventsContainer {
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 80%;
+        margin-left: -18%;
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 80%;
+        margin-right: -18%;
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 90%;
+        margin-right: -5%;
+    }
+
+    .calendarHeading {
+        width: 105%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .eventsMainContainer {
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -11%;
+        z-index: 10;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 22.5%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 110%;
+        margin-left: -11%;
+        z-index: 10;
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -11%;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 13.4%;
+        margin-left: 3%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 92%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 92%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -1;
+    }
+
+    #clouds {
+        background: transparent url(/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+
+    .contactUs {
+        margin-top: 7%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 98%;
+        margin-left: 0;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 75%;
+        margin-left: 15%;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .eventsContainer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -15%;
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 110%;
+        margin-right: -5%;
+    }
+
+    .calendarHeading {
+        width: 105%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .eventsMainContainer {
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .holidayContainerMonths {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 98%;
+        margin-left: 0;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .notifications {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .myContainer {
+        width: 70%;
+        margin-left: -8%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .myContainerIndex {
+        width: 109%;
+        margin-left: -11%;
+        z-index: -2;
+        font-size: 1em;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -11%;
+        z-index: -2;
+        font-size: 1em;
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 13.4%;
+        margin-left: 3%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 6%;
+        margin-left: 27.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    .tableWidth {
+        width: 80%;
+        margin-bottom: 50px;
+
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 91.5%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 91.5%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -1;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 5px 10px 10px 0;
+        height: 190px;
+        width: 260px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+    }
+
+    #slider {
+        width: 240px;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-bottom: 40px;
+        z-index: 11;
+    }
+
+    #slider .slides {
+        display: block;
+        width: 6000px;
+        height: 190px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: auto;
+        z-index: 11;
+
+    }
+
+    . img {
+        width: 100%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        /*border: solid;*/
+    }
+
+    #clouds {
+        background: transparent url(/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 60px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+
+    }
+
+    .contactUs {
+        margin-top: 8%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .contactFormWrapper {
+        width: 120%;
+        margin-left: -15%;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 60px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 110%;
+        margin-left: -2%;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -5%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -10%;
+
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -8%;
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 110%;
+        margin-right: -15%;
+        /*border: dashed;*/
+    }
+
+    .calendarHeading {
+        width: 112.5%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: -6%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .holidayContainerMonths {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+
+    .myContainerIndex {
+        width: 108%;
+        margin-left: -4%;
+        z-index: -2;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 108%;
+        margin-left: -4%;
+        margin-top: -1%;
+        z-index: -2;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -42px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 14%;
+        margin-left: -1.5%;
+        margin-top: .75%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 14%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 5px 0px 10px 0;
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+    .contactUs {
+        margin-top: 8%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #sliderEvents {
+        width: 240px;
+        height: 170px;
+        overflow: hidden;
+        z-index: -1;
+        margin-top: -1%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        z-index: 11;
+    }
+
+    .contactFormWrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 130%;
+        margin-left: -15%;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .calendarHeading {
+        width: 96%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .eventsMainContainer {
+        width: 131%;
+        margin-left: -15%;
+        margin-right: auto;
+        overflow-x: hidden;
+
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 102%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 3%;
+        /*margin-bottom: 35%;*/
+        width: 98%;
+        margin-left: 0%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .notifications {
+        margin-top: 5%;
+        margin-bottom: 20%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .locationP {
+        text-align: center;
+        font-size: 1.2em;
+        /*margin-bottom: 30px;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .location {
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 105%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+
+    #folio ul li {
+        margin: 45px 0px 20px -35px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    .mySideBarIndex {
+        width: 15%;
+        margin-left: -1%;
+        margin-top: 1%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 18%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.2em;
+        margin-right: 20px;
+        line-height: 40px;
+        /*border: solid;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 86%;
+        background-position: 0px 1400px;
+        top: 11%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 86%;
+        top: 11%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 45px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .slider img {
+        width: 85%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        /*border: solid;*/
+    }
+
+    .contactUs {
+        margin-top: 8%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -150%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .borderTop {
+        margin-top: 3%;
+        /*border: dashed;*/
+    }
+
+    .contactExitBtn {
+        margin-left: -8%;
+    }
+
+    .eventsContainer {
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .calendarHeading {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 110%;
+        margin-left: -8%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 3%;
+        /*margin-bottom: 35%;*/
+        width: 99%;
+        /*margin-left: 0%;*/
+        margin-right: auto;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /*border: dashed;*/
+    }
+
+    .mySideBar {
+        width: 20%;
+    }
+
+    .paddingIndex {
+        padding-left: 21%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 105%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+
+    #folio ul li {
+        margin: 45px 0px 20px -35px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    .mySideBarIndex {
+        width: 15%;
+        margin-left: -1%;
+        margin-top: 1%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .contactUs {
+        margin-top: 8%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -150%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .eventsMainContainer {
+        width: 120%;
+        margin-left: -11%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+}
+
+@media screen and (max-width: 996px) {
+    .myContainerIndex {
+        width: 90%;
+        margin-left: 7%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        border: dashed;
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: 7%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 18%;
+        margin-left: 1%;
+        margin-top: -48.5%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .contactExitBtn {
+        margin-left: -5%;
+    }
+
+    .calendarHeading {
+        width: 96%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 105%;
+        margin-left: -2%;
+        margin-right: auto;
+        text-align: center;
+        /*border: solid;*/
+    }
+
+    .holidayContainerMonths {
+        margin-top: 3%;
+        /*margin-bottom: 35%;*/
+        width: 98%;
+        margin-left: -1%;
+        /*margin-right: auto;*/
+        text-align: center;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -20px;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        /*border: dashed;*/
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 99%;
+        margin-left: 13%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        margin-left: 13%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 23%;
+        margin-left: -14%;
+        margin-top: -58.5%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.15em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 60px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .contactUs {
+        margin-top: 9%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 30px;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -150%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .eventsMainContainer {
+        width: 120%;
+        margin-left: -9%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+}
+
+@media screen and (max-width: 967px) {
+
+    .contactExitBtn {
+        margin-left: 0%;
+    }
+
+    .calendarHeading {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 105%;
+        margin-left: -4%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer {
+        width: 123%;
+        margin-left: -11%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 96%;
+        margin-left: 13%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        margin-left: 13%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 23%;
+        margin-left: -14%;
+        margin-top: -58.5%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.15em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 60px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .contactUs {
+        margin-top: 10%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .eventsContainer {
+        width: 130%;
+        margin-left: -15%;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -42%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -18%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -40%;
+        /*border: dashed;*/
+    }
+
+    .calendarHeading {
+        width: 108%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 105%;
+        margin-left: -4%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .myContainer {
+        width: 95%;
+    }
+
+    .mySideBar {
+        width: 20%;
+    }
+
+    .paddingIndex {
+        /*padding-left: 22%;*/
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 93%;
+        margin-left: 13.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 93%;
+        margin-left: 13.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 22.5%;
+        margin-left: -11%;
+        margin-top: -63%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.15em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .contactUs {
+        margin-top: 10%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .eventsMainContainer {
+        width: 127%;
+        margin-left: -13%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 852px) {
+
+    .calendarHeading {
+        width: 118.5%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -11%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer {
+        width: 145%;
+        margin-left: -22%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .myContainerIndex {
+        width: 90%;
+        margin-left: 14.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: 14.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 22.5%;
+        margin-left: -9%;
+        margin-top: -63%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.10em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .contactUs {
+        margin-top: 11%;
+        width: 120%;
+        margin-left: -10%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 30px;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -160%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    /*.jumbotron {*/
+    /*float: left;*/
+    /*text-align: left;*/
+    /*margin-top: 1%;*/
+    /*margin-left: 0%;*/
+    /*margin-bottom: 0px;*/
+    /*background-color: transparent;*/
+    /*width: 100%;*/
+    /*height: 80px;*/
+    /*border: dashed;*/
+    /*}*/
+    .eventsContainer {
+        width: 140%;
+        margin-left: -20%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -54%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -20%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -60%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -20%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 80%;
+        margin-right: -10%;
+        /*border: dashed;*/
+    }
+
+    .right {
+        /*border: dashed;*/
+        margin-left: -2%;
+        width: 100%;
+        z-index: 100;
+        position: relative;
+    }
+
+    .calendarHeading {
+        width: 117%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .holidayContainer {
+        margin-top: -2%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -9%;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 165%;
+        margin-left: -32%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .calendar {
+        cursor: default;
+        width: 555px;
+        height: 265px;
+    }
+
+    .eventsMainContainer {
+        width: 123%;
+        margin-left: -12%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .notifications {
+        margin-top: 12%;
+        margin-bottom: 20%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .mapContainer {
+        margin-top: 25px;
+        height: 300px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .location {
+        margin-top: 20%;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .loginMarginTop {
+        margin-top: 40%;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 80%;
+        margin-left: 20%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 82%;
+        margin-left: 20%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 21%;
+        margin-left: -2%;
+        margin-top: -70.5%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: .85em;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -150px;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 80%;
+        /*border: dashed;*/
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.05em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 45px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+    }
+
+    .eventsMainContainer {
+        width: 145%;
+        margin-left: -23%;
+        margin-right: auto;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .contactUs {
+        margin-top: 11.5%;
+        width: 120%;
+        margin-left: -12%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .contactUsH {
+        text-align: center;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -280%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 90px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: 12%;
+        margin-left: -10%;
+        text-align: center;
+        height: auto;
+        width: 120%;
+        /*border: dashed;*/
+
+    }
+
+    #footer {
+        position: absolute;
+        bottom: -13%;
+        margin-left: -25%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .notification {
+        width: 90%;
+        margin-top: 32%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .previousEventsURL {
+        /*margin-bottom: 100px;*/
+        height: auto;
+        width: 100%;
+        z-index: 15;
+    }
+
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    .calendarHeading {
+        width: 122%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .eventsMainContainer {
+        width: 155%;
+        margin-left: -28%;
+        margin-right: auto;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .holidayContainer {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -13%;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .holidayContainerMonths {
+        /*margin-top: 2%;*/
+        /*margin-bottom: 35%;*/
+        padding-top: 3%;
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .calendar {
+        cursor: default;
+        width: 555px;
+        height: 265px;
+    }
+
+    .notifications {
+        margin-top: 13%;
+        margin-bottom: 20%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .mapContainer {
+        margin-top: 25px;
+        height: 300px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .loginMarginTop {
+        margin-top: 40%;
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 98%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        margin-top: -5%;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 98%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.1em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 2%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 10.5%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 140%;
+        margin-left: -20%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -36%;
+        /*border: dashed;*/
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -35%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -48%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -45%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonLeftIndex {
+        text-align: right;
+        width: 80%;
+        margin-right: -10%;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.05em;
+        margin-right: 20px;
+        /*border: solid;*/
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 5%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 45px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+
+    }
+
+    .contactUs {
+        margin-top: 11.5%;
+        width: 120%;
+        margin-left: -12%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -25%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: 13%;
+        margin-left: -10%;
+        text-align: center;
+        height: auto;
+        width: 120%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: -20%;
+        margin-left: -25%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .calendarHeading {
+        width: 127%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .eventsContainer {
+        width: 140%;
+        margin-left: -20%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .eventsMainContainer {
+        width: 150%;
+        margin-left: -26%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 30px;
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 20.5%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .contactUs {
+        margin-top: 10%;
+        width: 120%;
+        margin-left: -12%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+
+    .contactUsH {
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .holidayContainer {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -19%;
+        margin-right: auto;
+        text-align: center;
+        /*border: solid;*/
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .calendar {
+        cursor: default;
+        width: 555px;
+        height: 265px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -25%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: 26%;
+        margin-left: -10%;
+        text-align: center;
+        height: auto;
+        width: 120%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: -20%;
+        margin-left: -25%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .tbWidth {
+        width: 600px;
+        margin-left: -28%;
+    }
+
+    .calendarHeading {
+        width: 130%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 3%;
+        margin-right: auto;
+    }
+
+    .schoolCalendar {
+        margin-left: -30%;
+        /*margin-right: auto;*/
+        text-align: center;
+    }
+
+    .c-grid {
+        float: left;
+        width: 45%;
+        margin-left: 4%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 44%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .eventsMainContainer {
+        width: 150%;
+        margin-left: -26%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 60px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 20.5%;
+        margin-bottom: 30px;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        width: 100%;
+        margin-top: 20.5%;
+        margin-bottom: 30px;
+    }
+
+    .contactUs {
+        margin-top: 30%;
+        width: 130%;
+        margin-left: -10%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: -10%;
+        margin-bottom: 30px;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .holidayContainer {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -22%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .calendar {
+        cursor: default;
+        width: 555px;
+        height: 265px;
+    }
+
+    .eventsContainer {
+        width: 140%;
+        margin-left: -20%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: 28%;
+        margin-left: -10%;
+        text-align: center;
+        height: auto;
+        width: 120%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -3%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .btnRight {
+        margin-left: 1%;
+        float: right;
+    }
+
+    .tbWidth {
+        width: 600px;
+        margin-left: -28%;
+    }
+
+    .calendarHeading {
+        width: 140%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 1%;
+        margin-right: auto;
+
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .eventsMainContainer {
+        width: 150%;
+        margin-left: -26%;
+        margin-right: auto;
+        overflow-x: hidden;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 60px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 21%;
+        margin-bottom: 30px;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 21%;
+        margin-bottom: 30px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: 30%;
+        width: 130%;
+        margin-left: -10%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: -10%;
+        margin-bottom: 6%;
+    }
+
+    .holidayContainer {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        width: 100%;
+        margin-left: -18%;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .calendar {
+        cursor: default;
+        width: 550px;
+        height: 260px;
+    }
+
+    .eventsContainer {
+        width: 140%;
+        margin-left: -22%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 604px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: 2%;
+        margin-left: auto;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        /*border: dashed;*/
+
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -12%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .tbWidth {
+        width: 600px;
+        margin-left: -28%;
+    }
+
+    .calendarHeading {
+        width: 140%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .eventsMainContainer {
+        width: 153%;
+        margin-left: -26%;
+        margin-right: auto;
+        overflow-x: hidden;
+
+    }
+
+    .responsiveTavle {
+        width: 160%;
+        margin-left: -31%;
+        margin-right: auto;
+
+    }
+
+    .holidayContainer {
+        margin-top: -5%;
+        margin-bottom: 35%;
+        width: 100%;
+        margin-left: -20%;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        padding-top: 2%;
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .c-grid {
+        /*float: left;*/
+        width: 43%;
+        margin-left: 4%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 42%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 550px;
+        height: 260px;
+    }
+
+    .notifications {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .myContainer {
+        width: 88%;
+        margin-left: 8%;
+    }
+
+    .myContainerIndex {
+        width: 96%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .paddingIndexNew {
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        /*margin-top: 1%;*/
+        margin-left: -110px;
+        font-size: 24px;
+        margin-bottom: 0%;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 22%;
+        margin-bottom: 30px;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: -3%;
+        width: 140%;
+        margin-left: -20%;
+        margin-right: auto;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 30px;
+
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .eventsContainer {
+        width: 145%;
+        margin-left: -24%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventButtonLeft {
+        text-align: left;
+        width: 120%;
+        margin-left: -36%;
+    }
+
+    .eventButton {
+        text-align: right;
+        width: 100%;
+        margin-right: -35%;
+    }
+
+    .eventButtonLeftURL {
+        text-align: left;
+        width: 120%;
+        margin-left: -45%;
+        /*border: dashed;*/
+    }
+
+    .eventButtonURL {
+        text-align: right;
+        width: 100%;
+        margin-right: -44%;
+        /*border: dashed;*/
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 110px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -8%;
+        margin-left: -20%;
+        text-align: center;
+        height: auto;
+        width: 140%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -16%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .tbWidth {
+        width: 600px;
+        margin-left: -28%;
+    }
+
+    .bottomOfPageEvents {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        margin-left: -25%;
+        margin-right: 4%;
+        width: 100%;
+        z-index: 100;
+        position: relative;
+        /*border: solid 1px red;*/
+    }
+
+    .calendarHeading {
+        width: 140%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: -10px;
+        margin-left: 5%;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .eventsMainContainer {
+        width: 150%;
+        margin-left: -25%;
+        margin-right: auto;
+        margin-top: -20%;
+        height: 440px;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .responsiveTavle {
+        width: 160%;
+        margin-left: -31%;
+        margin-right: auto;
+
+    }
+
+    .holidayContainer {
+        margin-top: -15%;
+        margin-bottom: 35%;
+        width: 100%;
+        margin-left: -25%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        /*margin-bottom: 35%;*/
+        padding-top: 2%;
+        width: 166%;
+        margin-left: -33%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .c-grid {
+        /*float: left;*/
+        width: 43%;
+        margin-left: 4%;
+    }
+
+    .c-event-grid {
+        margin-left: 1px;
+        height: inherit;
+        width: 42%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 510px;
+        height: 225px;
+    }
+
+    .notifications {
+        margin-top: 13%;
+        margin-bottom: 30%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .mapContainer {
+        margin-top: 25px;
+        height: 200px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 50px;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -100px;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+
+    .myContainerIndex {
+        width: 90%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 60px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 0%;
+        margin-bottom: 30px;
+
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: -15%;
+        width: 150%;
+        margin-left: -25%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 30px;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: -10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .eventsContainer {
+        width: 144%;
+        margin-left: -24%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 534px) {
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -22.5%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -20%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -10%;
+        margin-left: -20%;
+        text-align: center;
+        height: auto;
+        width: 140%;
+        /*border: dashed;*/
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .tbWidth {
+        width: 350px;
+        margin-left: -25%;
+    }
+
+    .right {
+        /*border: dashed;*/
+        margin-left: -2%;
+        width: 90%;
+        z-index: 100;
+        position: relative;
+    }
+
+    .calendarHeading {
+        width: 120%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: auto;
+        font-size: 22px;
+
+    }
+
+    .holidayContainer {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 125%;
+        margin-left: -30%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        margin-bottom: 35%;
+        width: 170%;
+        margin-left: -35%;
+        margin-right: auto;
+        text-align: center;
+        border: dashed;
+    }
+
+    .c-grid {
+        /*float: left;*/
+        width: 100%;
+        margin-left: 44%;
+    }
+
+    .c-event-grid {
+        margin-top: 10px;
+        margin-left: 44%;
+        height: inherit;
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 260px;
+        height: 250px;
+    }
+
+    .myContainerIndex {
+        width: 92%;
+        margin-left: 4%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: 4%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 280px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -100px;
+        font-size: 22px;
+        margin-bottom: 5px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 15%;
+        font-size: 23px;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: -20%;
+        width: 165%;
+        margin-left: -33%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .contactUsHdiv {
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 30px;
+    }
+
+    .eventsContainer {
+        width: 145%;
+        margin-left: -24%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventsMainContainer {
+        width: 155%;
+        margin-left: -85px;
+        margin-right: auto;
+        margin-top: 0%;
+        height: auto;
+        overflow-x: hidden;
+
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .header-Day {
+        max-width: 0%;
+        height: 0;
+    }
+
+    .header-Night {
+        max-width: 0%;
+        height: 0;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -15%;
+        width: 15%;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -25%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -20%;
+        margin-left: -25%;
+        text-align: center;
+        height: auto;
+        width: 150%;
+        /*border: dashed;*/
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .tbWidth {
+        width: 415px;
+        margin-left: -30%;
+    }
+
+    .calendarHeading {
+        width: 120%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    .holidayContainer {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 125%;
+        margin-left: -30%;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .holidayContainerMonths {
+        margin-top: 2%;
+        margin-bottom: 35%;
+        width: 170%;
+        margin-left: -35%;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .c-grid {
+        /*float: left;*/
+        width: 100%;
+        margin-left: 18%;
+    }
+
+    .c-event-grid {
+        margin-top: 10px;
+        margin-left: 18%;
+        height: inherit;
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 260px;
+        height: 250px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .eventsMainContainer {
+        width: 145%;
+        margin-left: -45px;
+        margin-right: auto;
+        margin-top: -5%;
+        overflow-x: hidden;
+        /*border: dashed;*/
+
+    }
+
+    .responsiveTavle {
+        width: 175%;
+        margin-left: -40%;
+        margin-right: auto;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -25%;
+        font-size: 18px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 95%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 95%;
+        margin-left: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 42px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 10px 0px 20px 0;
+        height: 190px;
+        width: 320px;
+        text-align: center;
+        z-index: 10;
+        /*background: #0088cc;*/
+        color: #FFF;
+    }
+
+    #slider {
+        width: 240px;
+        height: 200px;
+        overflow: hidden;
+        z-index: -1;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 11;
+    }
+
+    #slider .slides {
+        display: block;
+        width: 4000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+    }
+
+    .sliderEvents {
+        width: 280px;
+        height: 230px;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+        /*border: dashed;*/
+
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 12%;
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 22%;
+        margin-bottom: 6%;
+    }
+
+    .contactUs {
+        margin-top: -15%;
+        width: 140%;
+        margin-left: -25%;
+        margin-right: auto;
+        font-size: 1em;
+    }
+
+    .eventsContainer {
+        width: 145%;
+        margin-left: -25%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 384px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -10%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -10%;
+        margin-left: -15%;
+        text-align: center;
+        height: auto;
+        width: 130%;
+        /*border: dashed;*/
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .tbWidth {
+        width: 290px;
+        margin-left: -30%;
+    }
+
+    .right {
+        /*border: dashed;*/
+        margin-left: -10%;
+        width: 100%;
+        z-index: 100;
+        position: relative;
+    }
+
+    .calendarHeading {
+        width: 120%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.05em;
+        margin-right: 20px;
+        width: 104%;
+        /*border: solid;*/
+    }
+
+    .holidayContainer {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 125%;
+        margin-left: -30%;
+        margin-right: auto;
+        text-align: center;
+        /*border: solid;*/
+    }
+
+    /*.holidayContainerMonths {*/
+    /*margin-top: 13%;*/
+    /*margin-bottom: 35%;*/
+    /*width: 78%;*/
+    /*margin-left: 12%;*/
+    /*margin-right: auto;*/
+    /*text-align: center;*/
+    /*/!*border: dashed;*!/*/
+    /*}*/
+    .c-grid {
+        /*float: left;*/
+        width: 100%;
+        margin-left: 18%;
+    }
+
+    .c-event-grid {
+        margin-top: 10px;
+        margin-left: 18%;
+        height: inherit;
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 260px;
+        height: 250px;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 40px;
+        height: 130px;
+        width: 95%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 95%;
+        margin-left: 1%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 95%;
+        margin-left: 1%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 42px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 10px 0px 20px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+    #slider {
+        width: 240px;
+        height: 250px;
+        overflow: hidden;
+        z-index: -1;
+        /*border: dashed;*/
+    }
+
+    .sliderEvents {
+        width: 200px;
+        height: 146px;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+
+    .slider img {
+        width: 95%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 32%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 24%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUs {
+        margin-top: -25%;
+        width: 150%;
+        margin-left: -25%;
+        margin-right: auto;
+        font-size: 1em;
+
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 22%;
+        margin-bottom: 30px;
+    }
+
+    .backButton {
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 8%;
+        margin-bottom: 0px;
+        width: 8%;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .eventsContainer {
+        width: 145%;
+        margin-left: -25%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -10%;
+        margin-left: auto;
+        text-align: center;
+        height: auto;
+        width: 90%;
+        /*border: dashed;*/
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .tbWidth {
+        width: 290px;
+        margin-left: -35%;
+    }
+
+    .calendarHeading {
+        width: 120%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.05em;
+        margin-right: 20px;
+        width: 100%;
+        /*border: solid;*/
+    }
+
+    .holidayContainer {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 125%;
+        margin-left: -30%;
+        margin-right: auto;
+        text-align: center;
+        /*border: solid;*/
+    }
+
+    /*.holidayContainerMonths {*/
+    /*margin-top: 13%;*/
+    /*margin-bottom: 35%;*/
+    /*width: 78%;*/
+    /*margin-left: 12%;*/
+    /*margin-right: auto;*/
+    /*text-align: center;*/
+    /*/!*border: dashed;*!/*/
+    /*}*/
+    .c-grid {
+        /*float: left;*/
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .c-event-grid {
+        margin-top: 10px;
+        margin-left: 5%;
+        height: inherit;
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 260px;
+        height: 250px;
+        /*border: solid;*/
+    }
+
+    .notifications {
+        margin-top: 20%;
+        margin-bottom: 45%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 99%;
+        margin-left: -1%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        z-index: -1;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 42px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 10px 0px 20px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+    #slider {
+        width: 240px;
+        height: 200px;
+        overflow: hidden;
+        z-index: -1;
+        /*margin-top: 20px;*/
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 11;
+        /*border: dashed;*/
+    }
+
+    #slider .slides {
+        display: block;
+        width: 4000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+    }
+
+    .sliderEvents {
+        width: 200px;
+        height: 146px;
+        overflow: hidden;
+        margin-left: -25%;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 150%;
+        text-align: center;
+        margin-left: -25%;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 18%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 24%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .contactUsHdiv {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 27%;
+        margin-bottom: 30px;
+    }
+
+    .eventsContainer {
+        width: 148%;
+        margin-left: -26%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .location {
+        margin-top: -30%;
+        margin-left: -5%;
+        text-align: center;
+        height: auto;
+        width: 110%;
+        /*border: dashed;*/
+    }
+
+    .p3 {
+        font-size: 1em;
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .tbWidth {
+        width: 180px;
+        margin-left: -35%;
+    }
+
+    .holidayContainer {
+        margin-top: 13%;
+        margin-bottom: 35%;
+        width: 125%;
+        margin-left: -30%;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    /*.holidayContainerMonths {*/
+    /*margin-top: 13%;*/
+    /*margin-bottom: 35%;*/
+    /*width: 170%;*/
+    /*margin-left: -35%;*/
+    /*margin-right: auto;*/
+    /*text-align: center;*/
+    /*/!*border: dashed;*!/*/
+    /*}*/
+    .c-grid {
+        /*float: left;*/
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .c-event-grid {
+        margin-top: 10px;
+        margin-left: 1%;
+        height: inherit;
+        width: 100%;
+        float: left;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+    .calendar {
+        cursor: default;
+        width: 260px;
+        height: 250px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 18%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .mapContainer {
+        height: 200px;
+        width: 150%;
+        text-align: center;
+        margin-left: -25%;
+        margin-right: auto;
+        /* 	margin-top: 50px; */
+        /*margin-right: auto;*/
+        border: solid 1px #442344;
+        z-index: 20;
+        margin-bottom: 20px;
+    }
+
+    .eventsMainContainer {
+        width: 152%;
+        margin-left: -45px;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+    }
+
+    .responsiveTavle {
+        width: 180%;
+        margin-left: -41%;
+        margin-right: auto;
+        /*border: dashed;*/
+
+    }
+
+    .loginMarginTop {
+        margin-top: 5%;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 98%;
+        margin-left: -1%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 98%;
+        z-index: -1;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 42px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 20px 0px 20px 0;
+        height: 190px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    #slider {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+    }
+
+    #slider .slides {
+        display: block;
+        width: 4000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+        padding-left: .65%;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .eventsContainer {
+        width: 145%;
+        margin-left: -25%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .contactExitBtn {
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+
+    .myContainerIndex {
+        width: 99%;
+        margin-left: 0%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    #slider {
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -3%;
+        margin-right: auto;
+        z-index: 11;
+        /*border: dashed;*/
+        text-align: center;
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    #sliderEvents {
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+        z-index: -1;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+
+    .contactExitBtn {
+        margin-left: 0%;
+        margin-top: 100px;
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: -10%;
+        margin-right: auto;
+        width: 120%;
+        height: auto;
+        position: relative;
+        z-index: -4;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: 0%;
+        margin-top: -40%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 102%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 30%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    #slider {
+        width: 85%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: 2%;
+        margin-right: auto;
+        margin-top: 10%;
+        z-index: 11;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 20px 0;
+        height: 150px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .indexImg {
+        width: 80%;
+        height: auto;
+        margin-left: -5%;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        height: 180px;
+        width: 100%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 240px) {
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .contactExitBtn {
+        margin-left: 0%;
+        margin-top: 70px;
+    }
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: -1%;
+        margin-top: -20%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 102%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 26%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    .eventsContainer {
+        width: 155%;
+        margin-left: -30%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .eventsMainContainer {
+        width: 161%;
+        margin-left: -36%;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+    }
+
+    #sliderEvents {
+        width: 80%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-bottom: 20px;
+        z-index: 11;
+    }
+
+    #sliderEvents .slidesEvents {
+        display: block;
+        width: 4000px;
+        height: 170px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #sliderEvents .slideEvents {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 170px;
+        z-index: 11;
+    }
+
+    #slider {
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        /*margin-bottom: 40px;*/
+        margin-left: -5%;
+        margin-right: auto;
+        z-index: 11;
+        position: relative;
+        line-height: 1.4em;
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 20px 0;
+        height: 150px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .indexImg {
+        width: 60%;
+        height: auto;
+        margin-left: -5%;
+    }
+
+}
+
+@media screen and (max-width: 176px) {
+
+    .indexImg {
+        width: 60%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .p3 {
+        font-size: 1em;
+    }
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: -1%;
+        margin-top: -20%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        border: dashed;
+    }
+
+    .myHeaderIndex {
+        width: 102%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 40%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 155%;
+        margin-left: -30%;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: .75em;
+    }
+
+    .eventsMainContainer {
+        width: 150%;
+        margin-left: -20px;
+        margin-right: auto;
+        margin-top: -10%;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #sliderEvents {
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-top: -10px;
+        margin-left: 15%;
+        margin-right: auto;
+        margin-bottom: -20%;
+        z-index: 11;
+    }
+
+    #sliderEvents .slidesEvents {
+        display: block;
+        width: 4000px;
+        height: 170px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #sliderEvents .slideEvents {
+        float: left;
+        list-style-type: none;
+        width: 150px;
+        height: 120px;
+        z-index: 11;
+    }
+
+    #slider {
+        width: 80%;
+        height: 100px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -12%;
+        margin-right: auto;
+        z-index: 11;
+        position: relative;
+        line-height: 1.4em;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 20px 0;
+        height: 150px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 26%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 40px;
+        height: 180px;
+        width: 95%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: -35%;
+        margin-right: auto;
+        margin-top: -25%;
+        font-size: 1em;
+    }
+
+    .p2 {
+        text-align: justify;
+        font-size: 1em;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        /*margin-left: -10%;*/
+        z-index: 2;
+    }
+
+}

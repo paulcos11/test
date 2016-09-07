@@ -1,0 +1,330 @@
+<link rel="stylesheet" href="/resources/static/css/events/previousEvents.css"/>
+
+
+<br><br><br>
+
+<!--<div class="eventsMainContainer">-->
+<div class='floating-boxPreviousEvents'>
+    <div class="floating-boxPreviousEvents2">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 eventsH">
+                <h2 class="myH2">{{event.type}}<br>{{event.name}}</h2>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div id="sliderEvents">
+                <!--<c:choose>-->
+                <!--<c:when test="${not empty events.items}">-->
+                <!--<c:forEach items="${events.items}" var="item">-->
+                <!--<c:set var="id" value="${item.id}"/>-->
+                <!--</c:forEach>-->
+                <!--<div ng-if="src="/items/one/image.html?id={{event.id}}">-->
+                <ul class="slidesEvents">
+                    <li class="slideEvents">
+                        <img class="img-responsive" width="240px" height="198px"
+                             check-image ng-src="/items/one/image.html?id={{event.id}}"
+                             onerror="this.src='/resources/static/images/activeSchool.png'"
+                                />
+                        <!--ng-src="/resources/static/images/activeSchool.png"-->
+                        <!--alt="">-->
+                    </li>
+                    <li class="slideEvents">
+                        <img class="img-responsive" width="240px" height="198px"
+                             check-image ng-src="/items/two/image.html?id={{event.id}}"
+                             onerror="this.src='/resources/static/images/activeSchool.png'"
+                             alt=""/>
+                    </li>
+
+                    <li class="slideEvents">
+                        <img class="img-responsive" width="240px" height="198px"
+                             check-image ng-src="/items/three/image.html?id={{event.id}}"
+                             onerror="this.src='/resources/static/images/activeSchool.png'"/>
+                    </li>
+
+                    <li class="slideEvents">
+                        <img class="img-responsive" width="240px" height="198px"
+                             check-image ng-src="/items/one/image.html?id={{event.id}}"
+                             onerror="this.src='/resources/static/images/activeSchool.png'"
+                             alt="">
+                    </li>
+                </ul>
+
+                <!--</c:when>-->
+                <!--<c:otherwise>-->
+
+                <!--<ul class="slidesEvents">-->
+                <!--<li class="slideEvents"><img class="img-responsive" width="240px" height="198px"-->
+                <!--ng-src="/resources/static/images/activeSchool.png" alt=""></li>-->
+                <!--<li class="slideEvents"><img class=" img-responsive" width="240px" height="198px"-->
+                <!--ng-src="/resources/static/images/outsideNew.png" alt=""></li>-->
+                <!--<li class="slideEvents"><img class=" img-responsive" width="240px" height="198px"-->
+                <!--ng-src="/resources/static/images/fnsNewsletter.png" alt=""></li>-->
+                <!--<li class="slideEvents"><img class="img-responsive" width="240px" height="198px"-->
+                <!--ng-src="/resources/static/images/activeSchool.png" alt=""></li>-->
+                <!--</ul>-->
+
+                <!--</c:otherwise>-->
+                <!--</c:choose>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 eventsBelowPic">
+                <h3 class="myH3">
+                    <a href="{{event.link}}" class="class3" target="_blank">{{event.location}}</a>
+
+                </h3>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 ">
+                <p class="p3">{{event.text}}</p>
+
+                <p class="p3" style="word-wrap: break-word; width: 100%;">{{event.story}}</p>
+
+                <br><br><br><br>
+            </div>
+        </div>
+
+        <!--<div class="myMargin2"></div>-->
+
+        <div class="myMargin borderTop">
+            <div class="row">
+                <div class=" col-lg-12">
+                    <!--<br><br><br><br><br><br>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="footerEvents">
+            <a href="#/allPreviousEvents" data-toggle="tooltip"
+               title="Back">
+
+                <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
+
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+                </button>
+            </a>
+
+            <div ng-show="isLoggedIn()">
+                <input  type="button" class="btn btn-sm myBtn btn-danger txtRight"
+                       data-toggle="modal" data-target="#modalRemove" value="Delete">
+
+                <input  type="button" class="btn btn-sm myBtn btn-success txtRight"
+                       data-toggle="modal" data-target="#modalEmail" value="Email">
+
+
+                <input  type="button" class="btn btn-sm myBtn btn-primary txtRight"
+                       data-toggle="modal" data-target="#editEvent" value="Edit">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="editEvent" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>School Event</b></h4>
+            </div>
+
+            <form ng-submit="submit()" class="form-horizontal"
+                  ng-controller="EventUpdate" enctype="multipart/form-data">
+
+                <input type="hidden" class="form-control" ng-model="eventId"
+                       value="{{event.id}}" required>
+
+                <div class="form-group">
+                    <label for="text" class="col-sm-2 control-label">Days
+                        Events p1</label>
+
+                    <div class="col-sm-10">
+
+                            <textarea class="form-control" rows="3" type="text" id="text" name="userText"
+                                      ng-model="event.text"
+                                      required></textarea>
+                    </div>
+                    <br> <br>
+
+                </div>
+                <div class="form-group">
+
+                    <label for="story"
+                           class="col-sm-2 control-label">Days Events p2</label>
+
+                    <div class="col-sm-10">
+						    <textarea class="form-control" rows="3" id="story" type="text" name="userStory"
+                                      ng-model="event.story"
+                                      required></textarea>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="file"
+                           class="col-sm-2 control-label">Image 1</label>
+
+                    <div class="col-sm-10">
+
+                        <br>
+                        <input type="file" file-model="myFile" id="file" required/>
+
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="itemFile1"
+                           class="col-sm-2 control-label">Image 2</label>
+
+                    <div class="col-sm-10">
+
+                        <input type="file" file-model="myFile2" id="itemFile1" required/>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="itemFile2"
+                           class="col-sm-2 control-label">Image 3</label>
+
+                    <div class="col-sm-10">
+
+                        <input type="file" id="itemFile2" file-model="myFile3"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-8">
+                        <br>
+                        <label class="col-sm-3 control-label"></label>
+                        <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Cancel
+                        </button>
+                        <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save"/>
+                    </div>
+                </div>
+
+            </form>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalRemove" aria-hidden="true"
+     tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Delete - {{event.type}} - {{event.name}}</h4>
+            </div>
+            <div class="modal-body">Are you sure you want to delete - {{event.type}} - {{event.name}}?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Cancel</button>
+                <a href="" class="btn btn-danger removeBtn btn-sm myBtn">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal -->
+<div class="modal fade" id="modalEmail" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Email event details to parents</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" id="emailForm" method="post" action="/upcomingEventsURL.html">
+
+                    <input type="hidden" name="eventId" value="{{event.id}}">
+
+                    <input type="hidden" name="eventType" value="{{event.type}}">
+
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-success btn-sm myBtn" value="Email">
+
+                </form>
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>-->
+<!--<script-->
+<!--src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>-->
+<!--<script-->
+<!--src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>-->
+<!--<script type="text/javascript" defer="defer">-->
+<!--$("#formValidate").validate({-->
+<!--rules: {-->
+<!--eventText: {-->
+<!--required: true,-->
+<!--minlength: 100,-->
+<!--maxlength: 1000-->
+<!--},-->
+<!--eventStory: {-->
+<!--required: true,-->
+<!--minlength: 100,-->
+<!--maxlength: 1000-->
+<!--},-->
+<!--itemFile0: {-->
+<!--required: true,-->
+<!--extension: "jpg|png|jpe?g|gif"-->
+<!--},-->
+
+<!--itemFile1: {-->
+<!--required: true,-->
+<!--extension: "jpg|png|jpe?g|gif"-->
+<!--},-->
+<!--itemFile2: {-->
+<!--required: true,-->
+<!--extension: "jpg|png|jpe?g|gif"-->
+<!--}-->
+<!--}-->
+<!--});-->
+
+<!--$(".triggerRemove").click(function (e) {-->
+<!--e.preventDefault();-->
+<!--$("#modalRemove .removeBtn").attr("href", $(this).attr("id"));-->
+<!--$("#modalRemove").modal();-->
+<!--});-->
+
+<!--$(".triggerEmail").click(function (e) {-->
+<!--e.preventDefault();-->
+<!--$("#modalEmail .emailBtn").attr("href", $(this).attr("id"));-->
+<!--$("#modalEmail").modal();-->
+<!--});-->
+<!--</script>-->
+
+</div>

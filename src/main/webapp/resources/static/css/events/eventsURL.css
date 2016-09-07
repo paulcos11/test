@@ -1,0 +1,720 @@
+html, body {
+    overflow-x:hidden
+}
+
+.myBtn {
+    width: 55px;
+}
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 99%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.eventsMainContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.myMargin {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.myMargin2 {
+    margin-top: 2%;
+    /*margin-bottom: 10%;*/
+}
+
+.paddingEvents {
+    /*padding-left: 0px;*/
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+
+.pTable {
+    font-size: 1em;
+}
+
+.pTableWidth {
+    text-align: left;
+}
+
+.txtRight {
+    margin-left: 1%;
+    float: right;
+}
+
+a.class3:link {
+    color: #000;
+}
+
+/*  visited link  */
+a.class3:visited {
+    color: #000;
+}
+
+/*  mouse over link  */
+a.class3:hover {
+    color: #0000a0;
+}
+
+/*  selected link  */
+a.class3:active {
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1921px) {
+
+
+}
+
+@media screen and (max-width: 1681px) {
+
+    .eventsMainContainer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myH2 {
+        font-size: 2em;
+    }
+
+    .myH3 {
+        font-size: 2rem;
+    }
+
+    .p3 {
+        margin-top: 2%;
+        text-align: justify;
+        font-size: 1.75rem;
+        line-height: 35px;
+    }
+
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myH2 {
+        font-size: 2em;
+    }
+
+    .myH3 {
+        font-size: 2rem;
+    }
+
+    .p3 {
+        margin-top: 2%;
+        text-align: justify;
+        font-size: 1.75rem;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myH2 {
+        font-size: 2em;
+    }
+
+    .myH3 {
+        font-size: 2rem;
+    }
+
+    .p3 {
+        margin-top: 2%;
+        text-align: justify;
+        font-size: 1.75rem;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myH2 {
+        font-size: 2em;
+    }
+
+    .myH3 {
+        font-size: 2rem;
+    }
+
+    .p3 {
+        margin-top: 2%;
+        text-align: justify;
+        font-size: 1.75rem;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 987px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 852px) {
+    .eventsMainContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 736px) {
+
+}
+
+@media screen and (max-width: 667px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 604px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .eventsMainContainer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        margin-bottom: 6%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.5em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .myMargin2 {
+        margin-top: 15%;
+        /*margin-bottom: 10%;*/
+    }
+}
+
+@media screen and (max-width: 534px) {
+
+}
+
+@media screen and (max-width: 415px) {
+    .eventsMainContainer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2%;
+        margin-bottom: 10%;
+        overflow-x: hidden;
+        text-align: center;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 384px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .eventsMainContainer2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .p3{
+        text-align: justify;
+        font-size: 1.25em;
+        line-height: 35px;
+    }
+
+    .eventsH {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /*border: dashed;*/
+    }
+
+    .myMargin2 {
+        margin-top: 15%;
+        /*margin-bottom: 10%;*/
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+}
+
+@media screen and (max-width: 270px) {
+
+}
+
+@media screen and (max-width: 240px) {
+
+}
+
+@media screen and (max-width: 176px) {
+
+}

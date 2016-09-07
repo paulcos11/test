@@ -1,0 +1,2900 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.indexImg {
+    width: 240px;
+    height: 198px;
+}
+
+.borderTopIndex {
+    margin-top: 3%;
+    /*border: dashed;*/
+    width: 93%;
+}
+
+div.wrap-div-topSpacer {
+    width: 0px;
+    height: 60px;
+    float: left;
+}
+
+div.wrap-div {
+    float: left;
+    clear: both;
+    margin: 10px 0px 20px 0;
+    height: 190px;
+    width: 300px;
+    text-align: center;
+    /*background: #0088cc;*/
+    color: #FFF;
+    z-index: 10;
+    /*border: dashed;*/
+}
+
+.myContainerIndex {
+    width: 100%;
+    z-index: -2;
+}
+
+.myHeaderIndex {
+    width: 95%;
+    z-index: -2;
+    /*margin-bottom: 15%;*/
+    /*border: dashed;*/
+}
+
+.myMargin {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.txtRight {
+    margin-left: 1%;
+    float: right;
+}
+
+.mySideBarIndex {
+    width: 10%;
+    margin-left: 0%;
+    margin-top: 10%;
+    font-size: 1em;
+    /*border-right: 1px solid #f1f1f1;*/
+    z-index: 1;
+}
+
+.p2 {
+    text-align: justify;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    /*margin-left: -10%;*/
+    width: 98%;
+    z-index: 2;
+    line-height: 30px;
+    /*border: solid;*/
+}
+
+.myBtn {
+    width: 55px;
+}
+
+.pSideBarIndex {
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 1em;
+    margin-right: 20px;
+    /*border: solid;*/
+}
+
+.paddingIndex {
+    margin-top: 15%;
+    margin-left: 18%;
+    margin-bottom: 20px;
+}
+
+#slider {
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    z-index: -1;
+    /*margin-bottom: 40px;*/
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 11;
+    border: solid 1px #84BCED;
+    border-bottom: #84BCED;
+    -webkit-box-shadow: 0px 1px 1px #84BCED;
+    -moz-box-shadow: 0px 1px 1px #84BCED;
+    box-shadow: 0px 1px 1px #84BCED;
+}
+
+#slider .slides {
+    display: block;
+    width: 4000px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    z-index: 11;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 240px;
+    height: 200px;
+    z-index: 11;
+}
+
+#folio ul li {
+    margin: 5px 0px 20px 0;
+    vertical-align: top;
+    font-size: 1.1em;
+    /*border: solid;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+a.class2:link {
+    color: #3B3131;
+}
+
+/*  visited link  */
+a.class2:visited {
+    color: #3B3131;
+}
+
+/*  mouse over link  */
+a.class2:hover {
+    color: #3B3131;
+}
+
+@media screen and (max-width: 1921px) {
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: 18%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 112%;
+        margin-left: 25%;
+        z-index: -2;
+        margin-left: -12%;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 18%;
+        margin-left: -3%;
+        margin-top: 1%;
+        border-right: 1px solid rgba(255, 255, 255, .5);
+        font-size: 1em;
+        /*margin-left: 10%;*/
+    }
+
+    .myHeaderIndex {
+        width: 95%;
+        z-index: -2;
+        margin-left: -12%;
+    }
+
+    .headerH {
+        font-size: 2.2em;
+        margin-bottom: 12%;
+    }
+
+    #folio ul li {
+        margin: 45px 0px 20px 0;
+        vertical-align: top;
+        font-size: 1.55em;
+        /*border: solid;*/
+    }
+
+    .p2 {
+        text-align: justify;
+        font-size: 1.5em;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        /*margin-left: -10%;*/
+        line-height: 40px;
+        width: 100%;
+        z-index: 2;
+        line-height: 40px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 1681px) {
+
+    .headerH {
+        font-size: 1.8em;
+        margin-bottom: 12%;
+    }
+
+    .myContainerIndex {
+        width: 109%;
+        z-index: -2;
+        margin-left: -11%;
+
+    }
+
+    .myHeaderIndex {
+        width: 109%;
+        margin-left: -3%;
+        z-index: -2;
+        margin-left: -11%;
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 11%;
+        margin-left: 4%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 25.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+    #footer {
+        position: absolute;
+        bottom: -15%;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 10%;
+        margin-left: 22.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 30px;
+        /*border: solid;*/
+    }
+
+    .myContainerIndex {
+        width: 105%;
+        margin-left: -9%;
+        z-index: 10;
+        z-index: -2;
+    }
+
+    .mySideBarIndex {
+        width: 15%;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 25px 0px 25px 0;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 20px;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 10px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+}
+
+@media screen and (max-width: 1367px) {
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -11%;
+        z-index: 10;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 22.5%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 110%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 20px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 11%;
+        margin-left: 4%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .myContainerIndex {
+        width: 110%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+    }
+
+    #folio ul li {
+        margin: 28px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 11%;
+        margin-left: 4%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 6%;
+        margin-left: 27.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.20em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 5px 10px 10px 0;
+        height: 190px;
+        width: 260px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+    }
+
+    #slider {
+        width: 240px;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-bottom: 40px;
+        z-index: 11;
+    }
+
+    #slider .slides {
+        display: block;
+        width: 6000px;
+        height: 190px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: auto;
+        z-index: 11;
+
+    }
+
+    . img {
+        width: 100%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+
+    }
+}
+
+@media all and (max-width: 1280px) and (max-height: 720px) {
+
+    .myContainerIndex {
+        width: 108%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 110%;
+        margin-left: -12%;
+        z-index: -2;
+        font-size: 1em;
+    }
+
+    #folio ul li {
+        margin: 20px 0px 20px -35px;
+        vertical-align: top;
+        font-size: 1em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 11%;
+        margin-left: 4%;
+        margin-top: .5%;
+        font-size: 1em;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 6%;
+        margin-left: 27.5%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: -10px 8px 0px 0;
+        height: 165px;
+        width: 250px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+    }
+
+    #slider {
+        width: 240px;
+        height: 195px;
+        /*overflow: hidden;*/
+        z-index: -1;
+        /*border: dashed;*/
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: auto;
+        z-index: 11;
+
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        /*border: solid;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 6.5%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 60px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 107%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 107%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -42px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 14%;
+        margin-left: -1.5%;
+        margin-top: .75%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 14%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 5px 0px 5px 0;
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+
+    #sun_yellow {
+        position: absolute;
+        left: 85%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 85%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    .myContainerIndex {
+        width: 104%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 104%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -50px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 13.5%;
+        margin-left: 0%;
+        margin-top: .8%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: 18%;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 5px 0px 5px 0;
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+    .slider img {
+        width: 85%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        /*border: solid;*/
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .myContainerIndex {
+        width: 103%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -40px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 14%;
+        margin-left: 0%;
+        margin-top: .8%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    .p2 {
+        text-align: justify;
+        margin-right: 10px;
+        font-size: 1.25em;
+        margin-right: 15px;
+        line-height: 32px;
+        /*border: solid;*/
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .myContainerIndex {
+        width: 103%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: -3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -40px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+
+    .mySideBarIndex {
+        width: 14%;
+        margin-left: 0%;
+        margin-top: .8%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 6.5%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 65px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 108%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 108%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -20px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 21%;
+        margin-left: -16%;
+        margin-top: -61%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 987px) {
+    .myContainerIndex {
+        width: 108%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 108%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -20px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 21%;
+        margin-left: -16%;
+        margin-top: -61%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+}
+
+@media  only screen and (max-width: 980px) and (min-height: 1280px){
+
+    .myContainerIndex {
+        width: 125%;
+        margin-left: -13%;
+        margin-right: auto;
+        margin-bottom: 5%;
+        z-index: -2;
+        font-size: 1.25em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: -13%;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 20px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 50px;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -7%;
+        margin-bottom: 10%;
+        font-size: 1.25em;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -150px;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 80%;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+}
+
+@media screen and (max-width: 967px) {
+
+    .myContainerIndex {
+        width: 106%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 108%;
+        margin-left: 6%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 30px 0px 20px -20px;
+        vertical-align: top;
+        font-size: 1.2em;
+        line-height: 27px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 21%;
+        margin-left: -16%;
+        margin-top: -61%;
+        padding-top: 0;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+    /*.p2 {*/
+    /*text-align: justify;*/
+    /*margin-right: 10px;*/
+    /*font-size: 1.15em;*/
+    /*margin-right: 20px;*/
+    /*/!*border: solid;*!/*/
+    /*}*/
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 75px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .paddingIndex {
+        /*padding-left: 22%;*/
+        margin-left: 1%;
+        margin-bottom: 20px;
+    }
+
+    .myContainerIndex {
+        width: 92%;
+        margin-left: 14.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 92%;
+        margin-left: 14.5%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 20.7%;
+        margin-left: -8%;
+        margin-top: -70%;
+        margin-bottom: 5%;
+        border-right: solid 1px #FFFFFF;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+
+
+}
+
+@media screen and (max-width: 852px) {
+
+    .jumbotron {
+        text-align: center;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 90px;
+        margin-top: 6.5%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 103%;
+        margin-left: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        margin-top: -2%;
+    }
+
+    .myHeaderIndex {
+        width: 103%;
+        margin-left: -11%;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.1em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -7%;
+        margin-bottom: 10%;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: -5%;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.1em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -7%;
+        margin-bottom: 10%;
+        font-size: 1em;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -150px;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 80%;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+}
+
+@media  only screen and (max-width: 800px) and (min-height: 1280px){
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: -2%;
+        z-index: -2;
+        font-size: 1.25em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 90%;
+        margin-left: -5%;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.1em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -7%;
+        margin-bottom: 10%;
+        font-size: 1.25em;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -150px;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 80%;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .p2{
+        line-height: 40px;
+    }
+}
+
+
+
+@media  only screen and (max-width: 768px) {
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1.25em;
+        overflow-x: hidden;
+        margin-top: -5%;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: -10%;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.25em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        color: #FFF;
+        z-index: 10;
+    }
+
+    .p2{
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .myContainerIndex {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1.25em;
+        overflow-x: hidden;
+        margin-top: -5%;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 95%;
+        margin-left: -5%;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    #folio ul li {
+        margin: 5px 0px 20px 0;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.25em;
+        /*border: solid;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndexNew {
+        text-align: left;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        color: #FFF;
+        z-index: 10;
+    }
+
+    .p2{
+        line-height: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 667px) {
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: -6%;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+}
+
+@media screen and (max-width: 641px) {
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        margin-top: -5%;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: -5%;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 21%;
+        margin-bottom: 30px;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 604px) {
+
+    .myContainerIndex {
+        width: 96%;
+        margin-left: 2%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        /*margin-top: 1%;*/
+        margin-left: -110px;
+        font-size: 24px;
+        margin-bottom: 0%;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .jumbotron {
+        background-color: transparent;
+        /*float: left;*/
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin-bottom: 40px;*/
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        /*padding-top: 15%;*/
+        /*margin-top: 20%;*/
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -100px;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        /*border: dashed;*/
+    }
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 534px) {
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin-bottom: 3%;*/
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 80px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        height: 190px;
+        width: 280px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: solid;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 15%;
+        margin-left: -100px;
+        font-size: 22px;
+        margin-bottom: 5px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -25%;
+        font-size: 18px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 0px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 10px 0px 20px 0;
+        height: 190px;
+        width: 320px;
+        text-align: center;
+        z-index: 10;
+        /*background: #0088cc;*/
+        color: #FFF;
+    }
+
+    #slider {
+        width: 240px;
+        height: 200px;
+        overflow: hidden;
+        z-index: -1;
+        margin-bottom: 40px;
+        margin-left: 20%;
+        margin-right: auto;
+        z-index: 11;
+        /*border: dashed yellow;*/
+    }
+
+    #slider .slides {
+        display: block;
+        width: 4000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 19%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+
+    .p2{
+        font-size: 1.25em;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    /*.jumbotron {*/
+        /*background-color: transparent;*/
+        /*float: left;*/
+        /*text-align: left;*/
+        /*margin-top: 1%;*/
+        /*margin-left: 0%;*/
+        /*margin-bottom: 40px;*/
+        /*height: 130px;*/
+        /*width: 95%;*/
+        /*overflow: hidden;*/
+        /*margin-top: -10%;*/
+        /*/!*border: dashed;*!/*/
+    /*}*/
+
+    .myContainerIndex {
+        width: 95%;
+        margin-left: 1%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 42px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 10px 0px 20px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+    #slider {
+        width: 240px;
+        height: 200px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: 15%;
+        /*border: dashed;*/
+    }
+
+    .slider img {
+        width: 95%;
+        height: auto;
+        display: none;
+        z-index: -1;
+        /*border: solid;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 24%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: auto;
+        margin-bottom: 3%;
+        overflow: hidden;
+        /*margin-top: 15%;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        margin-top: -19%;
+    }
+
+    .myHeaderIndex {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 0px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 20px 0;
+        height: 190px;
+        width: 300px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+    }
+
+
+    #slider {
+        width: 240px;
+        height: 195px;
+        overflow: hidden;
+        z-index: -1;
+        /*margin-top: 20px;*/
+        margin-bottom: 40px;
+        margin-left: 15%;
+        margin-right: auto;
+        z-index: 11;
+    }
+
+    #slider .slides {
+        display: block;
+        width: 4000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        /*float: left;*/
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-bottom: 25%;
+        font-size: 1em;
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 24%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+
+    .p2{
+        font-size: 1.25em;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .myHeaderIndex {
+        width: 98%;
+        margin-left: 2%;
+        margin-right: auto;
+        z-index: -1;
+        font-size: .9em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 0px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 40px 20px 0;
+        height: 190px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: dashed;*/
+    }
+
+
+
+    #slider {
+        width: 240px;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: 12%;
+        margin-right: auto;
+        border: transparent;
+        border-bottom: #67aeed;
+        -webkit-box-shadow: 1px 1px 1px #67aeed;
+        -moz-box-shadow: 1px 1px 1px #67aeed;
+        box-shadow: 1px 1px 1px #67aeed;
+    }
+
+    #slider .slides {
+        display: block;
+        width: 2000px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 200px;
+        z-index: 11;
+        padding-left: .65%;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: -2%;
+        margin-right: auto;
+        margin-bottom: 25%;
+        font-size: 1em;
+    }
+
+    .p2{
+        font-size: 1.25em;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 18%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    .paddingIndex {
+        /*padding-left: 0px;*/
+        margin-top: 5%;
+        margin-left: -18%;
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .myContainerIndex {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+    }
+
+    .myHeaderIndex {
+        width: 98%;
+        margin-left: 0%;
+        margin-right: auto;
+        z-index: -1;
+        font-size: .9em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    div.wrap-div-topSpacer {
+        width: 0px;
+        height: 0px;
+        float: left;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 190px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: dashed;*/
+    }
+
+
+
+    #slider {
+        width: 240px;
+        height: 170px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: 5.5%;
+        margin-right: auto;
+        /*border: solid #67aeed;*/
+        /*border-bottom: solid #67aeed;*/
+        /*-webkit-box-shadow: 1px 1px 1px #67aeed;*/
+        /*-moz-box-shadow: 1px 1px 1px #67aeed;*/
+        /*box-shadow: 1px 1px 1px #67aeed;*/
+    }
+
+    #slider .slides {
+        display: block;
+        width: 2000px;
+        height: 170px;
+        margin: 0;
+        padding: 0;
+        z-index: 11;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 240px;
+        height: 170px;
+        z-index: 11;
+        /*padding-left: .65%;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: -2%;
+        margin-right: auto;
+        margin-bottom: 25%;
+        font-size: 1em;
+    }
+
+    .p2{
+        font-size: 1.25em;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .myContainerIndex {
+        width: 99%;
+        margin-left: 0%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 99%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+
+    }
+
+    #slider {
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -3%;
+        margin-right: auto;
+        z-index: 11;
+        /*border: dashed;*/
+        text-align: center;
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+
+    .myContainerIndex {
+        width: 102%;
+        margin-left: 0%;
+        margin-top: -40%;
+        z-index: -2;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 102%;
+        z-index: 0;
+        font-size: 1em;
+        overflow-x: hidden;
+        /*border: solid;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 30%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    #slider {
+        width: 85%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: 2%;
+        margin-right: auto;
+        margin-top: 10%;
+        z-index: 11;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 20px 0px 20px 0;
+        height: 200px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+        /*border: dashed;*/
+
+    }
+
+    .indexImg {
+        width: 80%;
+        height: auto;
+        margin-left: -5%;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: 0%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 241px) {
+
+    .myContainerIndex {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -20%;
+        z-index: -2;
+        font-size: 1.75em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 26%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    .myHeaderIndex {
+        width: 140%;
+        height: 120px;
+        margin-left: -15%;
+        z-index: 0;
+        font-size: .75em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /*border: dashed;*/
+    }
+
+    #slider {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -12%;
+        margin-right: auto;
+        z-index: 11;
+        position: relative;
+        line-height: 1.4em;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 10px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .p2{
+        font-size: .75em;
+        line-height: 25px;
+    }
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: -5%;
+        margin-right: auto;
+        margin-top: -5%;
+        font-size: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 221px) {
+    .myHeaderIndex {
+        width: 140%;
+        height: 120px;
+        margin-left: -15%;
+        z-index: 0;
+        font-size: .75em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /*border: dashed;*/
+    }
+
+    #slider {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -12%;
+        margin-right: auto;
+        z-index: 11;
+        position: relative;
+        line-height: 1.4em;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 10px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .p2{
+        font-size: .75em;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 176px) {
+
+    .myContainerIndex {
+        width: 110%;
+        margin-left: -5%;
+        margin-top: -20%;
+        z-index: -2;
+        font-size: 1.2em;
+        overflow-x: hidden;
+        /*border: dashed;*/
+    }
+
+    .myHeaderIndex {
+        width: 140%;
+        height: 120px;
+        margin-left: -15%;
+        z-index: 0;
+        font-size: .75em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /*border: dashed;*/
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 40%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        /*border: dashed;*/
+    }
+
+    #slider {
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        z-index: -1;
+        margin-left: -12%;
+        margin-right: auto;
+        z-index: 11;
+        position: relative;
+        line-height: 1.4em;
+        /*border: dashed;*/
+        /*background: transparent url(/resources/images/outsideNew.png) no-repeat center center;*/
+    }
+
+    div.wrap-div {
+        float: left;
+        clear: both;
+        margin: 0px 0px 0px 0;
+        height: 10px;
+        width: 240px;
+        text-align: center;
+        /*background: #0088cc;*/
+        color: #FFF;
+        z-index: 10;
+
+    }
+
+    .paddingIndexNew {
+        text-align: center;
+        margin-top: 26%;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+
+    .mySideBarIndex {
+        width: 100%;
+        border: transparent;
+        z-index: 20;
+        background-image: url('/static/images/clouds.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-color: transparent;
+        margin-left: -5%;
+        margin-right: auto;
+        margin-top: -25%;
+        font-size: .75em;
+    }
+
+    .p2{
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+}

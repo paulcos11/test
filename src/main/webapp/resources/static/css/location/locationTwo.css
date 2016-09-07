@@ -1,0 +1,131 @@
+
+.floating-boxLocation {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+    /*border: dashed;*/
+    /*border: 3px solid #73AD21;*/
+}
+
+
+.mapContainer {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    /*margin-right: auto;*/
+    border: solid 1px #97aded;
+    border-bottom: #97aded;
+    -webkit-box-shadow: 0px 1px 1px #97aded;
+    -moz-box-shadow: 0px 1px 1px #97aded;
+    box-shadow: 0px 1px 1px #97aded;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.location{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) and (max-height: 1281px) {
+    .floating-boxLocation {
+        margin-top: 20%;
+        display: inline-block;
+        width: 500px;
+        height: 400px;
+        /*margin: 25px;*/
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+        /*margin: 25px;*/
+        margin-left: auto;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        /*margin: 25px;*/
+        margin-left: -2%;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        /*margin: 25px;*/
+        margin-left: -3%;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+@media screen and (max-width: 384px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        /*margin: 25px;*/
+        margin-left: -5%;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        /*margin: 25px;*/
+        margin-left: -10%;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .floating-boxLocation {
+        display: inline-block;
+        width: 270px;
+        height: 150px;
+        /*margin: 25px;*/
+        margin-left: -10%;
+        margin-right: auto;
+        /*border: dashed;*/
+        /*border: 3px solid #73AD21;*/
+    }
+
+}

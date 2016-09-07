@@ -1,0 +1,310 @@
+<link rel="stylesheet" type="text/css"
+      href="/resources/static/css/events/events.css">
+<div class="eventsContainer">
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <h3 class="paddingEvents">Upcoming Senior Class Activities</h3>
+
+
+            <table id="table"
+                   class="tbody display table table-hover pTableWidth pTable">
+
+                <thead>
+                <tr>
+                    <td><b>Event</b></td>
+                    <td><b>Location</b></td>
+                    <td><b>Date</b></td>
+                    <td><b>Attending</b></td>
+                    <td ng-show="isLoggedIn()"><b>Edit/Delete</b></td>
+
+                </tr>
+                </thead>
+                <tbody>
+                <div ng-controller="allPreviousEventsCon as allPreviousEvents">
+                    <tr ng-repeat="event in eventList">
+                        <td>
+                            <a class="class3"
+                               href="#/upcomingEventURL/{{event.id}}">{{event.name}}</a>
+                        </td>
+                        <td>{{event.location}}</td>
+                        <td>
+                            {{event.publishedDate | date:'dd/MM/yyyy'}}
+
+                        </td>
+                        <td>{{event.type}}</td>
+                        <td ng-show="isLoggedIn()">
+                            <a class="class3"
+                               href="#/upcomingEventURL/{{event.id}}">Edit /
+                                Delete</a>
+                        </td>
+                    </tr>
+                </div>
+                </tbody>
+            </table>
+            <br><br>
+        </div>
+        <div class="myMargin borderTop">
+            <div class="row" ng-show="isLoggedIn()">
+                <div class="col-lg-12">
+                    <a href="#/editApp" class="txtRight" data-toggle="tooltip"
+                       title="Back to Edit App page">
+                        <button type="button" class="btn btn-default btn-sm">Edit App</button>
+                    </a>
+                    <button type="button" class="btn btn-primary btn-sm txtRight"
+                            title="Add a new senior class event"
+                            data-toggle="modal" data-target="#myModal">New Notice
+                    </button>
+                </div>
+            </div>
+            <div class="footerEvents">
+                <div>
+                    <a href="#/upcomingEvents" data-toggle="tooltip"
+                       title="Back">
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    /* unvisited link */
+    a.class3:link {
+        color: #000;
+    }
+
+    /* visited link */
+    a.class3:visited {
+        color: #000;
+    }
+
+    /* mouse over link */
+    a.class3:hover {
+        color: #353c48;
+    }
+
+    /* selected link */
+    a.class3:active {
+        color: #000;
+    }
+
+    table td, table tr, table th {
+        background: transparent !important;
+    }
+
+    table.tbody {
+        background: transparent !important;
+    }
+
+    table, table tr, table th, table td {
+        background: transparent !important;
+    }
+
+    @media screen and (max-width: 1680px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 18%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 1440px) {
+        .footerEvents {
+            bottom: 18%;
+            margin-left: -.75%;
+            /*border: dashed;*/
+        }
+    }
+
+    @media screen and (max-width: 1367px) {
+        .footerEvents {
+            bottom: 18%;
+            /*border: dashed;*/
+        }
+    }
+
+    @media screen and (max-width: 1281px) {
+        .footerEvents {
+            bottom: 18%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 1200px) {
+        .footerEvents {
+            bottom: 15%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+        .footerEvents {
+            bottom: 18%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+        .footerEvents {
+            bottom: 14%;
+            /*border: dashed;*/
+        }
+    }
+
+    @media screen and (max-width: 967px) {
+        .footerEvents {
+            bottom: 12%;
+            /*border: dashed;*/
+        }
+    }
+
+    @media screen and (max-width: 960px) and (max-height: 600px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 16%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 800px) and (max-height: 1281px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 20%;
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 768px) and (max-height: 1024px) {
+
+        .footerEvents {
+            bottom: 14%;
+            /*border: dashed;*/
+
+        }
+
+    }
+
+    @media screen and (max-width: 732px) and (max-height: 412px) {
+
+        .footerEvents {
+            bottom: 14%;
+            /*border: dashed;*/
+
+        }
+
+    }
+
+    @media screen and (max-width: 640px) and (max-height: 360px) {
+
+        .footerEvents {
+            bottom: 14%;
+            /*border: dashed;*/
+
+        }
+
+    }
+
+    @media screen and (max-width: 640px) and (max-height: 384px) and (min-height: 361px) {
+
+        .footerEvents {
+            bottom: 14%;
+            /*border: dashed;*/
+
+        }
+
+    }
+
+    @media screen and (max-width: 600px) and (max-height: 1024px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 13%;
+            /*border: dashed;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 480px) and (max-height: 320px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 13%;
+            /*border: dashed;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 412px) and (max-height: 732px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 11%;
+            /*border: dashed;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 384px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 10%;
+            /*border: dashed;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 360px) and (max-height: 640px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 12%;
+            margin-top: 40%;
+            /*margin-bottom: 10%;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+    @media screen and (max-width: 320px) {
+
+        .footerEvents {
+            width: 80%;
+            position: absolute;
+            bottom: 10%;
+            /*border: dashed;*/
+            /*border: dashed;*/
+        }
+
+    }
+
+</style>

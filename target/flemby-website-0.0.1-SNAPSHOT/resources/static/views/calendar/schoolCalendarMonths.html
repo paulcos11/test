@@ -1,0 +1,196 @@
+<style>
+    .jumbotron {
+        text-align: center;
+        margin-top: -5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        background-color: transparent;
+        width: 100%;
+        height: 105px;
+        overflow: hidden;
+    }
+</style>
+
+<div class="holidayContainer" ng-controller="calendarMonthCon as calendar">
+
+    <div class="jumbotronMonth">
+        <h2 class="h2SchoolCalendar">School Calendar for {{calendar.month}}</h2>
+    </div>
+    <div class="myCalendarDiv">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div id="calendar"></div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="myMargin borderTop"></div>
+    <div class="myMargin borderTop">
+        <div ng-show="authenticated">
+
+            <input type="button" class="btn btn-sm myBtn btn-danger myBtnPosition txtRight"
+                   data-toggle="modal" data-target="#modalRemove" value="Delete">
+
+            <input type="button" class="btn btn-sm myBtn btn-success txtRight"
+                   data-toggle="modal" data-target="#modalEmail" value="Email">
+
+
+            <input type="button" class="btn btn-sm myBtn btn-primary txtRight"
+                   data-toggle="modal" data-target="#editEvent" value="Edit">
+        </div>
+    </div>
+</div>
+
+<div class="footer2">
+    <div>
+        <a href="#/calendar" data-toggle="tooltip"
+           title="Back">
+            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+            </button>
+        </a>
+    </div>
+</div>
+
+
+<!--Modal -->
+<div class="modal fade" id="editEvent" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>Edit September's dates</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" id="registerationForm" method="post"
+                      action="/schoolCalendarMonths/9.html">
+
+                    <input type="hidden" name="monthId" id="monthId" value="9">
+
+                    <div class="form-group">
+                        <div class="row formMargin">
+
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <h4>Title</h4>
+                            </div>
+
+
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <h4>Description</h4>
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <h4>Date</h4>
+
+                            </div>
+
+                        </div>
+                        <div class="row formMargin">
+
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthTitle1" placeholder="Title 1">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthDescription1" placeholder="Description 1">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" id="datepicker" name="monthDate1" placeholder="Date 1">
+                            </div>
+                        </div>
+                        <div class="row formMargin">
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthTitle2" placeholder="Title 2">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthDescription2" placeholder="Description 2">
+                            </div>
+
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" id="datepicker1" name="monthDate2" placeholder="Date 2">
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="row formMargin">
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthTitle3" placeholder="Title 3">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthDescription3" placeholder="Description 3">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" id="datepicker2" name="monthDate3" placeholder="Date 3">
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="row formMargin">
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthTitle4" placeholder="Title 4">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthDescription4" placeholder="Description 4">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" id="datepicker3" name="monthDate4" placeholder="Date 4">
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="row formMargin">
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthTitle5" placeholder="Title 5">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" name="monthDescription5" placeholder="Description 5">
+                            </div>
+                            <div class="col-sm-3 col-lg-4 col-md-3">
+                                <input type="text" id="datepicker4" name="monthDate5" placeholder="Date 5">
+                                <br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save">
+
+                </form>
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalRemove" aria-hidden="true"
+     tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Delete September's Dates</h4>
+            </div>
+            <div class="modal-body">Are you sure you want to delete September's dates?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm " data-dismiss="modal">Cancel</button>
+                <a href="/schoolCalendarMonth/dates/9.html"
+                   class="btn btn-danger btn-sm removeBtn myBtn">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>

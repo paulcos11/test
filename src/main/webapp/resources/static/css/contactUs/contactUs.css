@@ -1,0 +1,44 @@
+html, body {
+    overflow-x: hidden
+}
+
+.middle {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.container .jumbotron {
+    /*padding-left: 0px;*/
+    padding-top: 0px;
+}
+
+.heighttext {
+    float: left;
+    margin-top: 2%;
+    height: 27px;
+}
+
+.myMarginContact {
+    height: 100px;
+    text-align: left;
+}
+
+.contactUs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+.right{
+    text-align: right;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: -10%;
+    width: 20%;
+    margin-left: 12%;
+    /*border: dashed;*/
+}

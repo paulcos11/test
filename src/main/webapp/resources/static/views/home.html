@@ -1,0 +1,115 @@
+<link href="/resources/static/css/index/index.css" rel="stylesheet">
+<style type="text/css">
+    /* unvisited link */
+    a:link {
+        color: #000;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #000;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #353c48;
+    }
+
+    /* selected link */
+    a:active {
+        color: #000;
+    }
+
+    /*ul*/
+    /*{*/
+        /*list-style-type: none;*/
+    /*}*/
+
+    [ng-cloak] {
+        display: none !important;
+    }
+
+</style>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 column pull-right">
+            <div class="myHeaderIndex">
+                <div class="jumbotron"><h3 class="headerH">Welcome to Flemby National Schools Website</h3></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 column pull-right">
+            <div class="myContainerIndex" ng-cloak>
+                <div class="wrap-div-topSpacer"></div>
+                <div class="wrap-div" >
+                    <div class="imgWrapper">
+                        <div id="slider">
+                            <ul class="slides" >
+                                <li class="slide" ><img class="img-responsive" width="240px" height="198px"
+                                                        src ="/resources/static/images/activeSchool.png" alt=""></li>
+                                <li class="slide" ><img class="img-responsive" width="240px" height="198px"
+                                                        src="/resources/static/images/outsideNew.png" alt=""></li>
+                                <li class="slide" ><img class="img-responsive" width="240px" height="198px"
+                                                        src="/resources/static/images/fnsNewsletter.png"  alt=""></li>
+                                <li class="slide" ><img class="img-responsive" width="240px" height="198px"
+                                                        src="/resources/static/images/activeSchool.png" alt=""></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <p class="p2" ng-cloak>{{controller.greeting}}</p>
+                </div>
+
+
+            </div>
+
+            <div class="footer myMargin borderTopIndex">
+                <div class="">
+                    <br><br>
+                    <!--<security:authorize access=" isAuthenticated()">-->
+                    <!--<input type="button" class="btn btn-sm myBtn btn-primary txtRight"-->
+                    <!--data-toggle="modal" data-target="#editIndex" value="Edit">-->
+                    <!--</security:authorize>-->
+                </div>
+            </div>
+        </div>
+
+        <div id="folio" class="mySideBarIndex col-xs-hidden col-sm-4 col-md-2 col-lg-2 pull-left">
+            <ul class="pSideBarIndex" >
+                <li><a class="class2" href="#/contactUs"
+                       title="View contact number or send Flemby National School a message">
+                    Contact Us</a></li>
+                <li class="    ${current == 'location' ? 'active' : ''} ">
+                    <a class="class2" href="#/location"
+                       title="Map to Flemby National School">
+                        Location
+                    </a>
+                </li>
+                <li><a href="#/calendar"
+                       class="class2" title="Monthly view of school days">School Calendar</a></li>
+                <li><a href="#/notification"
+                       class="class2" title="View all recent school announcements">Notifications</a></li>
+                <!--<li ng-show="!authenticated"><a-->
+                <!--class="class2" href="#/login">Admin</a></li>-->
+
+                <li ng-show="authenticated" class="${current == 'editApp' ? 'active' : ''} ">
+                    <a class="class2" href="#/editApp">
+                        Edit App
+                    </a>
+                </li>
+
+                <li ng-hide="isLoggedIn()"><a href="#/login">login</a></li>
+                <li ng-show="isLoggedIn()"><a href="" ng-click="logout()">logout</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+</div>

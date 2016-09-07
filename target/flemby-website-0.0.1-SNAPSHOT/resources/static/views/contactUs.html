@@ -1,0 +1,137 @@
+<style>
+    .jumbotron {
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 1%;
+        height: 50px;
+        width: 100%;
+    }
+</style>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-8 col-lg-offset-2">
+
+            <h1 class="jumbotron">Contact Us</h1>
+
+            <p class="lead middle">Have a question? Phone: 066 7137075 or send us a message.</p>
+
+            <div ng-if="param.success == true">
+                <!--<c:if test="${param.success eq true}">-->
+                <div class="row">
+                    <div class="alert alert-info middle" role="alert">Your message was successfully sent. A member of
+                        staff will contact you shortly.
+
+                    </div>
+                </div>
+                <!--</c:if>-->
+
+            </div>
+            <div class="contactUs">
+                <form id="registerationForm" method="post" action="/contactUs.html" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname *</label>
+                                    <input id="form_name" ng-model="name" type="text" name="name" class="form-control"
+                                           placeholder="Please enter your firstname *" required="required"
+                                           data-error="Firstname is required.">
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" ng-model="surname" type="text" name="surname" class="form-control"
+                                           placeholder="Please enter your lastname *" required="required"
+                                           data-error="Lastname is required.">
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" ng-model="email" class="form-control"
+                                           placeholder="Please enter your email *" required="required"
+                                           data-error="Valid email is required.">
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone *</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" ng-model="phone"
+                                           placeholder="Please enter your phone *" required="required"
+                                           data-error="Contact number is required.">
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" ng-model="message"
+                                          placeholder="Please enter you message *" rows="4" required="required"
+                                          data-error="Please,leave us a message."></textarea>
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12  right">
+                                <br>
+                                <input type="submit" class="btn btn-success btn-send right" value="Send message">
+
+                            </div>
+                            <div class="col-md-12 ">
+                                <br>
+                                <a href="#/index" data-toggle="tooltip" title="Back">
+                                    <button type="button" class="btn btn-sm btn-default myBtn" aria-label="Left Align">
+
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--<div class="footerEvents">-->
+        <!--<div>-->
+            <!--<br><br>-->
+            <!--<a href="#/index" data-toggle="tooltip" title="Back">-->
+                <!--<button type="button" class="btn btn-sm btn-default myBtn" aria-label="Left Align">-->
+
+                    <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                <!--</button>-->
+            <!--</a>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
+
+
+<!--<script type="text/javascript">-->
+<!--function downloadJSAtOnload() {-->
+
+<!-- -->
+<!--</script>-->

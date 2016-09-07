@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+       <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+              <property name="driverClassName" value="org.postgresql.Driver" />
+              <property name="url" value="jdbc:postgresql://localhost:5432/flemby" />
+              <property name="username" value="postgres" />
+              <property name="password" value="paul" />
+       </bean>
+
+       <bean
+               class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+               id="emf">
+              <property name="packagesToScan" value="com.flemby" />
+              <property name="dataSource" ref="dataSource" />
+              <property name="jpaProperties">
+                     <props>
+                            <prop key="hibernate.show_sql">true</prop>
+                            <prop key="hibernate.hbm2ddl.auto">create</prop>
+                            <prop key="hibernate.connection.autocommit">false</prop>
+                     </props>
+              </property>
+              <property name="persistenceProvider">
+                     <bean class="org.hibernate.jpa.HibernatePersistenceProvider"></bean>
+              </property>
+       </bean>
+</beans>

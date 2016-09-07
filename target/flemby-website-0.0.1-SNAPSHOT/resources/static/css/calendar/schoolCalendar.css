@@ -1,0 +1,184 @@
+
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 99%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 1921px) {
+
+
+}
+
+@media screen and (max-width: 1681px) {
+
+
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+}
+
+@media screen and (max-width: 1367px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 993px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 987px) {
+
+}
+
+@media screen and (max-width: 967px) {
+
+}
+
+@media screen and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 852px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 140px;
+        padding-bottom: 7%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+}
+
+@media screen and (max-width: 667px) {
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 604px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        background-color: transparent;
+        width: 100%;
+        height: 110px;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 534px) {
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -22.5%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -15%;
+        width: 15%;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .jumbotron {
+        background-color: transparent;
+        float: left;
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-bottom: 40px;
+        height: 130px;
+        width: 100%;
+        overflow: hidden;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+}
+
+@media screen and (max-width: 300px) {
+
+}
+
+@media screen and (max-width: 270px) {
+
+}
+
+@media screen and (max-width: 240px) {
+
+}
+
+@media screen and (max-width: 176px) {
+}

@@ -1,0 +1,424 @@
+html, body {
+    overflow-x: hidden
+}
+
+.jumbotron {
+    float: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 99%;
+    height: 60px;
+    overflow: hidden;
+    /*border: dashed;*/
+}
+
+.container .jumbotron {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.eventsContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.myMargin {
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.paddingEvents {
+    /*padding-left: 0px;*/
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+
+.pTable {
+    font-size: 1em;
+}
+
+.pTableWidth {
+    text-align: left;
+}
+
+.txtRight {
+    margin-left: 1%;
+    float: right;
+}
+
+@media screen and (max-width: 1921px) {
+
+}
+
+@media screen and (max-width: 1681px) {
+    .eventsContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .eventsContainer {
+        width: 52%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+
+    .eventsContainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .eventsContainer {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .eventsContainer {
+        width: 57%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .eventsContainer {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .borderTop {
+        margin-top: 3%;
+        /*border: dashed;*/
+    }
+
+    .eventsContainer {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 987px) {
+
+}
+
+@media screen and (max-width: 967px) {
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .eventsContainer {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (max-width: 852px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .eventsContainer {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 17.5%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eventsContainer {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 10.5%;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .eventsContainer {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+    .eventsContainer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 20.5%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .eventsContainer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 21%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+
+    .eventsContainer {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 22%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: left;
+        margin-top: 0%;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 15%;
+        font-size: 23px;
+        margin-bottom: 30px;
+        /*border: dashed;*/
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 12%;
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 32%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 18%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /*border: dashed;*/
+    }
+
+    .paddingEvents {
+        /*padding-left: 0px;*/
+        text-align: center;
+        margin-top: 18%;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 22px;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+}
+
+@media screen and (max-width: 270px) {
+
+}
+
+@media screen and (max-width: 240px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 1em;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 176px) {
+    .eventsContainer {
+        width: 95%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: .75em;
+    }
+}

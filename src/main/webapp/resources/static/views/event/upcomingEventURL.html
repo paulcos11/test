@@ -1,0 +1,300 @@
+<link rel="stylesheet" href="/resources/static/css/events/previousEvents.css"/>
+
+
+<br><br><br>
+
+<!--<div class="eventsMainContainer">-->
+<div class='floating-boxPreviousEvents'>
+    <div class="floating-boxPreviousEvents2">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 eventsH">
+                <h2 class="myH2">{{event.type}}<br>{{event.name}}</h2>
+
+                <h3 class="myH3">
+                    <a href="{{event.link}}" class="class3" target="_blank">{{event.location}}</a>
+
+                </h3>
+
+                <h3 class="myH3">
+                    {{event.publishedDate | date:'dd/MM/yyyy'}}
+
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 ">
+                <p class="p3">{{event.text}}</p>
+
+                <p class="p3" style="word-wrap: break-word; width: 100%;">{{event.story}}</p>
+                <br>
+            </div>
+        </div>
+
+        <!--<div class="myMargin2"></div>-->
+
+        <div class="myMargin borderTop">
+            <div class="row">
+                <div class=" col-lg-12">
+                    <!--<br><br><br><br><br><br>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="footerEvents">
+            <a ng-if="event.type == 'School Event'" href="#/schoolEvents" data-toggle="tooltip"
+               title="Back">
+
+                <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
+
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+                </button>
+            </a>
+            <a ng-if="event.type == 'Senior Class Event'" href="#/seniorClassEvents" data-toggle="tooltip"
+               title="Back">
+
+                <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
+
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+                </button>
+            </a>
+
+            <a ng-if="event.type == 'Junior Class Event'" href="#/juniorClassEvents" data-toggle="tooltip"
+               title="Back">
+
+                <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
+
+                                                <span class="glyphicon glyphicon-chevron-left"
+                                                      aria-hidden="true"></span>
+                </button>
+            </a>
+
+            <div ng-show="isLoggedIn()">
+                <input type="button" class="btn btn-sm myBtn btn-danger txtRight"
+                       data-toggle="modal" data-target="#modalRemove" value="Delete">
+
+                <input type="button" class="btn btn-sm myBtn btn-success txtRight"
+                       data-toggle="modal" data-target="#modalEmail" value="Email">
+
+
+                <input type="button" class="btn btn-sm myBtn btn-primary txtRight"
+                       data-toggle="modal" data-target="#editEvent" value="Edit">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalRemove" aria-hidden="true"
+     tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Delete - {{event.type}} - {{event.name}}</h4>
+            </div>
+            <div class="modal-body">Are you sure you want to delete - {{event.type}} - {{event.name}}?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm " data-dismiss="modal">Cancel</button>
+                <a href="" class="btn btn-danger btn-sm removeBtn myBtn">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal -->
+<div class="modal fade" id="modalEmail" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title"><b>Email event details to parents</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" ng-submit="submit()">
+
+                    <input type="hidden" name="eventId" value="{{event.id}}">
+
+                    <input type="hidden" name="eventType" value="{{event.type}}">
+
+                    <input type="hidden" name="eventName" value="{{event.name}}">
+
+                    <input type="hidden" name="eventLink" value="{{event.link}}">
+
+                    <input type="hidden" name="eventLocation" value="{{event.location}}">
+
+                    <input type="hidden" name="eventPublishedDate" value="{{event.publishedDate | date:'dd/MM/yyyy'}}">
+
+                    <input type="hidden" name="eventText" value="{{event.text}}">
+
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-success btn-sm myBtn" value="Email">
+
+                </form>
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<!--Modal -->
+<div class="modal fade" id="editEvent" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>Edit Event</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form ng-submit="submit()" class="form-horizontal" ng-controller="UpdateUpcomingEvent">
+
+
+                    <input type="hidden" name="eventId" ng-model="event.id">
+
+                    <input type="hidden" ng-model="event.type" name="userType">
+
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Title</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="eventName"
+                                   id="name" ng-model="event.name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="location" class="col-sm-2 control-label">Location</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="eventLocation"
+                                   id="location" ng-model="event.location">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventLink" class="col-sm-2 control-label">URL</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="eventLink"
+                                   id="eventLink" ng-model="event.link">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventText" class="col-sm-2 control-label">Text</label>
+
+                        <div class="col-sm-10">
+                                <textarea rows="6" class="form-control" rows="3" name="eventText"
+                                          id="eventText" ng-model="event.text">
+                                </textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event.publishedDate" class="col-sm-2 control-label">Date</label>
+
+                        <div class="col-sm-10 hero-unit">
+                            <input type="date"
+                                   name="datepicker" ng-model="event.publishedDate" dateFix
+                                   required/>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save">
+
+                </form>
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"/>
+<!--<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>-->
+<!--<script type="text/javascript">-->
+
+<!--var today = new Date();-->
+<!--var dd = today.getDate();-->
+<!--var mm = today.getMonth() + 1;-->
+<!--var yyyy = today.getFullYear();-->
+
+<!--if (dd < 10) {-->
+<!--dd = '0' + dd-->
+<!--}-->
+
+<!--if (mm < 10) {-->
+<!--mm = '0' + mm-->
+<!--}-->
+
+<!--today = dd + '/' + mm + '/' + yyyy;-->
+
+<!--$("#datepicker").datepicker({-->
+<!--minDate: today,-->
+<!--startDate: today,-->
+<!--dateFormat: 'dd/mm/yy'-->
+<!--});-->
+
+<!--</script>-->
+
+<!--<script>-->
+<!--function downloadJSAtOnload() {-->
+
+<!--var element = document.createElement("script");-->
+<!--element.src = "<c:url value="//code.jquery.com/ui/1.11.3/jquery-ui.js" />";-->
+<!--document.body.appendChild(element);-->
+<!--}-->
+<!--// Check for browser support of event handling capability-->
+<!--if (window.addEventListener)-->
+<!--window.addEventListener("load", downloadJSAtOnload, false);-->
+<!--else if (window.attachEvent)-->
+<!--window.attachEvent("onload", downloadJSAtOnload);-->
+<!--else window.onload = downloadJSAtOnload;-->
+<!--</script>-->
+
+
+<!--<script type="text/javascript">-->
+<!--function downloadJSAtOnload() {-->
+
+<!--var element = document.createElement("script");-->
+<!--element.src = "<c:url value="/resources/js/events/upcomingEventsURL.js" />";-->
+<!--document.body.appendChild(element);-->
+<!--}-->
+<!--// Check for browser support of event handling capability-->
+<!--if (window.addEventListener)-->
+<!--window.addEventListener("load", downloadJSAtOnload, false);-->
+<!--else if (window.attachEvent)-->
+<!--window.attachEvent("onload", downloadJSAtOnload);-->
+<!--else window.onload = downloadJSAtOnload;-->
+
+<!--$(".triggerRemove").click(function (e) {-->
+<!--e.preventDefault();-->
+<!--$("#modalRemove .removeBtn").attr("href", $(this).attr("id"));-->
+<!--$("#modalRemove").modal();-->
+<!--});-->
+
+<!--$(".triggerEmail").click(function (e) {-->
+<!--e.preventDefault();-->
+<!--$("#modalEmail .emailBtn").attr("href", $(this).attr("id"));-->
+<!--$("#modalEmail").modal();-->
+<!--});-->
+<!--</script>-->

@@ -1,0 +1,1260 @@
+
+.header-Day {
+    max-width: 400px;
+    height: 45px;
+    background-size: cover;
+    background-image: url("../../resources/static/images/planeHeader3.png");
+}
+
+.header-Night {
+    max-width: 400px;
+    height: 45px;
+    background-size: cover;
+    background-image: url("../../resources/static/images/planeHeaderNight.png");
+}
+
+.footer2, .push {
+    height: 55px; /* .push must be the same height as .footer */
+    /*border: dashed;*/
+}
+
+
+/* section {height:80%;  display:block; overflow:auto;} */
+/* section .push {height:4000px;} */
+.navbar-customDay {
+
+    background-color: #bad9f5;
+    border-color: #bad9f5;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #79aac1;
+    -webkit-box-shadow: 0px 1px 1px #79aac1;
+    -moz-box-shadow: 0px 1px 1px #79aac1;
+    box-shadow: 0px 1px 1px #79aac1;
+
+}
+
+.navbar-customNight {
+    /* 	color: #FFFFFF; */
+    background-color: #898bcc;
+    border-color: #899ddd;
+    color: #FFFFFF;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #899ddd;
+    -webkit-box-shadow: 0px 2px 2px #899ddd;
+    -moz-box-shadow: 0px 2px 2px #899ddd;
+    box-shadow: 0px 1px 1px #899ddd;
+}
+
+.navbar-customDayClassicEvents {
+
+    background-color: #93c4f1;
+    border-color: #bad9f5;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    border-bottom: #79aac1;
+    -webkit-box-shadow: 0px 1px 1px #79aac1;
+    -moz-box-shadow: 0px 1px 1px #79aac1;
+    box-shadow: 0px 1px 1px #79aac1;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #84bced;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #898bcc; /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+
+}
+
+.navColour {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #5d5d5d;
+
+}
+
+.navbar-header .navbar-brand {
+    color: #FFFFFF;
+}
+
+.myNavBrand {
+    margin-top: 1.5%;
+    font-size: 1.5em;
+}
+
+.navbar {
+    text-align: center;
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #84bced;
+}
+
+.menu {
+    text-align: center;
+    width: 800px;
+    min-width: 150px;
+    height: 20px;
+    font-size: 10px;
+    margin-left: 170px;
+    margin-top: 2px;
+}
+
+
+/*.masthead {*/
+/*height: //height of bg;*/
+/*/!*background-image: url("/resources/images/schoolHeader.gif");*!/*/
+/*background-repeat: no-repeat;*/
+/*}*/
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    /*     z-index: 1000; */
+    /*     position: fixed; */
+    /*     left: 250px; */
+    /*     width: 0; */
+    height: 100%;
+    /*     margin-left: -250px; */
+    /*     overflow-y: auto; */
+    background: #fff;
+    border-right: 1px solid #c0c0c0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Sidebar Styles */
+.sidebar-nav2 {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#clouds, #sky, #night, #stars, #nightsky, #nightsky2, #cloudsNight {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#sky {
+    background: #A1BBFB url(../../resources/static/images/sky.png) repeat-x top left;
+    z-index: -10;
+}
+
+#nightsky {
+    background: #A1BBFB url(../../resources/static/images/nightsky.png) repeat-x top left;
+    z-index: -9;
+    height: 100%;
+}
+
+#nightsky2 {
+    background: #A1BBFB url(../../resources/static/images/nightsky.png) repeat-x bottom left;
+    z-index: -9;
+    height: 100%;
+}
+
+#sun_yellow {
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+    width: 100px;
+    height: 100px;
+    background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+    z-index: -3;
+}
+
+#sun_red {
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+    width: 100px;
+    height: 100px;
+    background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+    /*z-index: 1;*/
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -3;
+}
+
+#ground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background: transparent url(../../resources/static/images/groundDay.png) repeat-x bottom center;
+    z-index: -2;
+}
+
+#groundNight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background: transparent url(../../resources/static/images/groundNight.png) repeat-x bottom center;
+    z-index: -2;
+}
+
+#night {
+    background-color: #25383C;
+    z-index: 4;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -1;
+}
+
+#stars {
+    bottom: 200px;
+    background: transparent url(../../resources/static/images/stars.png) repeat bottom center;
+    z-index: 5;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -1;
+}
+
+#sstar {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 126px;
+    height: 80px;
+    background: transparent url(../../resources/static/images/shootingstar.png) no-repeat 80px -200px;
+    z-index: 5;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#moon {
+    position: absolute;
+    left: 85%;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+    background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+    z-index: 6;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    z-index: -4;
+}
+
+
+@media screen and (max-width: 1921px) {
+
+    #clouds {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 86px;
+    }
+
+    #cloudsNight {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 125px;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+@media screen and (max-width: 1681px) {
+
+    #clouds {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -10;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -10;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+    #footer {
+        position: absolute;
+        bottom: -15%;
+        width: 100%;
+        /*border: dashed;*/
+    }
+
+    #clouds {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 1367px) {
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 92%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 92%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -1;
+    }
+
+    #clouds {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 91.5%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 91.5%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -1;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #clouds {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top left;
+        z-index: -1;
+        margin-top: 100px;
+    }
+
+    #cloudsNight {
+        background: transparent url(../../resources/static/images/clouds.png) repeat-x top right;
+        z-index: -1;
+        margin-top: 60px;
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        position: relative;
+        z-index: -4;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(../../resources/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(../../resources/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 86%;
+        background-position: 0px 1400px;
+        top: 11%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 86%;
+        top: 11%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+}
+
+
+@media screen and (max-width: 993px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+}
+
+@media screen and (max-width: 967px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+}
+
+
+@media screen and (max-width: 852px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 2%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+
+    #sun_yellow {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        z-index: -3;
+    }
+
+    #sun_red {
+        position: absolute;
+        left: 90%;
+        bottom: 0%;
+        width: 100px;
+        height: 100px;
+        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        /*z-index: 1;*/
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -3;
+    }
+
+    #moon {
+        position: absolute;
+        left: 3%;
+        top: 5%;
+        width: 50px;
+        height: 50px;
+        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        z-index: 6;
+        opacity: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index: -4;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+    }
+}
+
+@media screen and (max-width: 667px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 390px;
+        height: 45px;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+}
+
+@media screen and (max-width: 604px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -12%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -16%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+}
+
+@media screen and (max-width: 534px) {
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -22.5%;
+        width: 10%;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -20%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .header-Day {
+        max-width: 0%;
+        height: 0;
+    }
+
+    .header-Night {
+        max-width: 0%;
+        height: 0;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 3.5%;
+        margin-left: -15%;
+        width: 15%;
+        /*border: dashed;*/
+    }
+
+    #footerLocation {
+        position: absolute;
+        bottom: -25%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+        /*border: dashed;*/
+
+    }
+}
+
+@media screen and (max-width: 384px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -10%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -3;
+        /*border: dashed;*/
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        /*margin-top: 0%;*/
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+        z-index: -3;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    #footerLocation {
+        position: absolute;
+        bottom: -15%;
+        margin-left: -22%;
+        width: 21%;
+        /*border: dashed;*/
+    }
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 270px) {
+
+    .plane {
+        margin-bottom: -10%;
+        margin-left: -10%;
+        margin-right: auto;
+        width: 120%;
+        height: auto;
+        position: relative;
+        z-index: -4;
+        /*border: dashed;*/
+    }
+
+}
+
+@media screen and (max-width: 240px) {
+
+
+
+}
+
+@media screen and (max-width: 176px) {
+
+}
+

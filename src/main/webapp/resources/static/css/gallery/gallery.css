@@ -1,0 +1,49 @@
+
+.floating-boxGallery {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+}
+
+h1 {
+    text-shadow: 0 0 1px #84BCED;
+
+}
+
+.pictures {
+    width: 90%;
+    height: auto;
+    /*border: dashed #000;*/
+    margin-bottom: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galleryHeader {
+    margin-top: 5%;
+    /*border: dashed;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.rslidesGallery {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    padding: 0;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 1px #4b2c4e;
+    border-bottom: #4b2c4e;
+    -webkit-box-shadow: 0px 1px 1px #4b2c4e;
+    -moz-box-shadow: 0px 1px 1px #4b2c4e;
+    box-shadow: 0px 1px 1px #4b2c4e;
+}

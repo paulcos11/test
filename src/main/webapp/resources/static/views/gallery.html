@@ -1,0 +1,30 @@
+
+
+<div class="pictures" ng-controller="GalleryControllerCon as event">
+
+    <h1 class="galleryHeader">Gallery</h1>
+
+    <div ng-repeat="x in event" class="floating-boxGallery" ng-if="x.hasImage == true" ng-controller="ItemControllerCon as item">
+
+
+        <a  ng-repeat="i in item"
+           href="/items/image.html?id={{ i.id }}"  data-title="Gallery" data-lightbox="eg">
+
+            <img id="slider1" ng-if="$first"
+                 src="/items/image.html?id={{ i.id }}"
+                 width="100%" class="img-thumbnail rslidesGallery" alt="">
+
+        </a>
+
+        <p>{{x.name}}</p>
+
+        <p>{{x.type}}</p>
+
+        <p>{{x.location}}</p>
+
+        <p>{{x.publishedDate | date:'dd/MM/yyyy'}}</p>
+
+    </div>
+
+</div>
+
