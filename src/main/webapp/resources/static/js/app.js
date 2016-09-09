@@ -81,6 +81,12 @@ App.config(function ($routeProvider, $httpProvider) {
         templateUrl: 'resources/static/views/notifications/notificationURL.html',
         controller: 'NotificationURLCon',
         controllerAs: 'controller'
+    }).when('/contacts', {
+        templateUrl: 'resources/static/views/contacts/contacts.html',
+    }).when('/contactsSchool', {
+        templateUrl: 'resources/static/views/contacts/contactsSchool.html',
+        controller: 'ContactCon',
+        controllerAs: 'controller'
     }).otherwise(
         {redirectTo: '/'});
 

@@ -3,10 +3,6 @@ body {
     overflow-y: auto;
 }
 
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-    display: none !important;
-}
-
 .container .jumbotron {
     padding-left: 0px;
     padding-top: 0px;
@@ -116,7 +112,7 @@ div.wrap-div {
     margin-bottom: 20px;
 }
 
-#slider {
+#sliderIndex {
     width: 240px;
     height: 200px;
     overflow: hidden;
@@ -132,7 +128,7 @@ div.wrap-div {
     box-shadow: 0px 1px 1px #84BCED;
 }
 
-#slider .slides {
+#sliderIndex .slides {
     display: block;
     width: 4000px;
     height: 200px;
@@ -141,7 +137,7 @@ div.wrap-div {
     z-index: 11;
 }
 
-#slider .slide {
+#sliderIndex .slide {
     float: left;
     list-style-type: none;
     width: 240px;
@@ -534,7 +530,7 @@ a.class2:hover {
         /*border: solid;*/
     }
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: auto;
         overflow: hidden;
@@ -543,7 +539,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slides {
+    #sliderIndex .slides {
         display: block;
         width: 6000px;
         height: 190px;
@@ -552,7 +548,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         float: left;
         list-style-type: none;
         width: 240px;
@@ -653,7 +649,7 @@ a.class2:hover {
         /*border: solid;*/
     }
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: 195px;
         /*overflow: hidden;*/
@@ -661,7 +657,7 @@ a.class2:hover {
         /*border: dashed;*/
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         float: left;
         list-style-type: none;
         width: 240px;
@@ -670,7 +666,7 @@ a.class2:hover {
 
     }
 
-    .slider img {
+    .sliderIndex img {
         width: 100%;
         height: auto;
         display: none;
@@ -797,7 +793,7 @@ a.class2:hover {
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         z-index: -3;
     }
 
@@ -807,7 +803,7 @@ a.class2:hover {
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         /*z-index: 1;*/
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -893,7 +889,7 @@ a.class2:hover {
         z-index: 10;
     }
 
-    .slider img {
+    .sliderIndex img {
         width: 85%;
         height: auto;
         display: none;
@@ -1118,7 +1114,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1321,7 +1317,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1368,7 +1364,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1452,7 +1448,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1545,7 +1541,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1624,7 +1620,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1793,7 +1789,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1870,7 +1866,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -1968,7 +1964,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2019,22 +2015,21 @@ a.class2:hover {
     div.wrap-div-topSpacer {
         width: 0px;
         height: 0px;
-        float: left;
+        /*float: left;*/
     }
 
     div.wrap-div {
         float: left;
         clear: both;
-        margin: 10px 0px 20px 0;
+        margin: 10px 15px 20px 15px;
         height: 190px;
-        width: 320px;
+        width: 300px;
         text-align: center;
-        z-index: 10;
-        /*background: #0088cc;*/
         color: #FFF;
+        z-index: 10;
     }
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: 200px;
         overflow: hidden;
@@ -2046,7 +2041,7 @@ a.class2:hover {
         /*border: dashed yellow;*/
     }
 
-    #slider .slides {
+    #sliderIndex .slides {
         display: block;
         width: 4000px;
         height: 200px;
@@ -2055,7 +2050,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         float: left;
         list-style-type: none;
         width: 240px;
@@ -2067,7 +2062,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2075,6 +2070,7 @@ a.class2:hover {
         margin-left: 0%;
         margin-right: auto;
         margin-top: -5%;
+        margin-bottom: 100px;
         font-size: 1em;
     }
 
@@ -2104,17 +2100,17 @@ a.class2:hover {
     }
 
     /*.jumbotron {*/
-        /*background-color: transparent;*/
-        /*float: left;*/
-        /*text-align: left;*/
-        /*margin-top: 1%;*/
-        /*margin-left: 0%;*/
-        /*margin-bottom: 40px;*/
-        /*height: 130px;*/
-        /*width: 95%;*/
-        /*overflow: hidden;*/
-        /*margin-top: -10%;*/
-        /*/!*border: dashed;*!/*/
+    /*background-color: transparent;*/
+    /*float: left;*/
+    /*text-align: left;*/
+    /*margin-top: 1%;*/
+    /*margin-left: 0%;*/
+    /*margin-bottom: 40px;*/
+    /*height: 130px;*/
+    /*width: 95%;*/
+    /*overflow: hidden;*/
+    /*margin-top: -10%;*/
+    /*/!*border: dashed;*!/*/
     /*}*/
 
     .myContainerIndex {
@@ -2137,12 +2133,6 @@ a.class2:hover {
         /*border: dashed;*/
     }
 
-    div.wrap-div-topSpacer {
-        width: 0px;
-        height: 42px;
-        float: left;
-    }
-
     div.wrap-div {
         float: left;
         clear: both;
@@ -2155,16 +2145,16 @@ a.class2:hover {
         z-index: 10;
     }
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: 200px;
         overflow: hidden;
         z-index: -1;
-        margin-left: 15%;
+        margin-left: 16%;
         /*border: dashed;*/
     }
 
-    .slider img {
+    .sliderIndex img {
         width: 95%;
         height: auto;
         display: none;
@@ -2183,7 +2173,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2257,7 +2247,7 @@ a.class2:hover {
     div.wrap-div {
         float: left;
         clear: both;
-        margin: 0px 0px 20px 0;
+        margin: 0px 0px 20px 15px;
         height: 190px;
         width: 300px;
         text-align: center;
@@ -2267,7 +2257,7 @@ a.class2:hover {
     }
 
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: 195px;
         overflow: hidden;
@@ -2279,7 +2269,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slides {
+    #sliderIndex .slides {
         display: block;
         width: 4000px;
         height: 200px;
@@ -2288,7 +2278,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         /*float: left;*/
         list-style-type: none;
         width: 240px;
@@ -2300,7 +2290,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2382,21 +2372,21 @@ a.class2:hover {
 
 
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: auto;
         overflow: hidden;
         z-index: -1;
-        margin-left: 12%;
+        margin-left: 15%;
         margin-right: auto;
         border: transparent;
-        border-bottom: #67aeed;
-        -webkit-box-shadow: 1px 1px 1px #67aeed;
-        -moz-box-shadow: 1px 1px 1px #67aeed;
-        box-shadow: 1px 1px 1px #67aeed;
+        border-bottom: transparent;
+        -webkit-box-shadow: 0px 0px 0px transparent;
+        -moz-box-shadow: 0px 0px 0px transparent;
+        box-shadow: 0px 0px 0px transparent;
     }
 
-    #slider .slides {
+    #sliderIndex .slides {
         display: block;
         width: 2000px;
         height: 200px;
@@ -2405,7 +2395,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         float: left;
         list-style-type: none;
         width: 240px;
@@ -2418,7 +2408,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2493,7 +2483,7 @@ a.class2:hover {
 
 
 
-    #slider {
+    #sliderIndex {
         width: 240px;
         height: 170px;
         overflow: hidden;
@@ -2507,7 +2497,7 @@ a.class2:hover {
         /*box-shadow: 1px 1px 1px #67aeed;*/
     }
 
-    #slider .slides {
+    #sliderIndex .slides {
         display: block;
         width: 2000px;
         height: 170px;
@@ -2516,7 +2506,7 @@ a.class2:hover {
         z-index: 11;
     }
 
-    #slider .slide {
+    #sliderIndex .slide {
         float: left;
         list-style-type: none;
         width: 240px;
@@ -2529,7 +2519,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2565,7 +2555,7 @@ a.class2:hover {
 
     }
 
-    #slider {
+    #sliderIndex {
         width: 95%;
         height: auto;
         overflow: hidden;
@@ -2582,7 +2572,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2622,7 +2612,7 @@ a.class2:hover {
         font-size: 1.5em;
     }
 
-    #slider {
+    #sliderIndex {
         width: 85%;
         height: auto;
         overflow: hidden;
@@ -2639,7 +2629,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2674,7 +2664,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2716,7 +2706,7 @@ a.class2:hover {
         /*border: dashed;*/
     }
 
-    #slider {
+    #sliderIndex {
         width: 0px;
         height: 0px;
         overflow: hidden;
@@ -2752,7 +2742,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;
@@ -2778,7 +2768,7 @@ a.class2:hover {
         /*border: dashed;*/
     }
 
-    #slider {
+    #sliderIndex {
         width: 0px;
         height: 0px;
         overflow: hidden;
@@ -2842,7 +2832,7 @@ a.class2:hover {
         /*border: dashed;*/
     }
 
-    #slider {
+    #sliderIndex {
         width: 0px;
         height: 0px;
         overflow: hidden;
@@ -2881,7 +2871,7 @@ a.class2:hover {
         width: 100%;
         border: transparent;
         z-index: 20;
-        background-image: url('/static/images/clouds.png');
+        background-image: url('/resources/static/images/clouds.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right;

@@ -6,18 +6,18 @@
 //'use strict';
 
 
-App.controller("navigation", function($scope, sessionService, $location, userService) {
+App.controller("navigation", function ($scope, sessionService, $location, userService) {
 
-   $scope.login = function(){
-       userService.userExists($scope.user, function(user){
-           sessionService.login($scope.user).then(function(){
-               $location.path('/')
-           });
-       },
-       function(){
-            alert('Error logging in user');
-       });
-   }
+    $scope.login = function () {
+        userService.userExists($scope.user, function (user) {
+                sessionService.login($scope.user).then(function () {
+                    $location.path('/')
+                });
+            },
+            function () {
+                alert('Error logging in user');
+            });
+    }
 })
 //
 App.controller('ItemControllerCon', ['ItemEventsGallery', '$scope', function ItemControllerCon(ItemEventsGallery,
@@ -64,12 +64,9 @@ App.controller('GalleryControllerCon', ['PreviousEventsGallery', '$scope', funct
 
     $scope.event = [];
     PreviousEventsGallery.get({},
-
         function success(response) {
-            //alert($scope.challenge.question);
-            console.log("Success:" + JSON.stringify(response));
+            console.log("Success:" );
             $scope.event = response;
-            //alert('Testing helloworld');
         },
         function error(errorResponse) {
             console.log("Error:" + JSON.stringify(errorResponse));
@@ -91,7 +88,7 @@ App.controller('homeController', function ($scope, $http, sessionService) {
 });
 
 
-App.controller('contactForm' , function ($scope, $http){
+App.controller('contactForm', function ($scope, $http) {
     $scope.submit = function () {
         //var text = angular.toJson($scope.text, true);
         var formName = $scope.name;
@@ -109,7 +106,7 @@ App.controller('contactForm' , function ($scope, $http){
         fd.append('phone', phone);
         fd.append('message', message);
 
-        $http.post('/contactUs/' , fd, {
+        $http.post('/contactUs/', fd, {
             transformRequest: angular.identity,
             headers: {'Content-Type': undefined}
         })
@@ -167,7 +164,7 @@ App.controller('conUs', function () {
 });
 
 App.controller('calendarCon', function () {
-    $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+    $.getScript('https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
         $.getScript('/resources/js/responsiveSlide.js', function () {
             $("#slider").responsiveSlides({
                 auto: false,             // Boolean: Animate automatically, true or false
@@ -306,129 +303,3 @@ App.controller('locationCon', function () {
     });
 });
 
-//App.controller('navigation', function ($rootScope, $http, $location) {
-//
-//    var self = this
-//
-//    var authenticate = function (credentials, callback) {
-//
-//        var headers = credentials ? {
-//            authorization: "Basic "
-//            + btoa(credentials.username + ":" + credentials.password)
-//        } : {};
-//
-//        $http.get('user', {headers: headers}).then(function (response) {
-//            if (response.data.name) {
-//                $rootScope.authenticated = true;
-//            } else {
-//                $rootScope.authenticated = false;
-//            }
-//            callback && callback();
-//        }, function () {
-//            $rootScope.authenticated = false;
-//            callback && callback();
-//        });
-//
-//    }
-//
-//    authenticate();
-//    self.credentials = {};
-//    self.login = function () {
-//        authenticate(self.credentials, function () {
-//            if ($rootScope.authenticated) {
-//                $location.path("/");
-//                self.error = false;
-//            } else {
-//                $location.path("/login");
-//                self.error = true;
-//            }
-//        });
-//    };
-//
-//    self.logout = function () {
-//        $http.post('logout', {}).finally(function () {
-//            $rootScope.authenticated = false;
-//            $location.path("/");
-//        });
-//    }
-//});
-
-//App.controller('navigation',
-//
-//    function ($rootScope, $scope, $http, $location) {
-//
-//        var authenticate = function (credentials, callback) {
-//
-//            var headers = credentials ? {
-//                authorization: "Basic "
-//                + btoa(credentials.username + ":" + credentials.password)
-//            } : {};
-//
-//            $http.get('user', {headers: headers}).success(function (data) {
-//                if (data.name) {
-//                    $rootScope.authenticated = true;
-//                } else {
-//                    $rootScope.authenticated = false;
-//                }
-//                callback && callback();
-//            }).error(function () {
-//                $rootScope.authenticated = false;
-//                callback && callback();
-//            });
-//
-//        }
-//
-//        authenticate();
-//        $scope.credentials = {};
-//        $scope.login = function () {
-//            authenticate($scope.credentials, function () {
-//                if ($rootScope.authenticated) {
-//                    $location.path("/");
-//                    $scope.error = false;
-//                } else {
-//                    $location.path("/login");
-//                    $scope.error = true;
-//                }
-//            });
-//        };
-//
-//        $scope.logout = function () {
-//            $http.post('logout', {}).success(function () {
-//                $rootScope.authenticated = false;
-//                $location.path("/");
-//            }).error(function (data) {
-//                $rootScope.authenticated = false;
-//            });
-//        }
-//
-//    });
-
-
-
-//App.controller("navigation", function ($scope, $http) {
-//
-//    this.postForm = function () {
-//        var encodingString = 'username=' +
-//            encodeURIComponent(this.inputData.username) +
-//            '&password=' +
-//            encodeURIComponent(this.inputData.password);
-//
-//        $http({
-//            method: 'POST',
-//            url: '/editAppConfig',
-//            data: encodingString,
-//            headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-//        })
-//            .success(function (data, status, headers, config) {
-//                console.log(data);
-//                if (data.correct === 'correct') {
-//                    window.location.href = '/'
-//                } else {
-//                    $scope.errorMsg = "invalid user or password entered";
-//                }
-//            })
-//            .error(function (data, status, headers, config) {
-//                console.log("Data : " + data + " status : " + status + " headers : " + headers + " config : " + config);
-//                $scope.errorMsg = 'Unable to submit user details';
-//            });
-//    }

@@ -5,19 +5,55 @@
 
 //'use strict';
 
+App.controller('ContactCon', ['$scope', 'AllContacts', function ($scope, AllContacts) {
 
-App.controller("navigation", function($scope, sessionService, $location, userService) {
+    $.getScript('https://code.jquery.com/jquery-1.11.3.min.js', function () {
+        $.getScript('//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js', function () {
+            //
+            $(document).ready(function () {
+                $('#table').DataTable({
+                    "language": {
+                        "lengthMenu": "Display _MENU_ records per page",
+                        "zeroRecords": "No school events recorded",
+                        "info": "Showing page _PAGE_ of _PAGES_",
+                        "infoEmpty": "Showing 0 to 0 of 0 entries",
+                        "infoFiltered": "(filtered from _MAX_ total records)"
+                    },
+                    "bFilter": false,
+                    "bPaginate": true,
+                    "iDisplayLength": 5,
+                    "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    "bLengthChange": false,
+                    "bDestroy": true
+                });
+            });
+        });
+    });
+    $scope.contacts = [];
+    AllContacts.get({},
+        function success(response) {
+            console.log("Success:");
+            $scope.contacts = response;
 
-   $scope.login = function(){
-       userService.userExists($scope.user, function(user){
-           sessionService.login($scope.user).then(function(){
-               $location.path('/')
-           });
-       },
-       function(){
-            alert('Error logging in user');
-       });
-   }
+        },
+        function error(errorResponse) {
+            console.log("Error:" + JSON.stringify(errorResponse));
+        }
+    );
+}]);
+
+App.controller("navigation", function ($scope, sessionService, $location, userService) {
+
+    $scope.login = function () {
+        userService.userExists($scope.user, function (user) {
+                sessionService.login($scope.user).then(function () {
+                    $location.path('/')
+                });
+            },
+            function () {
+                alert('Error logging in user');
+            });
+    }
 })
 //
 App.controller('ItemControllerCon', ['ItemEventsGallery', '$scope', function ItemControllerCon(ItemEventsGallery,
@@ -64,12 +100,9 @@ App.controller('GalleryControllerCon', ['PreviousEventsGallery', '$scope', funct
 
     $scope.event = [];
     PreviousEventsGallery.get({},
-
         function success(response) {
-            //alert($scope.challenge.question);
-            console.log("Success:" + JSON.stringify(response));
+            console.log("Success:");
             $scope.event = response;
-            //alert('Testing helloworld');
         },
         function error(errorResponse) {
             console.log("Error:" + JSON.stringify(errorResponse));
@@ -78,20 +111,51 @@ App.controller('GalleryControllerCon', ['PreviousEventsGallery', '$scope', funct
 
 }]);
 
+App.controller('UpdateHome', ['$scope', '$window', '$http',
+    function UpdateHome($scope, $window, $http) {
+
+        var eventId = 1;
+
+        $scope.submit = function () {
+            $scope.text = $scope.index.text;
+            alert($scope.text);
+
+            var file = $scope.myFile;
+            var file2 = $scope.myFile2;
+            var file3 = $scope.myFile3;
+            var fd = new FormData();
+            fd.append('text', $scope.text);
+            fd.append('file', file);
+            fd.append('file2', file2);
+            fd.append('file3', file3);
+
+            $http.post('/updateHome/' + eventId, fd, {
+                transformRequest: angular.identity,
+                headers: {'Content-Type': undefined}
+            })
+                .success(function (response) {
+                    console.log("Success:");
+                    $window.location.reload();
+
+                })
+                .error(function () {
+                });
+        }
+
+    }]);
+
 App.controller('homeController', function ($scope, $http, sessionService) {
-    //$scope.src1 ="/resources/static/images/activeSchool.png";
-    //$scope.src2 ="/resources/static/images/outsideNew.png";
-    //$scope.src3 ="/resources/static/images/fnsNewsletter.png";
+
     $scope.isLoggedIn = sessionService.isLoggedIn;
     $scope.logout = sessionService.logout;
-    var self = this;
     $http.get('/resource/').then(function (responce) {
-        self.greeting = responce.data.text;
+        $scope.index = responce.data;
+        $scope.text = $scope.index.text;
     });
 });
 
 
-App.controller('contactForm' , function ($scope, $http){
+App.controller('contactForm', function ($scope, $http) {
     $scope.submit = function () {
         //var text = angular.toJson($scope.text, true);
         var formName = $scope.name;
@@ -109,7 +173,7 @@ App.controller('contactForm' , function ($scope, $http){
         fd.append('phone', phone);
         fd.append('message', message);
 
-        $http.post('/contactUs/' , fd, {
+        $http.post('/contactUs/', fd, {
             transformRequest: angular.identity,
             headers: {'Content-Type': undefined}
         })
@@ -167,7 +231,7 @@ App.controller('conUs', function () {
 });
 
 App.controller('calendarCon', function () {
-    $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+    $.getScript('https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
         $.getScript('/resources/js/responsiveSlide.js', function () {
             $("#slider").responsiveSlides({
                 auto: false,             // Boolean: Animate automatically, true or false
@@ -306,129 +370,3 @@ App.controller('locationCon', function () {
     });
 });
 
-//App.controller('navigation', function ($rootScope, $http, $location) {
-//
-//    var self = this
-//
-//    var authenticate = function (credentials, callback) {
-//
-//        var headers = credentials ? {
-//            authorization: "Basic "
-//            + btoa(credentials.username + ":" + credentials.password)
-//        } : {};
-//
-//        $http.get('user', {headers: headers}).then(function (response) {
-//            if (response.data.name) {
-//                $rootScope.authenticated = true;
-//            } else {
-//                $rootScope.authenticated = false;
-//            }
-//            callback && callback();
-//        }, function () {
-//            $rootScope.authenticated = false;
-//            callback && callback();
-//        });
-//
-//    }
-//
-//    authenticate();
-//    self.credentials = {};
-//    self.login = function () {
-//        authenticate(self.credentials, function () {
-//            if ($rootScope.authenticated) {
-//                $location.path("/");
-//                self.error = false;
-//            } else {
-//                $location.path("/login");
-//                self.error = true;
-//            }
-//        });
-//    };
-//
-//    self.logout = function () {
-//        $http.post('logout', {}).finally(function () {
-//            $rootScope.authenticated = false;
-//            $location.path("/");
-//        });
-//    }
-//});
-
-//App.controller('navigation',
-//
-//    function ($rootScope, $scope, $http, $location) {
-//
-//        var authenticate = function (credentials, callback) {
-//
-//            var headers = credentials ? {
-//                authorization: "Basic "
-//                + btoa(credentials.username + ":" + credentials.password)
-//            } : {};
-//
-//            $http.get('user', {headers: headers}).success(function (data) {
-//                if (data.name) {
-//                    $rootScope.authenticated = true;
-//                } else {
-//                    $rootScope.authenticated = false;
-//                }
-//                callback && callback();
-//            }).error(function () {
-//                $rootScope.authenticated = false;
-//                callback && callback();
-//            });
-//
-//        }
-//
-//        authenticate();
-//        $scope.credentials = {};
-//        $scope.login = function () {
-//            authenticate($scope.credentials, function () {
-//                if ($rootScope.authenticated) {
-//                    $location.path("/");
-//                    $scope.error = false;
-//                } else {
-//                    $location.path("/login");
-//                    $scope.error = true;
-//                }
-//            });
-//        };
-//
-//        $scope.logout = function () {
-//            $http.post('logout', {}).success(function () {
-//                $rootScope.authenticated = false;
-//                $location.path("/");
-//            }).error(function (data) {
-//                $rootScope.authenticated = false;
-//            });
-//        }
-//
-//    });
-
-
-
-//App.controller("navigation", function ($scope, $http) {
-//
-//    this.postForm = function () {
-//        var encodingString = 'username=' +
-//            encodeURIComponent(this.inputData.username) +
-//            '&password=' +
-//            encodeURIComponent(this.inputData.password);
-//
-//        $http({
-//            method: 'POST',
-//            url: '/editAppConfig',
-//            data: encodingString,
-//            headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-//        })
-//            .success(function (data, status, headers, config) {
-//                console.log(data);
-//                if (data.correct === 'correct') {
-//                    window.location.href = '/'
-//                } else {
-//                    $scope.errorMsg = "invalid user or password entered";
-//                }
-//            })
-//            .error(function (data, status, headers, config) {
-//                console.log("Data : " + data + " status : " + status + " headers : " + headers + " config : " + config);
-//                $scope.errorMsg = 'Unable to submit user details';
-//            });
-//    }

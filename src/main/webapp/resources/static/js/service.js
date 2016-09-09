@@ -4,6 +4,14 @@
 
 var flembyServices = angular.module('flembyServices', ['ngResource']);
 
+flembyServices.factory('AllContacts', ['$resource',
+    function ($resource) {
+        return $resource("/allContacts/", {}, {
+            get: {method: 'GET', cache: false, isArray: true}
+        });
+    }]);
+
+
 flembyServices.factory('NotificationSave', ['$resource',
     function ($resource) {
         return $resource("/notificationSave/", {}, {

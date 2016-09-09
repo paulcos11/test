@@ -36,5 +36,6 @@ com\flemby\security\SecurityWebAppInitializer.class
 com\flemby\entity\Contact.class
 com\flemby\repository\NotificationRepository.class
 com\flemby\entity\Index.class
+com\flemby\controller\contactController\ContactController.class
 com\flemby\security\AccountUserDetails.class
 com\flemby\controller\gallery\GalleryController.class

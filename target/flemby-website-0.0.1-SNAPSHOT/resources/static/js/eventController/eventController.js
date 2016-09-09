@@ -257,10 +257,13 @@ App.controller('schoolNotifyCon', ['$scope', 'SchoolNotifyList', 'sessionService
                         "infoEmpty": "Showing 0 to 0 of 0 entries",
                         "infoFiltered": "(filtered from _MAX_ total records)"
                     },
+                    "columnDefs": [
+                        { "width": "60%", "targets": 0 }
+                    ],
                     "bFilter": false,
                     "bPaginate": true,
                     "iDisplayLength": 5,
-                    "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    "aLengthMenu": [[55, 20, 25, 50, -1], [55, 20, 25, 50, "All"]],
                     "bLengthChange": false,
                     "bDestroy": true
                 });

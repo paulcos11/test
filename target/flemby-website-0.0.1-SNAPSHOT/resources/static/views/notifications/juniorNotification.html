@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css"
       href="/resources/static/css/events/events.css">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"/>
+<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"/>-->
+
 <div class="eventsContainer">
 
     <div class="row">
@@ -17,8 +18,8 @@
                 <tr>
                     <td><b>Event</b></td>
                     <td><b>Date</b></td>
-                    <td><b>Attending</b></td>
-                    <td ng-show="isLoggedIn()"><b>Edit/Delete</b></td>
+                    <td ng-hide="isLoggedIn()" width="100%"></td>
+                    <td ng-show="isLoggedIn()" width="100%"><b>Edit/Delete</b></td>
 
                 </tr>
                 </thead>
@@ -33,7 +34,7 @@
                             {{notification.publishedDate | date:'dd/MM/yyyy'}}
 
                         </td>
-                        <td>{{notification.type}}</td>
+                        <td ng-hide="isLoggedIn()">{{ notification.text | limitTo: 12 }}...</td>
                         <td ng-show="isLoggedIn()">
                             <a class="class3"
                                href="#/notificationURL/{{notification.id}}">Edit /
@@ -45,31 +46,31 @@
             </table>
             <br><br>
         </div>
-        <div class="myMargin borderTop">
-            <div class="row" ng-show="isLoggedIn()">
-                <div class="col-lg-12">
-                    <a href="#/editApp" class="txtRight" data-toggle="tooltip"
-                       title="Back to Edit App page">
-                        <button type="button" class="btn btn-default btn-sm">Edit App</button>
-                    </a>
-                    <button type="button" class="btn btn-primary btn-sm txtRight"
-                            title="Add new junior class notification"
-                            data-toggle="modal" data-target="#myModal">New Notice
-                    </button>
-                </div>
+    </div>
+    <div class="myMargin borderTop">
+        <div class="row" ng-show="isLoggedIn()">
+            <div class="col-lg-12">
+                <a href="#/editApp" class="txtRight" data-toggle="tooltip"
+                   title="Back to Edit App page">
+                    <button type="button" class="btn btn-default btn-sm">Edit App</button>
+                </a>
+                <button type="button" class="btn btn-primary btn-sm txtRight"
+                        title="Add new junior class notification"
+                        data-toggle="modal" data-target="#myModal">New Notice
+                </button>
             </div>
         </div>
-        <div class="footerEvents">
-            <div>
-                <a href="#/notification" data-toggle="tooltip"
-                   title="Back">
-                    <button type="button" class="btn btn-default" aria-label="Left Align">
+    </div>
+</div>
+<div class="footerEvents">
+    <div>
+        <a href="#/notification" data-toggle="tooltip"
+           title="Back">
+            <button type="button" class="btn btn-default" aria-label="Left Align">
                                                 <span class="glyphicon glyphicon-chevron-left"
                                                       aria-hidden="true"></span>
-                    </button>
-                </a>
-            </div>
-        </div>
+            </button>
+        </a>
     </div>
 </div>
 
@@ -93,7 +94,8 @@
                         <label for="notificationName" class="col-sm-2 control-label">Title</label>
 
                         <div class="col-sm-10">
-                            <input type="text" id="notificationName" ng-model="notificationName" class="form-control" name="notificationName"
+                            <input type="text" id="notificationName" ng-model="notificationName" class="form-control"
+                                   name="notificationName"
                                    placeholder="Notification Title" required>
                         </div>
                     </div>
@@ -101,7 +103,8 @@
                         <label for="notificationLink" class="col-sm-2 control-label">Link</label>
 
                         <div class="col-sm-10">
-                            <input type="text" id="notificationLink" ng-model="notificationLink" class="form-control" name="notificationLink"
+                            <input type="text" id="notificationLink" ng-model="notificationLink" class="form-control"
+                                   name="notificationLink"
                                    placeholder="URL to more information" required>
                         </div>
                     </div>
@@ -110,7 +113,8 @@
                         <label for="notificationText" class="col-sm-2 control-label">Text</label>
 
                         <div class="col-sm-10">
-                                <textarea id="notificationText" class="form-control" rows="3" name="notificationText" ng-model="notificationText"
+                                <textarea id="notificationText" class="form-control" rows="3" name="notificationText"
+                                          ng-model="notificationText"
                                           placeholder="Notification Details" required></textarea>
                         </div>
                     </div>
@@ -119,7 +123,8 @@
                         <label for="notificationPublishedDate" class="col-sm-2 control-label">Date</label>
 
                         <div class="col-sm-10 hero-unit">
-                            <input type="date" id="notificationPublishedDate" name="notificationPublishedDate" ng-model="notificationPublishedDate"
+                            <input type="date" id="notificationPublishedDate" name="notificationPublishedDate"
+                                   ng-model="notificationPublishedDate"
                                    placeholder="dd/MM/yyyy" required/>
                         </div>
                     </div>
@@ -135,235 +140,3 @@
     </div>
 </div>
 
-<style type="text/css">
-    /* unvisited link */
-    a.class3:link {
-        color: #000;
-    }
-
-    /* visited link */
-    a.class3:visited {
-        color: #000;
-    }
-
-    /* mouse over link */
-    a.class3:hover {
-        color: #353c48;
-    }
-
-    /* selected link */
-    a.class3:active {
-        color: #000;
-    }
-
-    table td, table tr, table th {
-        background: transparent !important;
-    }
-
-    table.tbody {
-        background: transparent !important;
-    }
-
-    table, table tr, table th, table td {
-        background: transparent !important;
-    }
-
-    @media screen and (max-width: 1680px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 18%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 1440px) {
-        .footerEvents {
-            bottom: 18%;
-            margin-left: -.75%;
-            /*border: dashed;*/
-        }
-    }
-
-    @media screen and (max-width: 1367px) {
-        .footerEvents {
-            bottom: 18%;
-            /*border: dashed;*/
-        }
-    }
-
-    @media screen and (max-width: 1281px) {
-        .footerEvents {
-            bottom: 18%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 1200px) {
-        .footerEvents {
-            bottom: 15%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 1024px) {
-        .footerEvents {
-            bottom: 18%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 1000px) {
-        .footerEvents {
-            bottom: 14%;
-            /*border: dashed;*/
-        }
-    }
-
-    @media screen and (max-width: 967px) {
-        .footerEvents {
-            bottom: 12%;
-            /*border: dashed;*/
-        }
-    }
-
-    @media screen and (max-width: 960px) and (max-height: 600px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 16%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 800px) and (max-height: 1281px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 20%;
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 768px) and (max-height: 1024px) {
-
-        .footerEvents {
-            bottom: 14%;
-            /*border: dashed;*/
-
-        }
-
-    }
-
-    @media screen and (max-width: 732px) and (max-height: 412px) {
-
-        .footerEvents {
-            bottom: 14%;
-            /*border: dashed;*/
-
-        }
-
-    }
-
-    @media screen and (max-width: 640px) and (max-height: 360px) {
-
-        .footerEvents {
-            bottom: 14%;
-            /*border: dashed;*/
-
-        }
-
-    }
-
-    @media screen and (max-width: 640px) and (max-height: 384px) and (min-height: 361px) {
-
-        .footerEvents {
-            bottom: 14%;
-            /*border: dashed;*/
-
-        }
-
-    }
-
-    @media screen and (max-width: 600px) and (max-height: 1024px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 13%;
-            /*border: dashed;*/
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 480px) and (max-height: 320px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 13%;
-            /*border: dashed;*/
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 412px) and (max-height: 732px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 11%;
-            /*border: dashed;*/
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 384px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 10%;
-            /*border: dashed;*/
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 360px) and (max-height: 640px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 12%;
-            margin-top: 40%;
-            /*margin-bottom: 10%;*/
-            /*border: dashed;*/
-        }
-
-    }
-
-    @media screen and (max-width: 320px) {
-
-        .footerEvents {
-            width: 80%;
-            position: absolute;
-            bottom: 10%;
-            /*border: dashed;*/
-            /*border: dashed;*/
-        }
-
-    }
-</style>

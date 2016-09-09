@@ -14,20 +14,14 @@
         </div>
         <div class="row">
             <div id="sliderEvents">
-                <!--<c:choose>-->
-                <!--<c:when test="${not empty events.items}">-->
-                <!--<c:forEach items="${events.items}" var="item">-->
-                <!--<c:set var="id" value="${item.id}"/>-->
-                <!--</c:forEach>-->
-                <!--<div ng-if="src="/items/one/image.html?id={{event.id}}">-->
+
                 <ul class="slidesEvents">
                     <li class="slideEvents">
                         <img class="img-responsive" width="240px" height="198px"
                              check-image ng-src="/items/one/image.html?id={{event.id}}"
                              onerror="this.src='/resources/static/images/activeSchool.png'"
                                 />
-                        <!--ng-src="/resources/static/images/activeSchool.png"-->
-                        <!--alt="">-->
+
                     </li>
                     <li class="slideEvents">
                         <img class="img-responsive" width="240px" height="198px"
@@ -50,22 +44,6 @@
                     </li>
                 </ul>
 
-                <!--</c:when>-->
-                <!--<c:otherwise>-->
-
-                <!--<ul class="slidesEvents">-->
-                <!--<li class="slideEvents"><img class="img-responsive" width="240px" height="198px"-->
-                <!--ng-src="/resources/static/images/activeSchool.png" alt=""></li>-->
-                <!--<li class="slideEvents"><img class=" img-responsive" width="240px" height="198px"-->
-                <!--ng-src="/resources/static/images/outsideNew.png" alt=""></li>-->
-                <!--<li class="slideEvents"><img class=" img-responsive" width="240px" height="198px"-->
-                <!--ng-src="/resources/static/images/fnsNewsletter.png" alt=""></li>-->
-                <!--<li class="slideEvents"><img class="img-responsive" width="240px" height="198px"-->
-                <!--ng-src="/resources/static/images/activeSchool.png" alt=""></li>-->
-                <!--</ul>-->
-
-                <!--</c:otherwise>-->
-                <!--</c:choose>-->
             </div>
         </div>
 
@@ -111,14 +89,14 @@
             </a>
 
             <div ng-show="isLoggedIn()">
-                <input  type="button" class="btn btn-sm myBtn btn-danger txtRight"
+                <input type="button" class="btn btn-sm myBtn btn-danger txtRight"
                        data-toggle="modal" data-target="#modalRemove" value="Delete">
 
-                <input  type="button" class="btn btn-sm myBtn btn-success txtRight"
+                <input type="button" class="btn btn-sm myBtn btn-success txtRight"
                        data-toggle="modal" data-target="#modalEmail" value="Email">
 
 
-                <input  type="button" class="btn btn-sm myBtn btn-primary txtRight"
+                <input type="button" class="btn btn-sm myBtn btn-primary txtRight"
                        data-toggle="modal" data-target="#editEvent" value="Edit">
             </div>
 

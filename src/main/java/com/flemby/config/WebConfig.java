@@ -28,6 +28,8 @@ public class WebConfig extends WebMvcConfigurerAdapter{
                 .addResourceLocations("/resources/static/directives/");
         registry.addResourceHandler("/resources/static/**")
                 .addResourceLocations("/resources/static/");
+        registry.addResourceHandler("/resources/js/**")
+                .addResourceLocations("/resources/js/");
         registry.addResourceHandler("/webjars/**")
                 .addResourceLocations("/webjars/");
     }

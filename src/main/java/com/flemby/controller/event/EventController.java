@@ -85,7 +85,6 @@ public class EventController {
 
         List<Item> items = event.getItems();
 
-
         System.out.println("imageTEST " + id);
 
         byte[] image = itemService.loadImage(items.get(0).getId());

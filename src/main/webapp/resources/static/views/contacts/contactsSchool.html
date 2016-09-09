@@ -1,0 +1,106 @@
+
+<div class="eventsContainer">
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <h3 class="paddingEvents">All Contacts</h3>
+
+            <!--<c:if test="${param.success eq true}">-->
+            <!--<div class="alert alert-success">Successfully added new contact</div>-->
+            <!--</c:if>-->
+            <!--<c:if test="${param.success eq false}">-->
+            <!--<div class="alert alert-success">Successfully deleted contact</div>-->
+            <!--</c:if>-->
+
+            <div class="responsiveTavle tbWidth">
+
+                <table id="table"
+                       class="tbody display table  table-hover pTableWidth pTable ">
+
+                    <thead>
+                    <tr>
+                        <td><b>Name</b></td>
+                        <td><b>Email</b></td>
+                        <td><b>Number</b></td>
+                        <td><b>Class</b></td>
+                        <td ng-show="isLoggedIn"><b>Edit/Delete</b></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="con in contacts">
+                        <td><a class="class3"
+                               href="#/contactURL/${con.id}">
+                            {{con.firstName}} {{con.surname}}</a></td>
+                        <td>{{con.email}}</td>
+                        <td>{{con.number}}</td>
+                        <td>{{con.type}}</td>
+                        <td>
+                            <a class="class3" ng-show="isLoggedIn"
+                               href="#/contactAllURL/{{con.id}}">
+                                Edit / Delete</a>
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer bottomOfPagePreviousEvents">
+    <div class="backButton">
+        <a href="#/contacts" data-toggle="tooltip" title="Back">
+            <button type="button" class="btn btn-sm btn-default" aria-label="Left Align">
+
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </button>
+        </a>
+    </div>
+
+    <a href="#/editApp" data-toggle="tooltip"
+       title="Back to Edit App page">
+        <button type="button" class="btn btn-default btn-sm">Edit App</button>
+    </a>
+
+    <div class="eventButton">
+
+    </div>
+</div>
+
+<style type="text/css">
+    /* unvisited link */
+    a.class3:link {
+        color: #000;
+    }
+
+    /* visited link */
+    a.class3:visited {
+        color: #000;
+    }
+
+    /* mouse over link */
+    a.class3:hover {
+        color: #000;
+    }
+
+    /* selected link */
+    a.class3:active {
+        color: #000;
+    }
+
+    table td, table tr, table th {
+        background: transparent !important;
+    }
+
+    table.tbody {
+        background: transparent !important;
+    }
+
+    table, table tr, table th, table td {
+        background: transparent !important;
+    }
+</style>

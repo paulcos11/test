@@ -1,6 +1,9 @@
 package com.flemby.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "index")
@@ -15,8 +18,9 @@ public class Index {
     @Column(length = 1000)
     private String text;
 
-//    @OneToMany(fetch = FetchType.LAZY, mappedBy = "index", cascade = CascadeType.REMOVE)
-//    private List<Item> items;
+    @JsonIgnore
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "index", cascade = CascadeType.ALL)
+    private List<Item> items;
 
     public Integer getId() {
         return id;
@@ -34,12 +38,12 @@ public class Index {
         this.text = text;
     }
 
-//    public List<Item> getItems() {
-//        return items;
-//    }
-//
-//    public void setItems(List<Item> items) {
-//        this.items = items;
-//    }
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
 
 }

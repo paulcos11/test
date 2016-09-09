@@ -77,6 +77,11 @@
         <url-pattern>*.gif</url-pattern>
         <dispatcher>REQUEST</dispatcher>
     </filter-mapping>
+    <filter-mapping>
+        <filter-name>ExpiryFilter</filter-name>
+        <url-pattern>*.js</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
 
     <!--<filter>-->
         <!--<filter-name>springSecurityFilterChain</filter-name>-->

@@ -17,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Spring and Angularjs Tutorial</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link rel="stylesheet"
           href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -33,18 +33,17 @@
             src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
-
     <%--<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>--%>
 
 
-<%--<script src="/resources/js/other/lightbox.min.js"></script>--%>
+    <%--<script src="/resources/js/other/lightbox.min.js"></script>--%>
     <link href="/resources/static/css/lightbox.css" rel="stylesheet">
     <style>
         <%@include file="/resources/static/css/navigation.css"%>
         <%@include file="/resources/static/css/events/events.css"%>
         <%@include file="/resources/static/css/theme.css"%>
         <%@include file="/resources/static/css/simple-sidebar.css"%>
-        <%--<%@include file="/resources/static/css/calendar/schoolCalendar.css" %>--%>
+        <%@include file="/resources/static/css/calendar/schoolCalendar.css" %>
         <%@include file="/resources/static/css/sticky-footer-navbar.css"%>
         <%@include file="/resources/static/css/events/eventsURL.css" %>
         <%@include file="/resources/static/css/gallery/gallery.css" %>
@@ -52,14 +51,14 @@
         <%@include file="/resources/static/css/location/locationTwo.css" %>
         <%@include file="/resources/static/css/notification/notification.css" %>
         <%@include file="/resources/static/css/calendar.css" %>
-        <%@include file="/resources/static/css/calendar.css" %>
-        <%@include file="/resources/static/css/jquery.e-calendar.css" %>
-        <%@include file="/resources/static/css/calendar/responsiveSlide.css" %>
+        <%--<%@include file="/resources/static/css/calendar.css" %>--%>
+        <%@include file="/resources/static/css/index/index.css" %>
+        <%--<%@include file="/resources/static/css/jquery.e-calendar.css" %>--%>
+        <%--<%@include file="/resources/static/css/calendar/responsiveSlide.css" %>--%>
         <%--<%@include file="/resources/static/css/gallery/gallery.css"%>--%>
 
 
     </style>
-
 
 
 </head>
@@ -89,16 +88,14 @@
     </script>
 
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
 
-            <button class="navbar-toggle" data-toggle="collapse"
-                    data-target=".myNav">
+            <%--<button class="navbar-toggle" data-toggle="collapse" data-target=".myNav">--%>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".myNav">
 
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                Menu <i class="fa fa-bars"></i>
 
             </button>
 
@@ -106,18 +103,19 @@
         </div>
 
         <div ng-controller="navigation as nav" class="collapse navbar-collapse myNav" id="bs-example-navbar-collapse-1">
-            <a class="navbar-brand navbar-left nav-pills" role="tablist" href='#/home'>Flemby</a>
+            <%--<a class="navbar-brand navbar-left nav-pills" role="tablist" href='#/home'>Flemby</a>--%>
             <ul class="nav navbar-nav myNav">
 
-                <li class="	${current == 'index' ? 'active' : ''} ">
+                <li class="	${current == 'index' ? 'active' : ''} " data-toggle="collapse" data-target=".in">
                     <a href='#/home'>Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
 
-                <li class="dropdown">
+                <li class="dropdown" data-toggle="collapse" data-target=".in">
 
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                       data-toggle="collapse" data-target=".in">
                         School Policies
                         <span class="caret"></span>
                     </a>
@@ -129,7 +127,7 @@
                     </ul>
                 </li>
 
-                <li class=" dropdown">
+                <li class=" dropdown" data-toggle="collapse" data-target=".in">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                         Parents Information
                         <span class="caret"></span>
@@ -141,21 +139,18 @@
                     </ul>
                 </li>
 
-                <li class="${current == 'allPreviousEvents' ? 'active' : '' }">
+                <li data-toggle="collapse" data-target=".in">
                     <a href="#/allPreviousEvents">Previous Activities</a>
                 </li>
 
-                <li class="${current == 'upcomingEvents' ? 'active' : '' }">
+                <li data-toggle="collapse" data-target=".in">
                     <a href="#/upcomingEvents">Upcoming Activities</a>
                 </li>
 
 
-                <li class="	${current == 'gallery' ? 'active' : ''} ">
+                <li data-toggle="collapse" data-target=".in">
                     <a href="#/gallery" alt="Gallery">Gallery</a>
                 </li>
-                <%--<li ng-hide="isLoggedIn()"><a href="#/login">login</a></li>--%>
-                <%--<li ng-show="isLoggedIn()"><a href="" ng-click="logout()">logout</a></li>--%>
-
 
             </ul>
 
@@ -185,7 +180,8 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-1.3.2.min.js"   integrity="sha256-yDcKLQUDWenVBazEEeb0V6SbITYKIebLySKbrTp2eJk="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.3.2.min.js"
+        integrity="sha256-yDcKLQUDWenVBazEEeb0V6SbITYKIebLySKbrTp2eJk=" crossorigin="anonymous"></script>
 <script type="text/javascript">
     var d = new Date();
     var h = d.getHours();
@@ -281,7 +277,7 @@
 <div id='ground' class=''></div>
 
 
-<div ng-view ng-cloak class="ng-cloak"></div>
+<div ng-view ng-cloak class="ng-cloak" autoscroll="true"></div>
 
 <script src="./webjars/angularjs/1.4.8/angular.js"></script>
 <script src="./webjars/angularjs/1.4.8/angular-resource.js"></script>

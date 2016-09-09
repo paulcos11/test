@@ -1,0 +1,172 @@
+<style type="text/css">
+    /* unvisited link */
+    a:link {
+        color: #262626;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #262626;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #000;
+    }
+
+    /* selected link */
+    a:active {
+        color: #262626;
+    }
+
+    .holidayContainer2 {
+        /*margin-right: .5%;*/
+        /*border: dashed;*/
+        margin-bottom: 30px;
+
+    }
+
+    .holidayContainer {
+        /*margin-top: 13%;*/
+        /*margin-bottom: 35%;*/
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+</style>
+
+<div class="holidayContainer">
+
+    <div class="row">
+        <h2 style="margin-top: 50px">Contacts</h2>
+        <br>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
+            <h5><a href="#"
+                   data-toggle="modal" data-target="#myModal" value="Edit">Add New Contact</a></h5>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
+            <h5><a href="#/contactsSchool">All Contacts</a></h5>
+
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
+            <h5><a href='<spring:url value="/contactsJuniorURL.html"/>'>Junior Class</a></h5>
+
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
+            <h5><a href='<spring:url value="/contactsSeniorURL.html"/>'>Senior Class</a></h5>
+            <br><br><br>
+        </div>
+    </div>
+</div>
+
+<div class="footer bottomOfPagePreviousEvents">
+
+    <a style="margin-left: 5%; position: absolute; bottom: 20%;" href="#/editAoo.html" data-toggle="tooltip" title="Back">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+    </a>
+
+    <a href="#/editApp" ng-show="isLoggedIn" data-toggle="tooltip"
+       title="Back to Edit App page">
+        <button type="button" class="btn btn-default btn-sm">Edit App</button>
+    </a>
+
+</div>
+
+<!-- <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>New Contact</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" id="registerationForm" method="post" action="/contacts/type.html">
+
+                    <div class="form-group">
+                        <label for="firstName" class="col-sm-2 control-label">First name</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="firstName"
+                                   id="firstName" placeholder="Parents first name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname" class="col-sm-2 control-label">Surname</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="surname"
+                                   id="surname" placeholder="Parents surname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="number" class="col-sm-2 control-label">Number</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="number"
+                                   id="number" placeholder="Contact number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="email"
+                                   id="email" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Class</label>
+
+                        <div class="col-sm-10">
+                            <select class="form-control" name="classType"
+                                    placeholder="Choose class">
+                                <option value="" disabled selected>Choose Class</option>
+                                <option>Junior Class</option>
+                                <option>Senior Class</option>
+                                <option>Both</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save">
+
+                </form>
+
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<!--<script type="text/javascript">-->
+<!--function downloadJSAtOnload() {-->
+
+<!--var element = document.createElement("script");-->
+<!--element.src = "<c:url value=" / resources / js / contacts / contact.js-->
+<!--" />";-->
+<!--document.body.appendChild(element);-->
+<!--}-->
+<!--// Check for browser support of event handling capability-->
+<!--if (window.addEventListener)-->
+<!--window.addEventListener("load", downloadJSAtOnload, false);-->
+<!--else if (window.attachEvent)-->
+<!--window.attachEvent("onload", downloadJSAtOnload);-->
+<!--else window.onload = downloadJSAtOnload;-->
+<!--</script>-->
+

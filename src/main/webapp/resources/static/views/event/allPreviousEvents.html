@@ -1,6 +1,6 @@
 
-<link rel="stylesheet" type="text/css"
-      href="/resources/static/css/events/events.css">
+<!--<link rel="stylesheet" type="text/css"-->
+      <!--href="/resources/static/css/events/events.css">-->
 <div class="eventsContainer">
 
     <div class="row">
@@ -16,9 +16,9 @@
                 <thead>
                 <tr>
                     <td><b>Event</b></td>
-                    <td><b>Location</b></td>
+                    <!--<td><b>Location</b></td>-->
                     <td><b>Date</b></td>
-                    <td><b>Attending</b></td>
+                    <td><b>Class</b></td>
                     <td ng-show="isLoggedIn()"><b>Edit/Delete</b></td>
 
                 </tr>
@@ -30,7 +30,7 @@
                             <a class="class3"
                                href="#/previousEventsURL/{{event.id}}">{{event.name}}</a>
                         </td>
-                        <td>{{event.location}}</td>
+                        <!--<td>{{event.location}}</td>-->
                         <td>
                             {{event.publishedDate | date:'dd/MM/yyyy'}}
 
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="footer2">
+    <div class="eventsFooter">
         <div>
             <a href="#/index.html" data-toggle="tooltip"
                title="Back">

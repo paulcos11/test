@@ -57,63 +57,63 @@ public class InitDbService {
                 "educated and active school community.Here at Flemby we have decided that achieving an active flag ");
         indexRepository.save(index);
 
-//        String seniorClass = "Senior Class";
-//        String juniorClass = "Junior Class";
-//
-//        Contact contact = new Contact();
-//        contact.setId(1);
-//        contact.setFirstName("John");
-//        contact.setSurname("Doe");
-//        contact.setEmail("paulzcos@hotmail.com");
-//        contact.setNumber("0871111111");
-//        contact.setType(juniorClass);
-//        contactRepository.save(contact);
-//
-//        Contact contact2 = new Contact();
-//        contact2.setId(2);
-//        contact2.setFirstName("Mary");
-//        contact2.setSurname("Doe");
-//        contact2.setEmail("paulzcos@hotmail.com");
-//        contact2.setNumber("0872222222");
-//        contact2.setType(juniorClass);
-//        contactRepository.save(contact2);
-//
-//        Contact contact3 = new Contact();
-//        contact3.setId(3);
-//        contact3.setFirstName("Pat");
-//        contact3.setSurname("Doe");
-//        contact3.setEmail("paulzcos@hotmail.com");
-//        contact3.setNumber("0871111111");
-//        contact3.setType(juniorClass);
-//        contactRepository.save(contact3);
-//
-//        Contact contact4 = new Contact();
-//        contact4.setId(4);
-//        contact4.setFirstName("Joan");
-//        contact4.setSurname("Doe");
-//        contact4.setEmail("paulzcos@hotmail.com");
-//        contact4.setNumber("0872222222");
-//        contact4.setType(juniorClass);
-//        contactRepository.save(contact4);
-//
-//        Contact contact5 = new Contact();
-//        contact5.setId(5);
-//        contact5.setFirstName("Mike");
-//        contact5.setSurname("Doe");
-//        contact5.setEmail("paulcostello11@gmail.com");
-//        contact5.setNumber("0871111111");
-//        contact5.setType(seniorClass);
-//        contactRepository.save(contact5);
-//
-//        Contact contact6 = new Contact();
-//        contact6.setId(6);
-//        contact6.setFirstName("Ciara");
-//        contact6.setSurname("Doe");
-//        contact6.setEmail("paulcostello11@gmail.com");
-//        contact6.setNumber("0872222222");
-//        contact6.setType(seniorClass);
-//        contactRepository.save(contact6);
-//
+        String seniorClass = "Senior Class";
+        String juniorClass = "Junior Class";
+
+        Contact contact = new Contact();
+        contact.setId(1);
+        contact.setFirstName("John");
+        contact.setSurname("Doe");
+        contact.setEmail("paulzcos@hotmail.com");
+        contact.setNumber("0871111111");
+        contact.setType(juniorClass);
+        contactRepository.save(contact);
+
+        Contact contact2 = new Contact();
+        contact2.setId(2);
+        contact2.setFirstName("Mary");
+        contact2.setSurname("Doe");
+        contact2.setEmail("paulzcos@hotmail.com");
+        contact2.setNumber("0872222222");
+        contact2.setType(juniorClass);
+        contactRepository.save(contact2);
+
+        Contact contact3 = new Contact();
+        contact3.setId(3);
+        contact3.setFirstName("Pat");
+        contact3.setSurname("Doe");
+        contact3.setEmail("paulzcos@hotmail.com");
+        contact3.setNumber("0871111111");
+        contact3.setType(juniorClass);
+        contactRepository.save(contact3);
+
+        Contact contact4 = new Contact();
+        contact4.setId(4);
+        contact4.setFirstName("Joan");
+        contact4.setSurname("Doe");
+        contact4.setEmail("paulzcos@hotmail.com");
+        contact4.setNumber("0872222222");
+        contact4.setType(juniorClass);
+        contactRepository.save(contact4);
+
+        Contact contact5 = new Contact();
+        contact5.setId(5);
+        contact5.setFirstName("Mike");
+        contact5.setSurname("Doe");
+        contact5.setEmail("paulcostello11@gmail.com");
+        contact5.setNumber("0871111111");
+        contact5.setType(seniorClass);
+        contactRepository.save(contact5);
+
+        Contact contact6 = new Contact();
+        contact6.setId(6);
+        contact6.setFirstName("Ciara");
+        contact6.setSurname("Doe");
+        contact6.setEmail("paulcostello11@gmail.com");
+        contact6.setNumber("0872222222");
+        contact6.setType(seniorClass);
+        contactRepository.save(contact6);
+
         List<String> titleText = new ArrayList<>();
         titleText.add("test-");
         titleText.add("test-");

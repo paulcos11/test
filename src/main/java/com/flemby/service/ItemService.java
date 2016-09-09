@@ -1,6 +1,5 @@
 package com.flemby.service;
 
-import com.flemby.entity.Event;
 import com.flemby.entity.Item;
 import com.flemby.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,12 +31,8 @@ public class ItemService {
 		return itemRepository.findOne(id);
 	}
 
-	public int findOne(Event event) {
-		int id = event.getId();
-		return id;
-	}
-
-
-
-
+//	public int findOne(Event event) {
+//		int id = event.getId();
+//		return id;
+//	}
 }
