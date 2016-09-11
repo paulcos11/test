@@ -257,7 +257,6 @@ public class EventController {
     @RequestMapping(value = "/seniorClassEvents", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Event>> getSeniorEvents() throws ParseException {
         String event = "Senior Class Activity";
-        List<Event> type = eventService.findByType(event);
         return new ResponseEntity<List<Event>>(eventService.findByType(event), HttpStatus.OK);
     }
 

@@ -37,29 +37,31 @@
 
 
     <%--<script src="/resources/js/other/lightbox.min.js"></script>--%>
-    <link href="/resources/static/css/lightbox.css" rel="stylesheet">
     <style>
         <%@include file="/resources/static/css/navigation.css"%>
-        <%@include file="/resources/static/css/events/events.css"%>
-        <%@include file="/resources/static/css/theme.css"%>
         <%@include file="/resources/static/css/simple-sidebar.css"%>
-        <%@include file="/resources/static/css/calendar/schoolCalendar.css" %>
         <%@include file="/resources/static/css/sticky-footer-navbar.css"%>
-        <%@include file="/resources/static/css/events/eventsURL.css" %>
-        <%@include file="/resources/static/css/gallery/gallery.css" %>
-        <%@include file="/resources/static/css/contactUs/contactUs.css" %>
-        <%@include file="/resources/static/css/location/locationTwo.css" %>
-        <%@include file="/resources/static/css/notification/notification.css" %>
-        <%@include file="/resources/static/css/calendar.css" %>
-        <%--<%@include file="/resources/static/css/calendar.css" %>--%>
         <%@include file="/resources/static/css/index/index.css" %>
-        <%@include file="/resources/static/css/contacts/contacts.css" %>
+
         <%--<%@include file="/resources/static/css/jquery.e-calendar.css" %>--%>
         <%--<%@include file="/resources/static/css/calendar/responsiveSlide.css" %>--%>
         <%--<%@include file="/resources/static/css/gallery/gallery.css"%>--%>
 
 
     </style>
+
+    <link href="/resources/static/css/lightbox.css" rel="stylesheet">
+    <link href="/resources/static/css/events/events.css" rel="stylesheet">
+    <link href="/resources/static/css/theme.css" rel="stylesheet">
+    <link href="/resources/static/css/calendar/schoolCalendar.css" rel="stylesheet">
+    <link href="/resources/static/css/events/eventsURL.css" rel="stylesheet">
+    <link href="/resources/static/css/gallery/gallery.css" rel="stylesheet">
+    <link href="/resources/static/css/contactUs/contactUs.css" rel="stylesheet">
+    <link href="/resources/static/css/location/locationTwo.css" rel="stylesheet">
+    <link href="/resources/static/css/notification/notification.css" rel="stylesheet">
+    <link href="/resources/static/css/calendar.css" rel="stylesheet">
+    <link href="/resources/static/css/calendar/responsiveSlide.css" rel="stylesheet">
+
 
 
 </head>
@@ -289,6 +291,22 @@
 <script src="../resources/static/js/eventController/eventController.js"></script>
 <script src="../resources/static/js/directive.js"></script>
 
+
+
+
+
+
+<%--<%@include file="/resources/static/css/events/events.css"%>--%>
+<%--<%@include file="/resources/static/css/theme.css"%>--%>
+
+<%--<%@include file="/resources/static/css/calendar/schoolCalendar.css" %>--%>
+<%--<%@include file="/resources/static/css/events/eventsURL.css" %>--%>
+<%--<%@include file="/resources/static/css/gallery/gallery.css" %>--%>
+<%--<%@include file="/resources/static/css/contactUs/contactUs.css" %>--%>
+<%--<%@include file="/resources/static/css/location/locationTwo.css" %>--%>
+<%--<%@include file="/resources/static/css/notification/notification.css" %>--%>
+<%--<%@include file="/resources/static/css/calendar.css" %>--%>
+<%--<%@include file="/resources/static/css/contacts/contacts.css" %>--%>
 
 <%--<script src="/resources/js/other/jquery.e-calendar.js"></script>--%>
 

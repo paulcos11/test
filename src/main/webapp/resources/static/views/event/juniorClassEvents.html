@@ -72,236 +72,82 @@
     </div>
 </div>
 
+<!-- <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>School Activity</b></h4>
+            </div>
+            <div class="modal-body">
 
-<!--<style type="text/css">-->
-<!--/* unvisited link */-->
-<!--a.class3:link {-->
-<!--color: #000;-->
-<!--}-->
+                <form ng-submit="submit()" class="form-horizontal" id="schoolEventValidate"
+                      ng-controller="NewEventPost">
 
-<!--/* visited link */-->
-<!--a.class3:visited {-->
-<!--color: #000;-->
-<!--}-->
+                    <input type="hidden" class="form-control" name="type"
+                           placeholder="Activity Title" ng-model="type" ng-init="type='Junior Class Activity'">
 
-<!--/* mouse over link */-->
-<!--a.class3:hover {-->
-<!--color: #353c48;-->
-<!--}-->
+                    <div class="form-group">
 
-<!--/* selected link */-->
-<!--a.class3:active {-->
-<!--color: #000;-->
-<!--}-->
+                        <label for="title" class="col-sm-2 control-label">Title</label>
 
-<!--table td, table tr, table th {-->
-<!--background: transparent !important;-->
-<!--}-->
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="title" class="form-control" id="title" name="title"
+                                   placeholder="Activity Title">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="location" class="col-sm-2 control-label">Location</label>
 
-<!--table.tbody {-->
-<!--background: transparent !important;-->
-<!--}-->
+                        <div class="col-sm-10">
+                            <input type="text" ng-model="location" class="form-control" name="location"
+                                   placeholder="Location" id="location">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="link" class="col-sm-2 control-label">URL</label>
 
-<!--table, table tr, table th, table td {-->
-<!--background: transparent !important;-->
-<!--}-->
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" ng-model="link" name="link"
+                                   placeholder="copy past web-site address" id="link">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text" class="col-sm-2 control-label">Text</label>
 
-<!--@media screen and (max-width: 1680px) {-->
+                        <div class="col-sm-10">
+                                <textarea class="form-control" rows="3" name="text" ng-model="text"
+                                          placeholder="Event Details" id="text"></textarea>
+                        </div>
+                    </div>
 
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 18%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
+                    <div class="form-group">
+                        <label for="publishedDate" class="col-sm-2 control-label">Date</label>
 
-<!--}-->
+                        <div class="col-sm-10 hero-unit">
+                            <input type="date" id="publishedDate" name="publishedDate" ng-model="publishedDate"
+                                   placeholder="dd-MM-yyyy"/>
+                        </div>
+                    </div>
 
-<!--@media screen and (max-width: 1440px) {-->
-<!--.footerEvents {-->
-<!--bottom: 18%;-->
-<!--margin-left: -.75%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-<!--}-->
+                    <div class="form-group">
+                        <div class="col-sm-8">
+                            <br>
+                            <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close
+                            </button>
+                            <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save"/>
+                        </div>
+                    </div>
 
-<!--@media screen and (max-width: 1367px) {-->
-<!--.footerEvents {-->
-<!--bottom: 18%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-<!--}-->
+                </form>
 
-<!--@media screen and (max-width: 1281px) {-->
-<!--.footerEvents {-->
-<!--bottom: 18%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 1200px) {-->
-<!--.footerEvents {-->
-<!--bottom: 15%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 1024px) {-->
-<!--.footerEvents {-->
-<!--bottom: 18%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 1000px) {-->
-<!--.footerEvents {-->
-<!--bottom: 14%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-<!--}-->
-
-<!--@media screen and (max-width: 967px) {-->
-<!--.footerEvents {-->
-<!--bottom: 12%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-<!--}-->
-
-<!--@media screen and (max-width: 960px) and (max-height: 600px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 16%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 800px) and (max-height: 1281px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 20%;-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 768px) and (max-height: 1024px) {-->
-
-<!--.footerEvents {-->
-<!--bottom: 14%;-->
-<!--/*border: dashed;*/-->
-
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 732px) and (max-height: 412px) {-->
-
-<!--.footerEvents {-->
-<!--bottom: 14%;-->
-<!--/*border: dashed;*/-->
-
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 640px) and (max-height: 360px) {-->
-
-<!--.footerEvents {-->
-<!--bottom: 14%;-->
-<!--/*border: dashed;*/-->
-
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 640px) and (max-height: 384px) and (min-height: 361px) {-->
-
-<!--.footerEvents {-->
-<!--bottom: 14%;-->
-<!--/*border: dashed;*/-->
-
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 600px) and (max-height: 1024px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 13%;-->
-<!--/*border: dashed;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 480px) and (max-height: 320px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 13%;-->
-<!--/*border: dashed;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 412px) and (max-height: 732px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 11%;-->
-<!--/*border: dashed;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 384px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 10%;-->
-<!--/*border: dashed;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 360px) and (max-height: 640px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 12%;-->
-<!--margin-top: 40%;-->
-<!--/*margin-bottom: 10%;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-
-<!--@media screen and (max-width: 320px) {-->
-
-<!--.footerEvents {-->
-<!--width: 80%;-->
-<!--position: absolute;-->
-<!--bottom: 10%;-->
-<!--/*border: dashed;*/-->
-<!--/*border: dashed;*/-->
-<!--}-->
-
-<!--}-->
-<!--</style>-->
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>

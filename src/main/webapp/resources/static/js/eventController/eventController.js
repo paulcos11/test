@@ -63,117 +63,165 @@ App.controller('UpcomingEventEmail', ['$scope', '$window', '$http', '$routeParam
 App.controller('NewSchoolNotificationPost', ['$scope', 'NotificationSave', '$window',
     function ($scope, NotificationSave, $window) {
 
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolNotificationValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
+
         $scope.submit = function () {
             $scope.sub = true;
-            var notification = {
-                "name": $scope.notificationName,
-                "link": $scope.notificationLink,
-                "text": $scope.notificationText,
-                "publishedDate": $scope.notificationPublishedDate,
+            if (!!$scope.notificationName && !!$scope.notificationLink && !!$scope.notificationText && !!$scope.notificationPublishedDate) {
+                var notification = {
+                    "name": $scope.notificationName,
+                    "link": $scope.notificationLink,
+                    "text": $scope.notificationText,
+                    "publishedDate": $scope.notificationPublishedDate,
 
-            };
+                };
 
-            NotificationSave.save({}, notification,
-                function success(response) {
-                    console.log("Success:");
-                    $window.location.reload();
+                NotificationSave.save({}, notification,
+                    function success(response) {
+                        console.log("Success:");
+                        $window.location.reload();
 
-                },
-                function error(errorResponse) {
-                    console.log("Error:" + JSON.stringify(errorResponse));
-                }
-            );
-
+                    },
+                    function error(errorResponse) {
+                        console.log("Error:" + JSON.stringify(errorResponse));
+                    }
+                );
+            }
         };
 
-    }]);
+    }])
+;
 
 App.controller('NewJuniorNotificationPost', ['$scope', 'JuniorNotificationSave', '$window',
-    function NewJuniorNotificationPost($scope, JuniorNotificationSave, $window) {
+    function ($scope, JuniorNotificationSave, $window) {
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolNotificationValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
 
         $scope.submit = function () {
             $scope.sub = true;
-            var notification = {
-                "name": $scope.notificationName,
-                "link": $scope.notificationLink,
-                "text": $scope.notificationText,
-                "publishedDate": $scope.notificationPublishedDate,
+            if (!!$scope.notificationName && !!$scope.notificationLink && !!$scope.notificationText && !!$scope.notificationPublishedDate) {
+                var notification = {
+                    "name": $scope.notificationName,
+                    "link": $scope.notificationLink,
+                    "text": $scope.notificationText,
+                    "publishedDate": $scope.notificationPublishedDate,
 
-            };
+                };
 
-            JuniorNotificationSave.save({}, notification,
-                function success(response) {
-                    console.log("Success:");
-                    $window.location.reload();
-                },
-                function error(errorResponse) {
-                    console.log("Error:" + JSON.stringify(errorResponse));
-                }
-            );
+                JuniorNotificationSave.save({}, notification,
+                    function success(response) {
+                        console.log("Success:");
+                        $window.location.reload();
+                    },
+                    function error(errorResponse) {
+                        console.log("Error:" + JSON.stringify(errorResponse));
+                    }
+                );
+            }
 
         };
 
     }]);
 
 App.controller('NewSeniorNotificationPost', ['$scope', 'SenorNotificationSave', '$window',
-    function NewSeniorNotificationPost($scope, SenorNotificationSave, $window) {
+    function ($scope, SenorNotificationSave, $window) {
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolNotificationValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
 
         $scope.submit = function () {
+            if (!!$scope.notificationName && !!$scope.notificationLink && !!$scope.notificationText && !!$scope.notificationPublishedDate) {
+                var notification = {
+                    "name": $scope.notificationName,
+                    "link": $scope.notificationLink,
+                    "text": $scope.notificationText,
+                    "publishedDate": $scope.notificationPublishedDate,
 
-            $scope.sub = true;
-            var notification = {
-                "name": $scope.notificationName,
-                "link": $scope.notificationLink,
-                "text": $scope.notificationText,
-                "publishedDate": $scope.notificationPublishedDate,
+                };
 
-            };
+                SenorNotificationSave.save({}, notification,
+                    function success(response) {
+                        console.log("Success:");
+                        $window.location.reload();
 
-            SenorNotificationSave.save({}, notification,
-                function success(response) {
-                    console.log("Success:");
-                    $window.location.reload();
+                    },
+                    function error(errorResponse) {
+                        console.log("Error:" + JSON.stringify(errorResponse));
+                    }
+                );
 
-                },
-                function error(errorResponse) {
-                    console.log("Error:" + JSON.stringify(errorResponse));
-                }
-            );
-
-        };
-
+            }
+            ;
+        }
     }]);
 
 App.controller('UpdateNotificationEvent', ['$scope', '$window', '$http', '$routeParams', '$filter',
-    function UpdateNotificationEvent($scope, $window, $http, $routeParams, $filter) {
+    function ($scope, $window, $http, $routeParams, $filter) {
+
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolNotificationValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
 
         var eventId = $routeParams.id;
         $scope.submit = function () {
-            $scope.type = $scope.notification.type;
-            $scope.name = $scope.notification.name;
-            $scope.link = $scope.notification.link;
-            $scope.text = $scope.notification.text;
-            $scope.publishedDate = $filter('date')($scope.notification.publishedDate, "dd/MM/yyyy");
-            var myDate = $scope.publishedDate;
+            if (!!$scope.notification.name && !!$scope.notification.link && !!$scope.notification.text && !!$scope.notification.publishedDate) {
+                $scope.type = $scope.notification.type;
+                $scope.name = $scope.notification.name;
+                $scope.link = $scope.notification.link;
+                $scope.text = $scope.notification.text;
+                $scope.publishedDate = $filter('date')($scope.notification.publishedDate, "dd/MM/yyyy");
+                var myDate = $scope.publishedDate;
 
-            var fd = new FormData();
-            fd.append('type', $scope.type);
-            fd.append('name', $scope.name);
-            fd.append('link', $scope.link);
-            fd.append('text', $scope.text);
-            fd.append('publishedDate', myDate);
+                var fd = new FormData();
+                fd.append('type', $scope.type);
+                fd.append('name', $scope.name);
+                fd.append('link', $scope.link);
+                fd.append('text', $scope.text);
+                fd.append('publishedDate', myDate);
 
-            $http.post('/updateNotification/' + eventId, fd, {
-                transformRequest: angular.identity,
-                headers: {'Content-Type': undefined}
-            })
-                .success(function (response) {
-                    console.log("Success:");
-                    $window.location.reload();
-
+                $http.post('/updateNotification/' + eventId, fd, {
+                    transformRequest: angular.identity,
+                    headers: {'Content-Type': undefined}
                 })
-                .error(function () {
-                });
+                    .success(function (response) {
+                        console.log("Success:");
+                        $window.location.reload();
+
+                    })
+                    .error(function () {
+                    });
+            }
         }
 
     }]);
@@ -315,7 +363,7 @@ App.controller('schoolNotifyCon', ['$scope', 'SchoolNotifyList', 'sessionService
                         "infoFiltered": "(filtered from _MAX_ total records)"
                     },
                     "columnDefs": [
-                        { "width": "60%", "targets": 0 }
+                        {"width": "60%", "targets": 0}
                     ],
                     "bFilter": false,
                     "bPaginate": true,
@@ -356,31 +404,42 @@ App.controller('ImageController', ['$scope', '$http', '$routeParams', function (
 
 
 App.controller('NewEventPost', ['$scope', 'EventSave', '$window',
-    function NewEventPost($scope, EventSave, $window) {
-        var id;
+    function ($scope, EventSave, $window) {
+        //
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolEventValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
+
         $scope.submit = function () {
             $scope.sub = true;
-            var event = {
-                "type": "School Event",
-                "name": $scope.eventName,
-                "location": $scope.eventLocation,
-                "text": $scope.eventText,
-                "publishedDate": $scope.publishedDate,
-                "link": $scope.eventLink
+            if (!!$scope.type && !!$scope.title && !!$scope.location && !!$scope.link && !!$scope.text && !!$scope.publishedDate) {
+                var event = {
+                    "type": $scope.type,
+                    "name": $scope.title,
+                    "location": $scope.location,
+                    "link": $scope.link,
+                    "text": $scope.text,
+                    "publishedDate": $scope.publishedDate
+                };
 
-            };
+                EventSave.save({}, event,
+                    function success(response) {
+                        console.log("Success:");
+                        $window.location.reload();
+                    },
+                    function error(errorResponse) {
+                        console.log("Error:" + JSON.stringify(errorResponse));
+                    }
+                );
+            }
 
-            id = $scope.eventId;
-
-            EventSave.save({}, event,
-                function success(response) {
-                    console.log("Success:");
-                    $window.location.reload();
-                },
-                function error(errorResponse) {
-                    console.log("Error:" + JSON.stringify(errorResponse));
-                }
-            );
 
         };
 
@@ -388,12 +447,36 @@ App.controller('NewEventPost', ['$scope', 'EventSave', '$window',
 
 
 App.controller('schoolEventCon', ['$scope', 'SchoolEventList', 'sessionService', function ($scope, SchoolEventList, sessionService) {
+
+    $.getScript('https://code.jquery.com/jquery-1.11.3.min.js', function () {
+        $.getScript('//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js', function () {
+            //
+            $(document).ready(function () {
+                $('#table').DataTable({
+                    "language": {
+                        "lengthMenu": "Display _MENU_ records per page",
+                        "zeroRecords": "No school events recorded",
+                        "info": "Showing page _PAGE_ of _PAGES_",
+                        "infoEmpty": "Showing 0 to 0 of 0 entries",
+                        "infoFiltered": "(filtered from _MAX_ total records)"
+                    },
+                    "bFilter": false,
+                    "bPaginate": true,
+                    "iDisplayLength": 5,
+                    "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    "bLengthChange": false,
+                    "bDestroy": true
+                });
+            });
+        });
+    });
+
+
     $scope.isLoggedIn = sessionService.isLoggedIn;
-    $scope.eventList = [];
     SchoolEventList.get({},
         function success(response) {
             console.log("Success:");
-            $scope.eventList = response;
+            $scope.events = response;
 
         },
         function error(errorResponse) {
@@ -407,7 +490,7 @@ App.controller('seniorClassEventsCon', ['$scope', 'SeniorClassEventsList', 'sess
     $scope.eventList = [];
     SeniorClassEventsList.get({},
         function success(response) {
-            console.log("Success:" );
+            console.log("Success:");
             $scope.eventList = response;
 
         },
@@ -422,7 +505,7 @@ App.controller('juniorClassEventsCon', ['$scope', 'JuniorClassEventsList', 'sess
     $scope.eventList = [];
     JuniorClassEventsList.get({},
         function success(response) {
-            console.log("Success:" );
+            console.log("Success:");
             $scope.eventList = response;
 
         },
@@ -459,7 +542,7 @@ App.controller('allPreviousEventsCon', ['$scope', 'EventList', function ($scope,
     $scope.eventList = [];
     EventList.get({},
         function success(response) {
-            console.log("Success:" );
+            console.log("Success:");
             $scope.eventList = response;
 
         },
@@ -470,7 +553,18 @@ App.controller('allPreviousEventsCon', ['$scope', 'EventList', function ($scope,
 }]);
 
 App.controller('UpdateUpcomingEvent', ['$scope', '$window', '$http', '$routeParams', '$filter',
-    function UpdateUpcomingEvent($scope, $window, $http, $routeParams, $filter) {
+    function ($scope, $window, $http, $routeParams, $filter) {
+
+        $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+            $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+                $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+                    $(document).ready(function () {
+                        $.getScript('/resources/js/other/schoolEventValidate.js', function () {
+                        });
+                    });
+                });
+            });
+        });
 
         var eventId = $routeParams.id;
         $scope.submit = function () {
@@ -498,7 +592,7 @@ App.controller('UpdateUpcomingEvent', ['$scope', '$window', '$http', '$routePara
                 headers: {'Content-Type': undefined}
             })
                 .success(function (response) {
-                    console.log("Success:" );
+                    console.log("Success:");
                     $window.location.reload();
 
                 })
@@ -552,12 +646,21 @@ App.controller('previousEventsURLCon', ['$scope', 'Event', '$routeParams', 'sess
         });
     });
 
+    $.getScript('http://jqueryvalidation.org/files/dist/jquery.validate.min.js', function () {
+        $.getScript('http://jqueryvalidation.org/files/dist/additional-methods.min.js', function () {
+            $(document).ready(function () {
+                $.getScript('/resources/js/other/previousEventsValidate.js', function () {
+                });
+            });
+        });
+    });
+
     $scope.isLoggedIn = sessionService.isLoggedIn;
 
     var eventId = $routeParams.id;
     Event.get({id: eventId},
         function success(response) {
-            console.log("Success:" );
+            console.log("Success:");
             $scope.event = response;
             $scope.text = $scope.event.text;
             $scope.story = $scope.event.story;

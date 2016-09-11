@@ -316,6 +316,13 @@ App.controller('UpdateHome', ['$scope', '$window', '$http',
     }]);
 
 App.controller('homeController', function ($scope, $http, sessionService) {
+    $.getScript('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', function () {
+        $.getScript('/resources/js/responsiveSlide.js', function () {
+            $.getScript('/resources/js/index/sliderEventsSlider.js', function () {
+
+            });
+        });
+    });
 
     $scope.isLoggedIn = sessionService.isLoggedIn;
     $scope.logout = sessionService.logout;

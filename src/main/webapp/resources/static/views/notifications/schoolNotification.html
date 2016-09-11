@@ -89,44 +89,44 @@
             </div>
             <div class="modal-body">
 
-                <form class="form-horizontal" ng-submit="submit()" ng-controller="NewSchoolNotificationPost">
+                <form class="form-horizontal" ng-submit="submit()" id="NotificationValidate" ng-controller="NewSchoolNotificationPost">
 
                     <div class="form-group">
-                        <label for="notificationName" class="col-sm-2 control-label">Title</label>
+                        <label for="title" class="col-sm-2 control-label">Title</label>
 
                         <div class="col-sm-10">
-                            <input type="text" id="notificationName" ng-model="notificationName" class="form-control"
-                                   name="notificationName"
-                                   placeholder="Notification Title" required>
+                            <input type="text" ng-model="notificationName" class="form-control"
+                                   name="title"
+                                   placeholder="Notification Title" id="title">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="notificationLink" class="col-sm-2 control-label">Link</label>
+                        <label for="link" class="col-sm-2 control-label">Link</label>
 
                         <div class="col-sm-10">
-                            <input type="text" id="notificationLink" ng-model="notificationLink" class="form-control"
-                                   name="notificationLink"
-                                   placeholder="URL to more information" required>
+                            <input type="text" ng-model="notificationLink" class="form-control"
+                                   name="link"
+                                   placeholder="URL to more information" id="link">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="notificationText" class="col-sm-2 control-label">Text</label>
+                        <label for="text" class="col-sm-2 control-label">Text</label>
 
                         <div class="col-sm-10">
-                                <textarea id="notificationText" class="form-control" rows="3" name="notificationText"
+                                <textarea id="text" class="form-control" rows="3" name="text"
                                           ng-model="notificationText"
-                                          placeholder="Notification Details" required></textarea>
+                                          placeholder="Notification Details"></textarea>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="notificationPublishedDate" class="col-sm-2 control-label">Date</label>
+                        <label for="publishedDate" class="col-sm-2 control-label">Date</label>
 
                         <div class="col-sm-10 hero-unit">
-                            <input type="date" id="notificationPublishedDate" name="notificationPublishedDate"
+                            <input type="date" id="publishedDate" name="publishedDate"
                                    ng-model="notificationPublishedDate"
-                                   placeholder="dd/MM/yyyy" required/>
+                                   placeholder="dd/MM/yyyy"/>
                         </div>
                     </div>
 

@@ -689,7 +689,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -704,7 +704,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         z-index: -3;
     }
 
@@ -714,7 +714,7 @@
         top: 11%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         /*z-index: 1;*/
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -727,7 +727,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -821,7 +821,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -834,7 +834,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         z-index: -3;
     }
 
@@ -844,7 +844,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         /*z-index: 1;*/
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -857,7 +857,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -913,7 +913,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -926,7 +926,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         z-index: -3;
     }
 
@@ -936,7 +936,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         /*z-index: 1;*/
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -949,7 +949,7 @@
         top: 12%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -975,7 +975,7 @@
         top: 2%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -988,7 +988,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         z-index: -3;
     }
 
@@ -998,7 +998,7 @@
         bottom: 0%;
         width: 100px;
         height: 100px;
-        background: transparent url(/static/images/smilySun.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilySun.png) no-repeat center center;
         /*z-index: 1;*/
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
@@ -1011,7 +1011,7 @@
         top: 5%;
         width: 50px;
         height: 50px;
-        background: transparent url(/static/images/smilyMoon.png) no-repeat center center;
+        background: transparent url(/resources/static/images/smilyMoon.png) no-repeat center center;
         z-index: 6;
         opacity: 0;
         filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
