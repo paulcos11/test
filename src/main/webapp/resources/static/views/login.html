@@ -1,8 +1,9 @@
-<div ng-controller="navigation">
+<div ng-controller="navigation" style="height: auto">
     <div class="alert alert-danger" ng-show="controller.error">
         There was a problem logging in. Please try again.
     </div>
-    <div style="width: 50%; margin-left: auto; margin-right: auto; margin-top: 10%">
+    <div style="width: 40%; margin-left: auto; margin-right: auto; margin-top: 10%">
+
         <form role="form" ng-submit="login()">
             <div class="form-group">
                 <label for="username">Username:</label> <input type="text"
@@ -16,5 +17,6 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <br><br><br>
     </div>
 </div>

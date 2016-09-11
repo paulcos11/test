@@ -358,7 +358,7 @@ public class InitDbService {
 
         Event event = new Event();
         event.setId(1);
-        event.setType("School Event");
+        event.setType("School Activity");
         event.setName("School Tour");
         event.setSlideShow("s");
         event.setLocation("Wet Lands");
@@ -371,7 +371,7 @@ public class InitDbService {
 
         Event event2 = new Event();
         event2.setId(2);
-        event2.setType("Senior Class Event");
+        event2.setType("Senior Class Activity");
         event2.setName("Town Park Walk!");
         event2.setSlideShow("s");
         event2.setLocation("Tralee Town Park");
@@ -383,7 +383,7 @@ public class InitDbService {
 
         Event event3 = new Event();
         event3.setId(3);
-        event3.setType("Junior Class Event");
+        event3.setType("Junior Class Activity");
         event3.setName("Dublin Zoo1!");
         event3.setSlideShow("s");
         event3.setLocation("Dublin City");
@@ -395,7 +395,7 @@ public class InitDbService {
 
         Event event4 = new Event();
         event4.setId(4);
-        event4.setType("Junior Class Event");
+        event4.setType("Junior Class Activity");
         event4.setName("Photo Island Wildlife Park2!");
         event4.setSlideShow("s");
         event4.setLocation("Cork City");
@@ -407,7 +407,7 @@ public class InitDbService {
 
         Event event5 = new Event();
         event5.setId(5);
-        event5.setType("School Event");
+        event5.setType("School Activity");
         event5.setName("Aqua Dome");
         event5.setSlideShow("s");
         event5.setLocation("Aqua Dome Tralee");
@@ -419,7 +419,7 @@ public class InitDbService {
 
         Event event6 = new Event();
         event6.setId(6);
-        event6.setType("Senior Class Event");
+        event6.setType("Senior Class Activity");
         event6.setName("Aqua Dome");
         event6.setSlideShow("s");
         event6.setLocation("Aqua Dome Tralee");
@@ -431,7 +431,7 @@ public class InitDbService {
 
         Event event7 = new Event();
         event7.setId(7);
-        event7.setType("Junior Class Event");
+        event7.setType("Junior Class Activity");
         event7.setName("Dublin Zoo3!");
         event7.setSlideShow("s");
         event7.setLocation("Dublin City");
@@ -443,7 +443,7 @@ public class InitDbService {
 
         Event event8 = new Event();
         event8.setId(8);
-        event8.setType("Junior Class Event");
+        event8.setType("Junior Class Activity");
         event8.setName("Photo Island Wildlife Park4!");
         event8.setSlideShow("s");
         event8.setLocation("Cork City");
@@ -455,7 +455,7 @@ public class InitDbService {
 
         Event event9 = new Event();
         event9.setId(9);
-        event9.setType("Junior Class Event");
+        event9.setType("Junior Class Activity");
         event9.setName("Dublin Zoo5!");
         event9.setSlideShow("s");
         event9.setLocation("Dublin City");
@@ -467,7 +467,7 @@ public class InitDbService {
 
         Event event10 = new Event();
         event10.setId(10);
-        event10.setType("Junior Class Event");
+        event10.setType("Junior Class Activity");
         event10.setName("Photo Island Wildlife Park6!");
         event10.setSlideShow("s");
         event10.setLocation("Cork City");

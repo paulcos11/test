@@ -53,6 +53,7 @@
         <%@include file="/resources/static/css/calendar.css" %>
         <%--<%@include file="/resources/static/css/calendar.css" %>--%>
         <%@include file="/resources/static/css/index/index.css" %>
+        <%@include file="/resources/static/css/contacts/contacts.css" %>
         <%--<%@include file="/resources/static/css/jquery.e-calendar.css" %>--%>
         <%--<%@include file="/resources/static/css/calendar/responsiveSlide.css" %>--%>
         <%--<%@include file="/resources/static/css/gallery/gallery.css"%>--%>

@@ -1,6 +1,3 @@
-//var app = angular.module('app', ['ngRoute']);
-//
-//
 
 'use strict';
 
@@ -83,9 +80,23 @@ App.config(function ($routeProvider, $httpProvider) {
         controllerAs: 'controller'
     }).when('/contacts', {
         templateUrl: 'resources/static/views/contacts/contacts.html',
+        controller: 'ContactMenu',
+        controllerAs: 'controller'
     }).when('/contactsSchool', {
         templateUrl: 'resources/static/views/contacts/contactsSchool.html',
         controller: 'ContactCon',
+        controllerAs: 'controller'
+    }).when('/seniorContacts', {
+        templateUrl: 'resources/static/views/contacts/seniorContacts.html',
+        controller: 'SeniorContactCon',
+        controllerAs: 'controller'
+    }).when('/juniorContacts', {
+        templateUrl: 'resources/static/views/contacts/juniorContacts.html',
+        controller: 'JuniorContactCon',
+        controllerAs: 'controller'
+    }).when('/contactDetails/:id', {
+        templateUrl: 'resources/static/views/contacts/contactDetails.html',
+        controller: 'ContactDetailsCon',
         controllerAs: 'controller'
     }).otherwise(
         {redirectTo: '/'});

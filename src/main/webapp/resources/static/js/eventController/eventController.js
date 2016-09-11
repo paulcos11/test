@@ -3,8 +3,65 @@
  * Created by Paul on 23/08/2016.
  */
 
+App.controller('NotificationEmail', ['$scope', '$window', '$http', '$routeParams', '$filter',
+    function ($scope, $window, $http, $routeParams, $filter) {
+
+        $scope.submit = function () {
+            $scope.publishedDate = $filter('date')($scope.notification.publishedDate, "dd/MM/yyyy");
+
+            var fd = new FormData();
+            fd.append('text', $scope.notification.text);
+            fd.append('type', $scope.notification.type);
+            fd.append('name', $scope.notification.name);
+            fd.append('link', $scope.notification.link);
+            fd.append('publishedDate', $scope.publishedDate);
+
+            $http.post('/notificationURL/email', fd, {
+                transformRequest: angular.identity,
+                headers: {'Content-Type': undefined}
+            })
+                .success(function (response) {
+                    console.log("Success:");
+                    $window.location.reload();
+
+                })
+                .error(function () {
+                });
+        }
+
+    }]);
+
+App.controller('UpcomingEventEmail', ['$scope', '$window', '$http', '$routeParams', '$filter',
+    function ($scope, $window, $http, $routeParams, $filter) {
+
+        $scope.submit = function () {
+            $scope.publishedDate = $filter('date')($scope.event.publishedDate, "dd/MM/yyyy");
+
+            var fd = new FormData();
+            fd.append('text', $scope.event.text);
+            fd.append('type', $scope.event.type);
+            fd.append('name', $scope.event.name);
+            fd.append('location', $scope.event.location);
+            fd.append('link', $scope.event.link);
+            fd.append('publishedDate', $scope.publishedDate);
+
+            $http.post('/upcomingEventsURL/email', fd, {
+                transformRequest: angular.identity,
+                headers: {'Content-Type': undefined}
+            })
+                .success(function (response) {
+                    console.log("Success:");
+                    $window.location.reload();
+
+                })
+                .error(function () {
+                });
+        }
+
+    }]);
+
 App.controller('NewSchoolNotificationPost', ['$scope', 'NotificationSave', '$window',
-    function NewSchoolNotificationPost($scope, NotificationSave, $window) {
+    function ($scope, NotificationSave, $window) {
 
         $scope.submit = function () {
             $scope.sub = true;

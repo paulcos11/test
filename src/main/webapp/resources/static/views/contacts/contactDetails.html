@@ -1,0 +1,209 @@
+<div class="contactsContainer">
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <h3 class="paddingEvents ">Contact Details</h3>
+
+            <!--<c:if test="${param.success eq true}">-->
+            <!--<div class="alert alert-success">Successfully added new contact</div>-->
+            <!--</c:if>-->
+            <div ng-show="isLoggedIn" style="overflow-x:auto;">
+                <table id="table"
+                       class="tbody display table  table-hover pTableWidth pTable">
+
+                    <thead>
+                    <tr>
+                        <td><b>Name</b></td>
+                        <td><b>Email</b></td>
+                        <td><b>Number</b></td>
+                        <td><b>Class</b></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>{{contact.firstName}} {{contact.surname}}</td>
+                        <td>{{contact.email}}</td>
+                        <td>{{contact.number}}</td>
+                        <td>{{contact.type}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="myMargin borderTop">
+        <div class="row" ng-show="isLoggedIn()">
+            <div class="col-lg-12">
+                <a href="#/editApp" class="txtRight" data-toggle="tooltip"
+                   title="Back to Edit App page">
+                    <button type="button" class="contactsBtn btn btn-default btn-sm">Edit App</button>
+                </a>
+
+                <input type="button" class="btn btn-sm btn-danger myBtn txtRight"
+                       data-toggle="modal" data-target="#modalRemove" value="Delete">
+
+                <input type="button" class="btn btn-sm myBtn btn-primary txtRight"
+                       data-toggle="modal" data-target="#editEvent" value="Edit">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="notificationFooter2">
+    <div>
+        <a href="#/contacts" data-toggle="tooltip" title="Back">
+            <button type="button" class="contactsBackBtn btn btn-sm btn-default" aria-label="Left Align">
+
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </button>
+        </a>
+    </div>
+</div>
+
+<style type="text/css">
+    table td, table tr, table th {
+        background: transparent !important;
+    }
+
+    table.tbody {
+        background: transparent !important;
+    }
+
+    table, table tr, table th, table td {
+        background: transparent !important;
+    }
+</style>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalRemove" aria-hidden="true"
+     tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Delete Contact
+                    Details</h4>
+            </div>
+            <form class="form-horizontal" ng-submit="submit()" ng-controller="ContactDelete">
+                <div class="modal-body">Are you sure you want to delete {{contact.firstName}} {{contact.surname}}'s
+                    info?
+                </div>
+
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-2 control-label"></label>
+
+                    <div class="col-sm-10">
+                        <input type="hidden" class="form-control" name="firstName"
+                               ng-model="contact.firstName" value="{{contact.firstName}}"
+                               placeholder="Parents first name">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-sm " data-dismiss="modal">Cancel</button>
+                    <input type="submit" type="submit"
+                           class="btn btn-danger btn-sm removeBtn myBtn" value="Delete">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Modal -->
+<div class="modal fade" id="editEvent" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2"><b>Edit Contact</b></h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" ng-submit="submit()" ng-controller="ContactUpdate">
+
+                    <div class="form-group">
+                        <label for="firstName" class="col-sm-2 control-label">First name</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="firstName"
+                                   id="firstName" ng-model="contact.firstName" value="{{contact.firstName}}"
+                                   placeholder="Parents first name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname" class="col-sm-2 control-label">Surname</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="surname"
+                                   id="surname" value="{{contact.surname}}" placeholder="Parents surname"
+                                   ng-model="contact.surname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="number" class="col-sm-2 control-label">Number</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="number"
+                                   id="number" placeholder="Contact number" ng-model="contact.number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="email"
+                                   id="email" ng-model="contact.email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Class</label>
+
+                        <div class="col-sm-10">
+                            <select class="form-control" name="classType" ng-model="contact.type"
+                                    placeholder="Choose class">
+                                <option>{{contact.type}}</option>
+                                <option>Junior Class</option>
+                                <option>Senior Class</option>
+                                <option>Both</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save">
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function downloadJSAtOnload() {
+
+        var element = document.createElement("script");
+        element.src = "<c:url value=" / resources / js / contacts / contact.js
+        " />";
+        document.body.appendChild(element);
+
+    }
+    // Check for browser support of event handling capability
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script>
+

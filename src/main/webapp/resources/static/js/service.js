@@ -4,6 +4,13 @@
 
 var flembyServices = angular.module('flembyServices', ['ngResource']);
 
+flembyServices.factory('ContactDetails', ['$resource',
+    function ($resource) {
+        return $resource("/contact/:id", {}, {
+            get: {method: 'GET', cache: false, isArray: false},
+        });
+    }]);
+
 flembyServices.factory('AllContacts', ['$resource',
     function ($resource) {
         return $resource("/allContacts/", {}, {
@@ -11,6 +18,19 @@ flembyServices.factory('AllContacts', ['$resource',
         });
     }]);
 
+flembyServices.factory('SeniorContacts', ['$resource',
+    function ($resource) {
+        return $resource("/seniorContacts/", {}, {
+            get: {method: 'GET', cache: false, isArray: true}
+        });
+    }]);
+
+flembyServices.factory('JuniorContacts', ['$resource',
+    function ($resource) {
+        return $resource("/juniorContacts/", {}, {
+            get: {method: 'GET', cache: false, isArray: true}
+        });
+    }]);
 
 flembyServices.factory('NotificationSave', ['$resource',
     function ($resource) {
@@ -52,7 +72,7 @@ flembyServices.factory('userService', function ($resource) {
 
                 //var user = data.user;
                 if (data) {
-                    alert(data.name + ' data passed back');
+                    //alert(data.name + ' data passed back');
                     success(data);
                 }else{
                     failure();
@@ -76,7 +96,7 @@ flembyServices.factory('sessionService', function ($http) {
         }).success (function(data, status, headers, config){
             console.log(data);
             if(data.correct === 'correct') {
-                alert('Login Successful');
+                //alert('Login Successful');
                 localStorage.setItem("session", {});
             }else{
                 alert('login not correct');

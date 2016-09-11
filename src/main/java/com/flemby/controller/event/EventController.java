@@ -250,20 +250,20 @@ public class EventController {
 
     @RequestMapping(value = "/schoolEvents", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Event>> getSchoolEvents() throws ParseException {
-        String event = "School Event";
+        String event = "School Activity";
         return new ResponseEntity<List<Event>>(eventService.findByType(event), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/seniorClassEvents", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Event>> getSeniorEvents() throws ParseException {
-        String event = "Senior Class Event";
+        String event = "Senior Class Activity";
         List<Event> type = eventService.findByType(event);
         return new ResponseEntity<List<Event>>(eventService.findByType(event), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/juniorClassEvents", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     ResponseEntity<List<Event>> getJuniorEvents() throws ParseException {
-        String event = "Junior Class Event";
+        String event = "Junior Class Activity";
         return new ResponseEntity<List<Event>>(eventService.findByType(event), HttpStatus.OK);
     }
 }

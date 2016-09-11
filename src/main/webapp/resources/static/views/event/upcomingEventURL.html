@@ -42,7 +42,7 @@
         </div>
 
         <div class="footerEvents">
-            <a ng-if="event.type == 'School Event'" href="#/schoolEvents" data-toggle="tooltip"
+            <a ng-if="event.type == 'School Activity'" href="#/schoolEvents" data-toggle="tooltip"
                title="Back">
 
                 <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
@@ -51,7 +51,7 @@
                                                       aria-hidden="true"></span>
                 </button>
             </a>
-            <a ng-if="event.type == 'Senior Class Event'" href="#/seniorClassEvents" data-toggle="tooltip"
+            <a ng-if="event.type == 'Senior Class Activity'" href="#/seniorClassEvents" data-toggle="tooltip"
                title="Back">
 
                 <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
@@ -61,7 +61,7 @@
                 </button>
             </a>
 
-            <a ng-if="event.type == 'Junior Class Event'" href="#/juniorClassEvents" data-toggle="tooltip"
+            <a ng-if="event.type == 'Junior Class Activity'" href="#/juniorClassEvents" data-toggle="tooltip"
                title="Back">
 
                 <button type="button" class="btn btn-default txtLeft" aria-label="Left Align">
@@ -124,21 +124,19 @@
             </div>
             <div class="modal-body">
 
-                <form class="form-horizontal" ng-submit="submit()">
+                <form class="form-horizontal" ng-submit="submit()" ng-controller="UpcomingEventEmail">
 
-                    <input type="hidden" name="eventId" value="{{event.id}}">
+                    <input type="hidden" name="eventId" ng-model="event.id">
 
-                    <input type="hidden" name="eventType" value="{{event.type}}">
+                    <input type="hidden" name="type" ng-model="event.type">
 
-                    <input type="hidden" name="eventName" value="{{event.name}}">
+                    <input type="hidden" name="name" ng-model="event.name">
 
-                    <input type="hidden" name="eventLink" value="{{event.link}}">
+                    <input type="hidden" name="location" ng-model="event.location">
 
-                    <input type="hidden" name="eventLocation" value="{{event.location}}">
+                    <input type="hidden" name="publishedDate" ng-model="event.publishedDate">
 
-                    <input type="hidden" name="eventPublishedDate" value="{{event.publishedDate | date:'dd/MM/yyyy'}}">
-
-                    <input type="hidden" name="eventText" value="{{event.text}}">
+                    <input type="hidden" name="text" value="event.text">
 
                     <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
                     <input type="submit" class="btn btn-success btn-sm myBtn" value="Email">

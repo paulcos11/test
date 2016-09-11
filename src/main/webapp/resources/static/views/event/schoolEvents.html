@@ -9,40 +9,41 @@
 
             <h3 class="paddingEvents">Upcoming School Activities</h3>
 
+            <div style="overflow-x:auto;">
+                <table id="table"
+                       class="tbody display table table-hover pTableWidth pTable">
 
-            <table id="table"
-                   class="tbody display table table-hover pTableWidth pTable">
+                    <thead>
+                    <tr>
+                        <td><b>Event</b></td>
+                        <td><b>Location</b></td>
+                        <td><b>Date</b></td>
+                        <td ng-show="isLoggedIn()"><b>Edit/Delete</b></td>
 
-                <thead>
-                <tr>
-                    <td><b>Event</b></td>
-                    <td><b>Location</b></td>
-                    <td><b>Date</b></td>
-                    <td ng-show="isLoggedIn()"><b>Edit/Delete</b></td>
-
-                </tr>
-                </thead>
-                <tbody>
-                <div ng-controller="allPreviousEventsCon as allPreviousEvents">
-                    <tr ng-repeat="event in eventList">
-                        <td>
-                            <a class="class3"
-                               href="#/upcomingEventURL/{{event.id}}">{{event.name}}</a>
-                        </td>
-                        <td>{{event.location}}</td>
-                        <td>
-                            {{event.publishedDate | date:'dd/MM/yyyy'}}
-
-                        </td>
-                        <td ng-show="isLoggedIn()">
-                            <a class="class3"
-                               href="#/upcomingEventURL/{{event.id}}">Edit /
-                                Delete</a>
-                        </td>
                     </tr>
-                </div>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    <div ng-controller="allPreviousEventsCon as allPreviousEvents">
+                        <tr ng-repeat="event in eventList">
+                            <td>
+                                <a class="class3"
+                                   href="#/upcomingEventURL/{{event.id}}">{{event.name}}</a>
+                            </td>
+                            <td>{{event.location}}</td>
+                            <td>
+                                {{event.publishedDate | date:'dd/MM/yyyy'}}
+
+                            </td>
+                            <td ng-show="isLoggedIn()">
+                                <a class="class3"
+                                   href="#/upcomingEventURL/{{event.id}}">Edit /
+                                    Delete</a>
+                            </td>
+                        </tr>
+                    </div>
+                    </tbody>
+                </table>
+            </div>
             <br><br>
         </div>
         <div class="myMargin borderTop">

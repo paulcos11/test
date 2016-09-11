@@ -123,21 +123,17 @@
             </div>
             <div class="modal-body">
 
-                <form class="form-horizontal" ng-submit="submit()">
+                <form class="form-horizontal" ng-submit="submit()" ng-controller="NotificationEmail">
 
-                    <input type="hidden" name="eventId" value="{{event.id}}">
+                    <input type="hidden" name="text" value="notification.text">
 
-                    <input type="hidden" name="eventType" value="{{event.type}}">
+                    <input type="hidden" name="type" value="notification.type">
 
-                    <input type="hidden" name="eventName" value="{{event.name}}">
+                    <input type="hidden" name="name" value="notification.name">
 
-                    <input type="hidden" name="eventLink" value="{{event.link}}">
+                    <input type="hidden" name="link" value="notification.link">
 
-                    <input type="hidden" name="eventLocation" value="{{event.location}}">
-
-                    <input type="hidden" name="eventPublishedDate" value="{{event.publishedDate | date:'dd/MM/yyyy'}}">
-
-                    <input type="hidden" name="eventText" value="{{event.text}}">
+                    <input type="hidden" name="publishedDate" value="notification.publishedDate">
 
                     <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
                     <input type="submit" class="btn btn-success btn-sm myBtn" value="Email">

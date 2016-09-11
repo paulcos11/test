@@ -1,4 +1,9 @@
 <style type="text/css">
+
+    .myLink {
+        color: #262626;
+    }
+
     /* unvisited link */
     a:link {
         color: #262626;
@@ -37,14 +42,14 @@
 
 </style>
 
-<div class="holidayContainer">
+<div class="holidayContainer" style="font-size: 1.45em">
 
     <div class="row">
         <h2 style="margin-top: 50px">Contacts</h2>
         <br>
 
         <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
-            <h5><a href="#"
+            <h5><a class="myLink"
                    data-toggle="modal" data-target="#myModal" value="Edit">Add New Contact</a></h5>
         </div>
 
@@ -53,11 +58,11 @@
 
         </div>
         <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
-            <h5><a href='<spring:url value="/contactsJuniorURL.html"/>'>Junior Class</a></h5>
+            <h5><a href="#/juniorContacts">Junior Class</a></h5>
 
         </div>
         <div class="col-lg-3 col-sm-6 col-xs-12 holidayContainer2">
-            <h5><a href='<spring:url value="/contactsSeniorURL.html"/>'>Senior Class</a></h5>
+            <h5><a href="#/seniorContacts">Senior Class</a></h5>
             <br><br><br>
         </div>
     </div>
@@ -92,14 +97,14 @@
             </div>
             <div class="modal-body">
 
-                <form class="form-horizontal" id="registerationForm" method="post" action="/contacts/type.html">
+                <form ng-submit="submit()" class="form-horizontal" >
 
                     <div class="form-group">
                         <label for="firstName" class="col-sm-2 control-label">First name</label>
 
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="firstName"
-                                   id="firstName" placeholder="Parents first name">
+                                   id="firstName" ng-model="firstName" placeholder="Parents first name">
                         </div>
                     </div>
 
@@ -108,7 +113,7 @@
 
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="surname"
-                                   id="surname" placeholder="Parents surname">
+                                   id="surname" ng-model="surname" placeholder="Parents surname">
                         </div>
                     </div>
                     <div class="form-group">
@@ -116,7 +121,7 @@
 
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="number"
-                                   id="number" placeholder="Contact number">
+                                   id="number" ng-model="number" placeholder="Contact number">
                         </div>
                     </div>
                     <div class="form-group">
@@ -124,7 +129,7 @@
 
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="email"
-                                   id="email" placeholder="Email address">
+                                   id="email" ng-model="email" placeholder="Email address">
                         </div>
                     </div>
                     <div class="form-group">
@@ -132,7 +137,7 @@
 
                         <div class="col-sm-10">
                             <select class="form-control" name="classType"
-                                    placeholder="Choose class">
+                                    ng-model="type" placeholder="Choose class">
                                 <option value="" disabled selected>Choose Class</option>
                                 <option>Junior Class</option>
                                 <option>Senior Class</option>
@@ -140,7 +145,6 @@
                             </select>
                         </div>
                     </div>
-
 
                     <button type="button" class="btn btn-default btn-sm myBtn" data-dismiss="modal">Close</button>
                     <input type="submit" class="btn btn-primary btn-sm myBtn" value="Save">

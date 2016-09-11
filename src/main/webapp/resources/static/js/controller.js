@@ -5,8 +5,142 @@
 
 //'use strict';
 
-App.controller('ContactCon', ['$scope', 'AllContacts', function ($scope, AllContacts) {
+App.controller('ContactDelete', ['$scope', '$window', '$http', '$location', '$routeParams',
+    function ($scope, $window, $http, $location, $routeParams) {
 
+        var contactId = $routeParams.id;
+        $scope.submit = function () {
+            $http.post('/contact/delete/' + contactId, {
+                transformRequest: angular.identity,
+                headers: {'Content-Type': undefined}
+            })
+                .success(function (response) {
+                    console.log("Success:");
+                    $location.path('/contactsSchool');
+                    $window.location.reload();
+
+                })
+                .error(function () {
+                    console.log("Error:");
+                });
+        }
+
+    }]);
+
+
+App.controller('ContactUpdate', ['$scope', '$window', '$http', '$location', '$routeParams',
+    function ($scope, $window, $http, $location, $routeParams) {
+
+        var contactId = $routeParams.id;
+
+        $scope.submit = function () {
+
+            var fd = new FormData();
+            fd.append('firstName', $scope.contact.firstName);
+            fd.append('surname', $scope.contact.surname);
+            fd.append('number', $scope.contact.number);
+            fd.append('email', $scope.contact.email);
+            fd.append('type', $scope.contact.type);
+
+
+            $http.post('/contactUpdate/' + contactId, fd, {
+                transformRequest: angular.identity,
+                headers: {'Content-Type': undefined}
+            })
+                .success(function (response) {
+                    console.log("Success:");
+                    $location.path('/contactsSchool');
+                    $window.location.reload();
+
+                })
+                .error(function () {
+                });
+        }
+    }]);
+
+App.controller('ContactDetailsCon', ['$scope', 'ContactDetails', '$routeParams', 'sessionService', function ($scope, ContactDetails, $routeParams, sessionService) {
+    $scope.isLoggedIn = sessionService.isLoggedIn;
+    var contactId = $routeParams.id;
+    ContactDetails.get({id: contactId},
+
+        function success(response) {
+            console.log("Success:");
+            $scope.contact = response;
+        },
+        function error(errorResponse) {
+            console.log("Error:" + JSON.stringify(errorResponse));
+        }
+    )
+}]);
+
+App.controller('ContactMenu', ['$scope', '$window', '$http', '$location', function ($scope, $window, $http, $location) {
+
+    $scope.submit = function () {
+        alert($scope.firstName);
+
+        var fd = new FormData();
+        fd.append('firstName', $scope.firstName);
+        fd.append('surname', $scope.surname);
+        fd.append('email', $scope.email);
+        fd.append('number', $scope.number);
+        fd.append('type', $scope.type);
+
+        $http.post('/addNewContact/', fd, {
+            transformRequest: angular.identity,
+            headers: {'Content-Type': undefined}
+        })
+            .success(function (response) {
+                console.log("Success:");
+                $location.path('/contactsSchool');
+                $window.location.reload();
+
+            })
+            .error(function () {
+            });
+    }
+}]);
+
+
+App.controller('ContactCon', ['$scope', 'AllContacts', 'sessionService', '$window', '$http', function ($scope, AllContacts, sessionService, $window, $http) {
+    $scope.isLoggedIn = sessionService.isLoggedIn;
+    $.getScript('https://code.jquery.com/jquery-1.11.3.min.js', function () {
+        $.getScript('//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js', function () {
+            //
+            $(document).ready(function () {
+                $('#table').DataTable({
+                    "language": {
+                        "lengthMenu": "Display _MENU_ records per page",
+                        "zeroRecords": "No school events recorded",
+                        "info": "Showing page _PAGE_ of _PAGES_",
+                        "infoEmpty": "Showing 0 to 0 of 0 entries",
+                        "infoFiltered": "(filtered from _MAX_ total records)"
+                    },
+                    "bFilter": false,
+                    "bPaginate": true,
+                    "iDisplayLength": 5,
+                    "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    "bLengthChange": false,
+                    "bDestroy": true
+                });
+            });
+        });
+    });
+
+    $scope.contacts = [];
+    AllContacts.get({},
+        function success(response) {
+            console.log("Success:");
+            $scope.contacts = response;
+
+        },
+        function error(errorResponse) {
+            console.log("Error:" + JSON.stringify(errorResponse));
+        }
+    );
+}]);
+
+App.controller('SeniorContactCon', ['$scope', 'SeniorContacts', 'sessionService', function ($scope, SeniorContacts, sessionService) {
+    $scope.isLoggedIn = sessionService.isLoggedIn;
     $.getScript('https://code.jquery.com/jquery-1.11.3.min.js', function () {
         $.getScript('//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js', function () {
             //
@@ -30,7 +164,44 @@ App.controller('ContactCon', ['$scope', 'AllContacts', function ($scope, AllCont
         });
     });
     $scope.contacts = [];
-    AllContacts.get({},
+    SeniorContacts.get({},
+        function success(response) {
+            console.log("Success:");
+            $scope.contacts = response;
+
+        },
+        function error(errorResponse) {
+            console.log("Error:" + JSON.stringify(errorResponse));
+        }
+    );
+}]);
+
+App.controller('JuniorContactCon', ['$scope', 'JuniorContacts', 'sessionService', function ($scope, JuniorContacts, sessionService) {
+    $scope.isLoggedIn = sessionService.isLoggedIn;
+    $.getScript('https://code.jquery.com/jquery-1.11.3.min.js', function () {
+        $.getScript('//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js', function () {
+            //
+            $(document).ready(function () {
+                $('#table').DataTable({
+                    "language": {
+                        "lengthMenu": "Display _MENU_ records per page",
+                        "zeroRecords": "No school events recorded",
+                        "info": "Showing page _PAGE_ of _PAGES_",
+                        "infoEmpty": "Showing 0 to 0 of 0 entries",
+                        "infoFiltered": "(filtered from _MAX_ total records)"
+                    },
+                    "bFilter": false,
+                    "bPaginate": true,
+                    "iDisplayLength": 5,
+                    "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    "bLengthChange": false,
+                    "bDestroy": true
+                });
+            });
+        });
+    });
+    $scope.contacts = [];
+    JuniorContacts.get({},
         function success(response) {
             console.log("Success:");
             $scope.contacts = response;

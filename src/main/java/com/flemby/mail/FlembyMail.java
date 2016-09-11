@@ -7,8 +7,6 @@ import org.springframework.mail.SimpleMailMessage;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-//import bb.salon.entity.Booking;
-//import bb.salon.entity.Customer;
 
 public class FlembyMail {
     private MailSender mailSender;

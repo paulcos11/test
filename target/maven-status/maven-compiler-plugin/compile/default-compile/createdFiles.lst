@@ -33,6 +33,7 @@ com\flemby\repository\IndexRepository.class
 com\flemby\security\AuthSuccess.class
 com\flemby\entity\Item.class
 com\flemby\security\SecurityWebAppInitializer.class
+com\flemby\controller\emailController\EmailController.class
 com\flemby\entity\Contact.class
 com\flemby\repository\NotificationRepository.class
 com\flemby\entity\Index.class
